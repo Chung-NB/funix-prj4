@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="../css/styles-dashboard.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
-</script>
-<script src="https://kit.fontawesome.com/1e79dc5f4c.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="//code.jquery.com/jquery.min.js"></script>
-<script src="jquery.twbsPagination.js"></script>
-<!-- jQuery UI -->
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <!-- style -->
+    <link rel="stylesheet" href="../css/styles-dashboard.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- jQuery & Chart.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1e79dc5f4c.js" crossorigin="anonymous"></script>
+    <script src="jquery.twbsPagination.js"></script>
+    <!-- jQuery UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 </head>
-
 <body onload="startTime(); openCmt(onclick, 'all-cmts');">
     <header class="header"> 
         <div class="header__adminRole">
@@ -1896,11 +1897,10 @@
     </section>
 </body>
 <script src="../js/dashboard.js"></script>
-<!-- pagination starts -->
-<script src="../js/dashboard-api.js"></script>
-<script>
+    <!-- pagination starts -->
+    <script src="../js/dashboard-api.js"></script>
+    <script>
     document.getElementById("homeTab").click();
     document.getElementById("all-cmts-btn").click();
 </script>
-
 </html>

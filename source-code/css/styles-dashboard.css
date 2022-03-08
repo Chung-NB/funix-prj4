@@ -7,7 +7,7 @@
 html,body {
     height: 100%;
     background:  white;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 root {
@@ -27,14 +27,12 @@ nav {
     height: auto;
     margin-top: 10px;
     position: fixed;
-    
 }
 
 nav ul {
     position: relative;
     list-style-type: none;
 }
-
 
 .dropbtn {
     background-color: rgb(51, 62, 72);
@@ -45,17 +43,16 @@ nav ul {
     padding: 5px 10px;
     right: 0px;
   
-  }
+}
   
-  .setting {
+.setting {
     position: relative;
     display: inline-block;
-    /* text-align: right; */
     z-index: 5;
     margin-top: 5px;
-  }
+}
   
-  .dropdown-list {
+.dropdown-list {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -64,34 +61,31 @@ nav ul {
     z-index: 5;
     right: 0;
     text-align: center;
-   
-  }
+}
   
-  .dropdown-list a {
+.dropdown-list a {
     color: black;
     padding: 10px 16px;
     text-decoration: none;
     display: block;
     height: 50px;
-    font-size: 16px;
-    
-  }
+    font-size: 16px;  
+}
   
-  .dropdown-list a:hover {
-      background-color: #ddd;
-      z-index: 5;
-    }
+.dropdown-list a:hover {
+    background-color: #ddd;
+    z-index: 5;
+}
   
-  .setting:hover .dropdown-list {
-      display: block;
-      z-index: 5;
-    }
+.setting:hover .dropdown-list {
+    display: block;
+    z-index: 5;
+}
   
-    
-  nav ul li {
-      height: 50px;
-    }
-   nav ul li p {
+nav ul li {
+    height: 50px;
+}
+nav ul li p {
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -109,12 +103,11 @@ nav ul li:hover {
     font-style: unset;
 }
 
-nav ul li ul p
-{
+nav ul li ul p {
     padding: 0px 50px 0px 30px;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     background: rgb(254, 215, 0);
     color: rgb(51, 62, 72);
     text-decoration: none;
@@ -129,7 +122,7 @@ nav ul ul {
     top: 0;
     background-color:  rgb(254, 215, 0);
     border-left: 1px solid rgb(254, 215, 0);
-    
+
 }
  
 nav ul ul li:hover {
@@ -142,15 +135,16 @@ nav ul ul li:hover p {
 
 nav ul ul li.active {
     width: 182px;
-
     background-color:rgb(51, 62, 72);
     color: white;
 }
+
 nav ul span {
     position: absolute;
     right: 20px;
     font-size: 19px;
 }
+
 nav ul .dropdown {
     position: relative;
 }
@@ -163,12 +157,13 @@ nav ul li.active {
     background-color: white;
     width: 254px;
 }
+
 nav ul li ul li.active {
     width: 182px;
 }
+
 div.nav-adminRole {
     display: grid;
-    /* text-align: center; */
     justify-content:space-evenly;
     align-items: center;
     font-size: small;
@@ -176,7 +171,6 @@ div.nav-adminRole {
     height: 75px;
     margin: 20px auto;
     background-color: aliceblue;
-    /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1px;
     padding: 0 10px;
@@ -237,12 +231,9 @@ header {
     
 }
 
-
 .header__searchBox {
-    /* border-radius: 20px; */
     height: 25px;
 }
-
 
 .search-icon i {
     position: absolute;
@@ -261,7 +252,6 @@ header.header div.header__searchBox form input[type=text] {
     border-radius: 20px;
     padding-left: 45px;
 }
-
 
 .header__searchBox span {
     display: inline-block;
@@ -283,10 +273,12 @@ header.header div.header__searchBox form input[type=text] {
 .header__notif span:first-child {
     margin-left: 30px;
 }
+
 .header__notif span:last-child {
     margin-right: 100px;
 }
-div.clock   {
+
+div.clock {
     background-color: white;
     width: 150px;
     height: 40px;
@@ -312,9 +304,9 @@ section {
     position: absolute;
     font-size: 25px;
     margin: auto 10px;
-    line-height: 45px;
-    
+    line-height: 45px; 
 }
+
 section#home h3.home__heading {
     text-align: left;
     padding-left: 10px;
@@ -369,7 +361,6 @@ div.graph-container div.graph h5 {
     text-align: center;
 }
 
-
 .card {
     display: flex;
     background-color:rgb(51, 62, 72);
@@ -385,13 +376,11 @@ div.graph-container div.graph h5 {
 }
 
 
-
 .card-graph span {
     font-size: 45px;
     position: relative;
     left: 27px;
 }
-
 
 #home h3.home__heading,h6.home__heading2 {
     margin-left: 47px;
@@ -400,7 +389,6 @@ div.graph-container div.graph h5 {
 .home-graph  {
     display: flex;
     width: 99%;
-    
 }
 
 .graph-container {
