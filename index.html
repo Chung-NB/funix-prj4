@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberty Electronics</title>
+    <!-- style and owl carousel -->
+    <link rel="stylesheet" href="./source-code/css/styles-home-page.css">
+    <link rel="stylesheet" href="./source-code/css/carousel.min.css">
+    <link rel="stylesheet" href="./source-code/css/theme.min.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/89bf6aea1e.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- start header html -->
+    <header>
+        <!-- introduction -->
+        <div class="introduction">
+            <div class="introduction__master">
+                <p>Welcome to Liberty Electronics Store</p>
+                <div class="introduction__master__actions">
+                    <a href="./source-code/html/about-us.html" target="_blank"><i class="fas fa-question-circle"></i>About Us</a>
+                    <a href="./source-code/html/about-us.html" target="_blank"><i class="fas fa-map-marker-alt"></i>Store Location</a>
+                    <a href="./source-code/html/cart.html" target="_blank"><i class="fas fa-shopping-bag"></i>Cart</a>
+                    <a href=""><i class="fas fa-truck"></i>Tracking Orders</a>
+                    <a href=""><i class="fas fa-user"></i>My Account</a>
+                </div>
+            </div>
+        </div>
+        <!-- searchBlock -->
+        <div class="searchBlock">
+            <a class="searchBlock__logo" href="http://127.0.0.1:5500/index.html"></a>
+            <div class="searchBlock__search">
+                <input type="text" placeholder="Search Products By Name" class="search__input">
+                <select name="allCategories">
+                    <option value="allcatagories">All Categories<i class="fas fa-sort"></i></option>
+                    <option value="laptoppc">Laptop & PC</option>
+                    <option value="mobilestablets">Mobiles & Tablets</option>
+                    <option value="displayaudio">Display & Audio</option>
+                    <option value="camera">Camera</option>
+                    <option value="accessories">Accessories</option>
+                    <option value="others">Others</option>
+                </select>
+                <p class="searchIcon"><i class="fas fa-search"></i></p>
+            </div>
+            <div class="searchBlock__icons">
+                <a><i class="fas fa-retweet"></i></a>
+                <a><i class="fas fa-heart"></i></a>
+                <div>
+                    <p><i class="fas fa-shopping-bag"></i><span class="totalPrice">$0.00</span></p>
+                    <div class="searchBlock__icons__productCount"></div>
+                </div>    
+            </div>
+            <div class="searchBlock__icons__productShow productHide">
+                <div class="product--list">
+                    <p class="noProduct">No Product <i class="fas fa-heart-broken"></i></p>
+                    <!-- <div>
+                        <p>Apple Macbook Pro 13" 2021</p>
+                        <img src="../../assets/images/products/summary/iPhone13minirom128vna-1.png" alt="Product Image">
+                    </div>-->
+                </div>
+                <p class="product--totalPrice"></p>
+                <a href="./source-code/html/cart.html" target="_blank">Go To Cart</a>
+            </div>
+        </div>
+        <!-- navigator -->
+        <div class="nav__desktop">
+            <ul>
+                <li>
+                    <a><i class="fas fa-list-ul"></i>All Categories</a>
+                    <ul class="nav__subnav">
+                        <li><a href="">Deals Of The Day</a></li>
+                        <li><a href="">Popular Search</a></ali>
+                        <li>
+                            <a href="./source-code/html/searching.html?c=laptoppc&b=&k=" target="_blank">Laptops & PCs<i class="fas fa-chevron-right"></i></a>
+                            <div>
+                                <ul class="nav__subnav__laptoppc">
+                                    <li>Laptops & PCs</li>
+                                    <li><a href="">All Laptops & PCs</a></li>
+                                    <li><a href="">Laptops From Famous Brands</a></li>
+                                    <li><a href="">Hi-tech Portable Computers</a></li>
+                                    <li><a href="">All Electronics<br></a></li>
+                                    <div class="nav__subnav--logo"></div>
+                                </ul>
+                                <div>
+                                    <div class="banner laptoppc--banner"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./source-code/html/searching.html?c=mobilestablets&b=&k=" target="_blank">Mobiles & Tablets<i class="fas fa-chevron-right"></i></a>
+                            <div>
+                                <ul class="nav__subnav__mobilestablets">
+                                    <li>Mobiles & Tablets</li>
+                                    <li><a href="">All Mobiles & Tablets</a></li>
+                                    <li><a href="">Mobiles From Famous Brands</a></li>
+                                    <li><a href="">Hi-tech Tablets</a></li>
+                                    <li><a href="">All Electronics<br></a></li>
+                                    <div class="nav__subnav--logo"></div>
+                                </ul>
+                                <div>
+                                    <div class="banner mobilestablets--banner"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./source-code/html/searching.html?c=displayaudio&b=&k=" target="_blank">Display & Audio<i class="fas fa-chevron-right"></i></a>
+                            <div>
+                                <ul class="nav__subnav__displayaudio">
+                                    <li>Display & Audio</li>
+                                    <li><a href="">All Display & Audio</a></li>
+                                    <li><a href="">Monitors From Famous Brands</a></li>
+                                    <li><a href="">Hi-tech Audio Products</a></li>
+                                    <li><a href="">All Electronics<br></a></li>
+                                    <div class="nav__subnav--logo"></div>
+                                </ul>
+                                <div>
+                                    <div class="banner displayaudio--banner"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./source-code/html/searching.html?c=camera&b=&k=" target="_blank">Cameras<i class="fas fa-chevron-right"></i></a>
+                            <div>
+                                <ul class="nav__subnav__cameras">
+                                    <li>Cameras</li>
+                                    <li><a href="">All Cameras</a></li>
+                                    <li><a href="">Cameras From Famous Brands</a></li>
+                                    <li><a href="">Hi-tech Cameras</a></li>
+                                    <li><a href="">All Electronics<br></a></li>
+                                    <div class="nav__subnav--logo"></div>
+                                </ul>
+                                <div>
+                                    <div class="banner cameras--banner"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./source-code/html/searching.html?c=accessories&b=&k=" target="_blank">Accessories<i class="fas fa-chevron-right"></i></a>
+                            <div>
+                                <ul class="nav__subnav__accessories">
+                                    <li>Accessories</li>
+                                    <li><a href="">All Accessories</a></li>
+                                    <li><a href="">Apple Pencil / Samsung S Pen</a></li>
+                                    <li><a href="">Protection Case</a></li>
+                                    <li><a href="">Chargers & Cables<br></a></li>
+                                    <div class="nav__subnav--logo"></div>
+                                </ul>
+                                <div>
+                                    <div class="banner accessories--banner"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./source-code/html/searching.html?c=others&b=&k=" target="_blank">Others<i class="fas fa-chevron-right"></i></a>
+                            <div>
+                                <ul class="nav__subnav__others">
+                                    <li>Other Products</li>
+                                    <li><a href="">All Other Products</a></li>
+                                    <li><a href="">Hi-tech Masks</a></li>
+                                    <li><a href="">Wifi Routers</a></li>
+                                    <li><a href="">Modern Printers<br></a></li>
+                                    <div class="nav__subnav--logo"></div>
+                                </ul>
+                                <div>
+                                    <div class="banner others--banner"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Famous Brands</a></li>
+                <li><a href="#">Trending Products</a></li>
+                <li><a href="#">Gift Cards <i class="fas fa-gift"></i></a></li>
+            </ul>
+            <a href=""><i class="fas fa-shipping-fast"></i> Free Shipping on Orders $50+</a>
+        </div>
+        <div class="nav__mobile">
+            <div class="nav__mobile--1">
+                <label for="nav__mobile--checkbox" class="nav__mobile--button"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" id="nav__mobile--checkbox" hidden>
+                <div class="nav__mobile--logo"></div>
+            </div>
+            <div class="nav__mobile--2">
+                <p class="search-button"><i class="fas fa-search"></i></p>
+                <p><i class="fas fa-user"></i></p>
+                <p><i class="fas fa-shopping-bag"></i></p>
+                <div class="searchBlock__icons__productCount">0</div>
+            </div>
+            <label for="nav__mobile--checkbox" class="nav__mobile--cover cover-hidden"></label>
+            <div class="nav__mobile--list subnav-hidden">
+                <ul>
+                    <li><a href="#">Deals Of The Day</a></li>
+                    <li><a href="#">Popular Search</a></ali>
+                    <li class="mobileNavList">
+                        <a href="#">Laptops & PCs<i class="fas fa-angle-down"></i></a>
+                        <ul class="nav__mobile--subnav hidden">
+                            <li>Laptops & PCs</li>
+                            <li><a href="#">All Laptops & PCs</a></li>
+                            <li><a href="#">Laptops From Famous Brands</a></li>
+                            <li><a href="#">Hi-tech Portable Computers</a></li>
+                            <li><a href="#">All Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobileNavList">
+                        <a href="#">Mobiles & Tablets<i class="fas fa-angle-down"></i></a>
+                        <ul class="nav__mobile--subnav hidden">
+                            <li>Laptops & PCs</li>
+                        <li><a href="#">All Mobiles & Tablets</a></li>
+                            <li><a href="#">Mobiles From Famous Brands</a></li>
+                            <li><a href="#">Hi-tech Tablets</a></li>
+                            <li><a href="#">All Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobileNavList">
+                        <a href="#">Display & Audio<i class="fas fa-angle-down"></i></a>
+                        <ul class="nav__mobile--subnav hidden">
+                            <li>Display & Audio</li>
+                            <li><a href="#">All Display & Audio</a></li>
+                            <li><a href="#">Monitors From Famous Brands</a></li>
+                            <li><a href="#">Hi-tech Speakers</a></li>
+                            <li><a href="#">All Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobileNavList">
+                        <a href="#">Cameras<i class="fas fa-angle-down"></i>
+                        <ul class="nav__mobile--subnav hidden">
+                            <li>Cameras</li>
+                            <li><a href="#">All Cameras</a></li>
+                            <li><a href="#">Cameras From Famous Brands</a></li>
+                            <li><a href="#">Hi-tech Cameras</a></li>
+                            <li><a href="#">All Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobileNavList">
+                        <a href="#">Accessories<i class="fas fa-angle-down"></i></a>
+                        <ul class="nav__mobile--subnav hidden">
+                            <li>Accessories</li>
+                            <li><a href="#">All Accessories</a></li>
+                            <li><a href="#">Apple Pencil / Samsung S Pen</a></li>
+                            <li><a href="#">Protection Case</a></li>
+                            <li><a href="#">Chargers & Cables</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobileNavList">
+                        <a href="#">Others<i class="fas fa-angle-down"></i></a>
+                        <ul class="nav__mobile--subnav hidden">
+                            <li>Others Products</li>
+                            <li><a href="#">All Others Products</a></li>
+                            <li><a href="#">Hi-tech Masks</a></li>
+                            <li><a href="#">Wifi Routers</a></li>
+                            <li><a href="#">Modern Printers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <input type="text" class="search__input search-hidden" placeholder="Search For Products">
+        </div>
+        <!-- promotion -->
+        <div class="promotion">
+            <div class="promotion__master">
+                <div class="promotion__title">
+                    <p>LIMITED</p>
+                    <p>WEEK DEAL</p>
+                    <p>HURRY UP BEFORE OFFER WILL END</p>
+                </div>
+                <div class="promotion__product--picture"></div>
+                <div class="promotion__product--description">
+                    <p>Apple Airpods Pro VN/A</p>
+                    <p>$299.00</p>
+                    <a href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=airpodsprovna" target="_blank">
+                        Buy Now
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- header carousel -->
+        <div class="header__carousel">
+            <div class="owl-carousel owl-theme">
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-laptop"></i></p>
+                    <p>Laptops & PCs</p>
+                </a>
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-mobile-alt"></i></p>
+                    <p>Mobiles & Tablets</p>
+                </a>
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-tv"></i></p>
+                    <p>Monitors</p>
+                </a>
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-headphones-alt"></i></p>
+                    <p>Headphones</p>
+                </a>
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-camera-retro"></i></p>
+                    <p>Cameras</p>
+                </a>
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-head-side-mask"></i></p>
+                    <p>High-tech Masks</p>
+                </a>
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-marker"></i></p>
+                    <p>Smart Pencils</p>
+                </a>
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-battery-three-quarters"></i></p>
+                    <p>Battery</p>
+                </a>
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-keyboard"></i></p>
+                    <p>Keyboards</p>
+                </a>
+                <a class="item">
+                    <p class="item__pic"><i class="fas fa-wifi"></i></p>
+                    <p>Wifi Routers</p>
+                </a>
+            </div>
+        </div>
+    </header>
+<!-- end header html -->
+
+<!-- start section html -->
+    <section>
+        <!-- top banner -->
+        <div class="section__topBanner">
+            <div class="topBanner--1">
+                <div class="topBanner--1--image img"></div>
+                <div class="topBanner--1--description">
+                    <p><b>#STAYHOME</b> AND<br>CATCH BIG <b>#DEALS</b><br>FOR ENTERTAINMENT</p>
+                    <a href="">Explore more<i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="topBanner--2">
+                <div class="topBanner--2--image img"></div>
+                <div class="topBanner--description">
+                    <p>SHOP THE<br><b>HOTTEST</b><br>MONITORS</p>
+                    <a href="">Shop now<i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="topBanner--3">
+                <div class="topBanner--3--image img"></div>
+                <div class="topBanner--description">
+                    <p>TABLETS,<br>SMARTPHONES<br><b>AND MORE</b></p>
+                    <a href="">Shop now<i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- deals of the day -->
+        <div class="section__dealOfTheDay">
+            <div class="title">
+                <div class="title-highlight"></div>
+                <p>Deals Of The Day</p>
+                <!-- <a href="">Go to Daily Deals Section<i class="fas fa-chevron-right"></i></a> -->
+            </div>
+            <div class="section__dealOfTheDay--block">
+                <div class="owl-carousel owl-theme">
+                    <!-- loading data from database -->
+                </div>
+            </div>
+        </div>
+        <!-- popular search -->
+        <div class="section__popularSearch">
+            <div class="title">
+                <div class="title-highlight"></div>
+                <p>Popular Brands</p>
+                <!-- <a href="">Explore More Popular Products<i class="fas fa-chevron-right"></i></a> -->
+            </div>
+            <div class="section__popularSearch--block">
+                <a href="./source-code/html/searching.html?c=&b=apple&k=" target="_blank">Apple</a>
+                <a href="./source-code/html/searching.html?c=&b=samsung&k=" target="_blank">Samsung</a>
+                <a href="./source-code/html/searching.html?c=&b=lg&k=" target="_blank">LG</a>
+                <a href="./source-code/html/searching.html?c=&b=dell&k=" target="_blank">Dell</a>
+                <a href="./source-code/html/searching.html?c=&b=asus&k=" target="_blank">Asus</a>
+                <a href="./source-code/html/searching.html?c=&b=hp&k=" target="_blank">HP</a>
+            </div>
+        </div>
+        <!-- laptop & pc -->
+        <div class="section__laptoppc">
+            <div class="title">
+                <div class="title-highlight"></div>
+                <p>Laptops & PCs</p>
+                <a  target="_blank" href="./source-code/html/searching.html?c=laptoppc&b=&k=">
+                    Go to Laptops & PCs<i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="section__laptoppc--block">
+                <div class="owl-carousel owl-theme">
+                    <!-- loading data from database -->
+                </div>
+            </div>
+        </div>
+        <!-- mobiles & tablets -->
+        <div class="section__mobilestablets">
+            <div class="title">
+                <div class="title-highlight"></div>
+                <p>Mobiles & Tablets</p>
+                <a  target="_blank" href="./source-code/html/searching.html?c=mobilestablets&b=&k=">
+                    Go to Mobiles & Tablets<i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="section__mobilestablets--block">
+                <div class="owl-carousel owl-theme">
+                    <!-- loading data from database -->
+                </div>
+            </div>
+        </div>
+        <!-- highlight promotion -->
+        <div class="section__highlightPromotion">
+            <div>
+                <p>Download our new app on Apple Store & CH Play, 
+                    do not miss special mobile-only offers <i class="far fa-hand-point-right"></i></p>
+                <div class="qrcode"></div>
+            </div>
+        </div>
+        <!-- display & audios -->
+        <div class="section__displayaudio">
+            <div class="title">
+                <div class="title-highlight"></div>
+                <p>Display & Audio</p>
+                <a  target="_blank" href="./source-code/html/searching.html?c=displayaudio&b=&k=">
+                    Go to Display & Audio<i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="section__displayaudio--block">
+                <div class="owl-carousel owl-theme">
+                    <!-- loading data from database -->
+                </div>
+            </div>
+        </div>
+        <!-- accessories -->
+        <div class="section__accessories">
+            <div class="title">
+                <div class="title-highlight"></div>
+                <p>Accessories</p>
+                <a  target="_blank" href="./source-code/html/searching.html?c=accessories&b=&k=">
+                    Go to Accessories<i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="section__accessories--block">
+                <div class="owl-carousel owl-theme">
+                    <!-- loading data from database -->
+                </div>
+            </div>
+        </div>
+        <!-- second banner -->
+        <div class="section__secondBanner">
+            <div class="section__secondBanner-1 secondBanner">
+                <div class="secondBanner-1--title">
+                    <p>Hi-tech Gaming Gears</p>
+                    <p>with the biggest upgrades ever</p>
+                </div>
+                <div class="secondBanner-1--image img"></div>
+            </div>
+            <div class="section__secondBanner-2 secondBanner">
+                <div class="secondBanner-2--title">
+                    <div>
+                        <p>ROGphone</p>
+                        <p>Now with 5G</p>
+                    </div>
+                    <p>from <span><sup>$</sup>899<sup>.00</sup></span></p>
+                </div>
+                <div class="secondBanner-2--image img"></div>
+            </div>
+        </div>
+        <!-- others -->
+        <div class="section__others">
+            <div class="title">
+                <div class="title-highlight"></div>
+                <p>Other Products</p>
+                <a  target="_blank" href="./source-code/html/searching.html?c=others&b=&k=">
+                    Go to Other Products<i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="section__others--block">
+                <div class="owl-carousel owl-theme">
+                    <!-- loading data from database -->
+                </div>
+            </div>
+        </div>
+        <!-- partners -->
+        <div class="section__partners">
+            <div class="item item-1"></div>
+            <div class="item item-2"></div>
+            <div class="item item-3"></div>
+            <div class="item item-4"></div>
+            <div class="item item-5"></div>
+            <div class="item item-6"></div>
+        </div>
+        <!-- products summary -->
+        <div class="section__summary">
+            <div class="section__summary--feature">
+                <div class="summary-title">
+                    <p>Features Products</p>
+                    <div class="highlight"></div>
+                </div>
+                <div class="products">
+                    <a class="product product-1" target="_blank"
+                    href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=macbookair13m1ram8rom256">
+                        <div class="img img1"></div>
+                        <div class="description">
+                            <p>Macbook Air 13" M1 Ram 8Gb Rom 256Gb</p>
+                            <p>$1,099.00 <span>$1,199.00</span></p>
+                        </div>
+                    </a>
+                    <a class="product product-2" target="_blank"
+                    href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=iPhone13minirom128vna">
+                        <div class="img img2"></div>
+                        <div class="description">
+                            <p>Apple iPhone 13 Mini Rom 128Gb VN/A</p>
+                            <p>$599.00 <span>$699.00</span></p>
+                        </div>
+                    </a>
+                    <a class="product product-3" target="_blank"
+                    href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=iPadair2020rom256vna">
+                        <div class="img img3"></div>
+                        <div class="description">
+                            <p>Apple iPad Air 2020 Rom 256Gb VN/A</p>
+                            <p>$699.00 <span>$799.00</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="section__summary--topselling">
+                <a class="summary-title">
+                    <p>Top Selling Products</p>
+                    <div class="highlight"></div>
+                </a>
+                <div class="products">
+                    <a class="product product-1" target="_blank"
+                    href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=iPadprom12021rom256vna">
+                        <div class="img img1"></div>
+                        <div class="description">
+                            <p>Apple iPad Pro M1 2021 Rom 256Gb VN/A</p>
+                            <p>$999.00 <span>$1,099.00</span></p>
+                        </div>
+                    </a>
+                    <a class="product product-2" target="_blank"
+                    href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=samsunggalaxys21plus5g">
+                        <div class="img img2"></div>
+                        <div class="description">
+                            <p>Samsung Galaxy S21 Plus 5G Rom 256Gb</p>
+                            <p>$649.00 <span>$749.00</span></p>
+                        </div>
+                    </a>
+                    <a class="product product-3" target="_blank"
+                    href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=samsunggalaxynote20ultra5g">
+                        <div class="img img3"></div>
+                        <div class="description">
+                            <p>Samsung Galaxy Note 20 Ultra 5G Rom 256Gb</p>
+                            <p>$1,349.00 <span>$1,049.00</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="section__summary--saleoff">
+                <div class="summary-title">
+                    <p>Sale-off Products</p>
+                    <div class="highlight"></div>
+                </div>
+                <div class="products">
+                    <a class="product product-1" target="_blank"
+                    href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=samsungmonitor24ls24r350fhe">
+                        <div class="img img1"></div>
+                        <div class="description">
+                            <p>Samsung Monitor 24" LS24R250FHE</p>
+                            <p>$644.00 <span>$664.00</span></p>
+                        </div>
+                    </a>
+                    <a class="product product-2" target="_blank"
+                    href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=samsungsmarttv60crystaluhd">
+                        <div class="img img2"></div>
+                        <div class="description">
+                            <p>Samsung Smart TV 60" Crystal UHD</p>
+                            <p>$1,119.00 <span>$1,239.00</span></p>
+                        </div>
+                    </a>
+                    <a class="product product-2" target="_blank"
+                    href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=samsunggalaxybudspro">
+                        <div class="img img3"></div>
+                        <div class="description">
+                            <p>Samsung Galaxy Buds Pro - Dark Version</p>
+                            <p>$1,999.00 <span>$1,149.00</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="section__summary--banner"></div>
+        </div>
+        <!-- signup form pc -->
+        <div class="section__signupForm">
+            <div class="form">
+                <div class="text">
+                    <p><i class="fab fa-telegram-plane"></i> Sign up to Newsletter</p>
+                    <p>...and receive <b>$20 coupon for first shopping</b></p>
+                </div>
+                <div class="submit">
+                    <input type="text" placeholder="Enter your email address">
+                    <button>SignUp</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- end section html -->
+
+<!-- start footer html -->
+    <footer>
+        <div class="footer__desktop--1">
+            <div>
+                <div class="footer-1">
+                    <div class="logo"></div>
+                    <div class="service">
+                        <p><i class="fas fa-phone-volume"></i></p>
+                        <p>Got Questions ? Call us 24/7!<br>
+                            <span>1800.2036, 1800.2099</span>
+                        </p>
+                    </div>
+                    <p class="contact">Contact Info</p>
+                    <p>231 Pho Hue, Hai Ba Trung, Hanoi</p>
+                    <p><i class="fab fa-facebook"></i><i class="fab fa-viber"></i>
+                        <i class="fab fa-pinterest"></i><i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram"></i><i class="fab fa-youtube"></i>
+                    </p>
+                </div>
+                <div class="footer-2">
+                    <p>Find It Last</p>
+                    <a href="">Laptops & PCs</a>
+                    <a href="">Mobiles & Tablets</a>
+                    <a href="">Display & Audio</a>
+                    <a href="">Cameras</a>
+                    <a href="">Accessories</a>
+                    <a href="">Others</a>
+                    <a href="./source-code/html/404.html" target="_blank">404 Page</a>
+                    <a href="./source-code/html/login.html" target="_blank">Admin Log-in Page</a>
+                </div>
+                <div class="footer-3">
+                    <p></p>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Compare</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Store Directory</a>
+                </div>
+                <div class="footer-4">
+                    <p>Customer Care</p>
+                    <a href="#">My Account</a>
+                    <a href="#">Track Your Order</a>
+                    <a href="#">Customer Service</a>
+                    <a href="#">Returns / Exchange</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Product Support</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__desktop--2">
+            <div>
+                <p><i class="far fa-copyright"></i> <b>Liberty</b> - All Rights Reserved</p>
+                <div class="payment"></div>
+            </div>
+        </div>
+        <p class="footer__mobile--1">
+            <i class="fab fa-facebook"></i><i class="fab fa-viber"></i>
+            <i class="fab fa-pinterest"></i><i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i><i class="fab fa-youtube"></i>
+        </p> 
+        </p>
+        <div class="footer__mobile--2">
+            <div class="logo"></div>
+            <p>Got Questions? Call us 24/7!</p>
+            <p>(800) 8001-8588, (0600) 874 548</p>
+        </div>
+    </footer>
+<!-- end footer html -->
+
+    <script src="./source-code/js/jquery-3.6.0.min.js"></script>
+    <script src="./source-code/js/index-home-page.js"></script>
+    <script src="./source-code/js/carousel.js"></script>
+    <script src="./source-code/js/carousel.min.js"></script>
+</body>
+</html>

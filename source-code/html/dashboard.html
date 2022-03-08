@@ -1,0 +1,1906 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles-dashboard.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+<script src="https://kit.fontawesome.com/1e79dc5f4c.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="jquery.twbsPagination.js"></script>
+<!-- jQuery UI -->
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+
+<body onload="startTime(); openCmt(onclick, 'all-cmts');">
+    <header class="header"> 
+        <div class="header__adminRole">
+            <img class="adminRole" src="../../assets/images/brandings/liberty_store_logo_753x172.png" width="250x;">
+        </div>
+        <div class="header__searchBox">
+            <form action="#">
+                <input type="text" name="search" id="search" class="search-box"
+                    placeholder="Search for products, category, brand,...">
+                <span class="search-icon"><i class="fas fa-search"></i></span>
+            </form>
+        </div>
+        <div class="header__notif">
+            <span class="notif-icon"><i class="fa fa-inbox"></i></span>
+            <span class="notif-icon"><i class="fa fa-bell"></i></span>
+            <span class="notif-icon"><i class="fa fa-comment"></i></span>
+            <!-- <span class="admin-img"><i class="fas fa-cog"></i></span> -->
+        </div>
+        <div class="clock" id="clock">
+
+        </div>
+        <div class="setting" style="float:left;">
+            <button class="dropbtn"><i class="fas fa-bars"></i></button>
+            <div class="dropdown-list">
+                <a href="">Account</a>
+                <a href="">Setting</a>
+                <a href="">Security</a>
+                <a href="login.html">Log out</a>
+            </div>
+        </div>
+
+    </header>
+    <nav id="nav">
+        <div class="nav-adminRole">
+            <img src="../../assets/images/pics/avt8.jpg" alt="admin" width="50px">
+            <div class="info">
+                <h4>Ngan Ha</h4>
+                <span>htnnthhtn@gmail.com</span>
+            </div>
+        </div>
+        <ul class="navbar">
+            <li class="tab active" id="homeTab"
+            onclick="openTab(event,'home')"><span><i
+                        class="fas fa-home"></i></span><p>HOME</p></li>
+            <li class="dropdown tab"><span style="position: absolute;left: 30px;font-size: 24px; padding-top: 7px;"><i
+                        class="fas fa-shopping-cart"></i></span><p href="#">ORDERS<span><i
+                            class="fas fa-caret-right"></i></span></p>
+                <ul>
+                    <li id="subtab1" class="tab" onclick="openTab(event, 'all-orders')"><p>ALL ORDERS</p></li>
+                    <li id="subtab2" class="tab" onclick="openTab(event, 'deleted-orders')"><p>TRASH BIN</p>
+                    </li>
+                    <li id="subtab3" class="tab" onclick="openTab(event, 'delivered-orders')"><p>DELIVERED</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="tab"
+            onclick="openTab(event, 'inbox')"><span style="position: absolute; left: 35px; font-size: 24px; padding-top: 7px;"><i
+                        class="fas fa-envelope-square"></i></span><p style="margin-left: 1px;">INBOX</p></li>
+            <li class="dropdown tab"><span
+                    style="position: absolute; left: 34px; font-size: 24px; padding-top: 7px;"><i
+                        class="fab fa-product-hunt"></i></span><p style="margin-left: 1px;">PRODUCTS<span><i
+                            class="fas fa-caret-right"></i></span></p>
+                <ul>
+                    <li class="tab"
+                    onclick="openTab(event, 'products-available')"><p href="#">AVAILABLE</p></li>
+                    <li class="tab" onclick="openTab(event, 'products-Saleoff')"><p href="#" >SALE OFF</p>
+                    </li>
+                    <li class="tab"
+                    onclick="openTab(event, 'products-upcomming')"><p href="#">UPCOMMING</p></li>
+                </ul>
+            </li>
+            <li class="tab"
+            onclick="openTab(event, 'comments')"><span style="position: absolute; left: 35px; font-size: 24px; padding-top: 7px;"><i
+                        class="fas fa-comment-alt"></i></span><p style="margin-left: 1px;">COMMENTS</p></li>
+            <li class="tab"
+            onclick="openTab(event,'users')"><span style="position: absolute;left: 35px; font-size: 24px; padding-top: 7px;"><i
+                        class="fas fa-user"></i></span><p style="margin-left: 1px;">USERS</p></li>
+        </ul>
+    </nav>
+    <section class="tabcontent" id="home">  
+        <h3 class="home__heading">DASHBOARD</h3>
+        <h6 class="home__heading2">Welcome to <strong>Liberty Electro</strong> dashboard</h6>
+        <div class=" home__body">
+            <div class="home-cards">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card__number"><strong>78300</strong></span>
+                        <h6 class="card__info">Total users</h6>
+                    </div>
+                    <div class="card-graph">
+                        <span style="margin-left: 60px;"><i class="fa fa-chart-area"></i></span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card__number"><strong>356785K</strong></span>
+                        <h6 class="card__info">Total website clicks</h6>
+                    </div>
+                    <div class="card-graph">
+                        <span style="margin-left: 20px;"><i class="fa fa-chart-area"></i></span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card__number"><strong>$58778</strong></span>
+                        <h6 class="card__info">Total Sales Orders</h6>
+                    </div>
+                    <div class="card-graph">
+                        <span style="margin-left: 20px;"><i class="fa fa-chart-area"></i></span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card__number"><strong>214</strong></span>
+                        <h6 class="card__info">Orders this month</h6>
+                    </div>
+                    <div class="card-graph">
+                        <span style="margin-left: 20px;"><i class="fa fa-chart-area"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-graph" >
+                <div class="graph-container">
+                    <div class="graph">
+                        <h4>Sales Statistics</h4>
+                        <canvas id="graph-sales"></canvas>
+                        <div class="index">
+                            <div><p>2020</p></div><br>
+                            <div><p>2021</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="graph-container">
+                    <div class="graph">
+                        <h4>Growth Rate</h4>
+                        <canvas id="graph-growth"></canvas>
+                        <h5>For the past year</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-others">
+                <div class="container">
+                    <div class="topSales">
+                        <h4 class="topSales__heading">TOP SALE LAST MONTH</h4>
+                        <table class="topSales__table">
+                            <tr>
+                                <th>ID</th>
+                                <th>NAME</th>
+                                <th>REVENUE</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Macbook Air 13 512Gb</td>
+                                <td>$300000</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Apple Iphone 13 Mini 128Gb VN/A</td>
+                                <td>$280000</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Samsung Galaxy Note 20 Ultra 5G</td>
+                                <td>$240000</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>LG Gram 2021 17 Core i7</td>
+                                <td>$210000</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Dell Laptop Inspiron 15 i5</td>
+                                <td>$189000</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="container">
+                        <div class="month">
+                            <ul>
+                              <li class="prev">&#10094;</li>
+                              <li class="next">&#10095;</li>
+                              <li>August<br><span>2021</span></li>
+                            </ul>
+                          </div>
+                          
+                          <ul class="weekdays">
+                            <li>Mo</li>
+                            <li>Tu</li>
+                            <li>We</li>
+                            <li>Th</li>
+                            <li>Fr</li>
+                            <li>Sa</li>
+                            <li>Su</li>
+                          </ul>
+                          
+                          <ul class="days">  
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li><span class="active">10</span></li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                            <li>15</li>
+                            <li>16</li>
+                            <li>17</li>
+                            <li>18</li>
+                            <li>19</li>
+                            <li>20</li>
+                            <li>21</li>
+                            <li>22</li>
+                            <li>23</li>
+                            <li>24</li>
+                            <li>25</li>
+                            <li>26</li>
+                            <li>27</li>
+                            <li>28</li>
+                            <li>29</li>
+                            <li>30</li>
+                            <li>31</li>
+                            <li class="next-month">1</li>
+                            <li class="next-month">2</li>
+                            <li class="next-month">3</li>
+                            <li class="next-month">4</li>
+                          </ul>
+                    </div>
+            </div>
+    </section>
+    <!-- section table orders -->
+    <section class="tabcontent" id="all-orders">
+        <div class="orders__heading">
+            <div class="orders-status">
+                <h3>113</h3>
+                <h5>New orders</h5>
+            </div>
+            <div class="orders-status">
+                <h3>50</h3>
+                <h5>Verified</h5>
+            </div>
+            <div class="orders-status">
+                <h3>50</h3>
+                <h5>Transfered</h5>
+            </div>
+            <div class="orders-status">
+                <h3>50</h3>
+                <h5>Delivered</h5>
+            </div>
+        </div>
+        <h3>ALL ORDERS</h3>
+        <table class="all-orders__table" id="all-orders__table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Customer Name</th>
+                    <th>Customer Address</th>
+                    <th>Phone number</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>View</th>
+                    <th>Check</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bennie Riddle</td>
+                    <td>Detech Tower, 192 Ton That Thuyet, Cau, Giay, Ha Noi</td>
+                    <td>12345678</td>
+                    <td>01/01/2022</td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="new" selected>NEW</option>
+                            <option value="verified">VERIFIED</option>
+                            <option value="transfered">TRANSFERED</option>
+                            <option value="delivered">DELIVERED</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span><i class="far fa-eye"></i></span>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nguyen Ly</td>
+                    <td>6 Pham Hung, Nam Tu Liem, Ha Noi</td>
+                    <td>2345678</td>
+                    <td>02/01/2022</td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="new">NEW</option>
+                            <option value="verified" selected>VERIFIED</option>
+                            <option value="transfered">TRANSFERED</option>
+                            <option value="delivered">DELIVERED</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span><i class="far fa-eye"></i></span>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pham Hung</td>
+                    <td>9 Nguyen Tat Thanh, ABC, XYZ, Ho Chi Minh</td>
+                    <td>3456789</td>
+                    <td>03/02/2022</td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="new" >NEW</option>
+                            <option value="verified" selected>VERIFIED</option>
+                            <option value="transfered">TRANSFERED</option>
+                            <option value="delivered">DELIVERED</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span><i class="far fa-eye"></i></span>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check">
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Pham Yen</td>
+                    <td>Xuan Thuy, Cau Giay, Ha Noi</td>
+                    <td>8765402</td>
+                    <td>02/02/2022</td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="new" >NEW</option>
+                            <option value="verified">VERIFIED</option>
+                            <option value="transfered" selected>TRANSFERED</option>
+                            <option value="delivered">DELIVERED</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span><i class="far fa-eye"></i></span>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check">
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Ha Thuy</td>
+                    <td>7 Dinh Liet, Hoan Kiem, Ha Noi</td>
+                    <td>4526546</td>
+                    <td>03/02/2022</td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="new" >NEW</option>
+                            <option value="verified">VERIFIED</option>
+                            <option value="transfered" selected>TRANSFERED</option>
+                            <option value="delivered">DELIVERED</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span><i class="far fa-eye"></i></span>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check">
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Nguyen Yen Thi</td>
+                    <td>Hoan Kiem, Ha Noi</td>
+                    <td>4526546</td>
+                    <td>03/02/2022</td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="new" >NEW</option>
+                            <option value="verified">VERIFIED</option>
+                            <option value="transfered" selected>TRANSFERED</option>
+                            <option value="delivered">DELIVERED</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span><i class="far fa-eye"></i></span>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check">
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Ha Anh Tuan</td>
+                    <td>7 Hoan Kiem, Ha Noi</td>
+                    <td>4526546</td>
+                    <td>03/02/2022</td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="new" >NEW</option>
+                            <option value="verified">VERIFIED</option>
+                            <option value="transfered" selected>TRANSFERED</option>
+                            <option value="delivered">DELIVERED</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span><i class="far fa-eye"></i></span>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check">
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Ngoc Han</td>
+                    <td>7 Dinh Liet, Hoan Kiem, Ha Noi</td>
+                    <td>4526546</td>
+                    <td>03/02/2022</td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="new" >NEW</option>
+                            <option value="verified">VERIFIED</option>
+                            <option value="transfered" selected>TRANSFERED</option>
+                            <option value="delivered">DELIVERED</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span><i class="far fa-eye"></i></span>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check">
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <div class="orders-footer">
+            <!-- <h5>Change status</h5> -->
+            <div class="action">
+                <select name="status" id="status">
+                    <option value="#" selected>CHANGE STATUS</option>
+                    <option value="new">NEW</option>
+                    <option value="verified">VERIFIED</option>
+                    <option value="transfered">TRANSFERED</option>
+                    <option value="delivered">DELIVERED</option>
+                </select>
+                <button id="trashBtn"><span><i class="fas fa-trash-alt"></i></span></button>
+            </div>
+            
+            <div class="pagination-container">
+                <ul class="pagination">
+                    <li class="pages"><a href="#">1</a></li>
+                    <li class="pages"><a href="#">2</a></li>
+                    <li class="pages"><a href="#">3</a></li>
+                    <li class="pages"><a href="#">4</a></li>
+                    <li class="pages"><a href="#">5</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="tabcontent" id="deleted-orders">
+        <h3>TRASH BIN</h3>
+        <table class="deleted-orders__table" id="deleted-orders">
+            <tr>
+                <th>ID</th>
+                <th>CUSTOMER</th>
+                <th>DATE</th>
+                <th>VIEW DETAILS</th>
+                <th>ACTION</th>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>1</td>
+                <td>Chintan Ng.</td>
+                <td>12/01/2022</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>2</td>
+                <td>Ngoc Anh</td>
+                <td>21/01/2022</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>3</td>
+                <td>Nguyen Ngoc Vu</td>
+                <td>11/11/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>4</td>
+                <td>Duong Quang Ham</td>
+                <td>12/8/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>5</td>
+                <td>To Hieu</td>
+                <td>13/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>6</td>
+                <td>Ngoc Anh</td>
+                <td>1/1/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>7</td>
+                <td>Andrew Ng.</td>
+                <td>12/01/2022</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>8</td>
+                <td>Chip Huyen</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>8</td>
+                <td>Ha Van Trong</td>
+                <td>11/02/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>9</td>
+                <td>Hai Nguyen</td>
+                <td>13/02/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>10</td>
+                <td>Nguyen Hoa</td>
+                <td>12/01/20</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>11</td>
+                <td>Nguyen Tuan</td>
+                <td>12/01/20</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>12</td>
+                <td>Le Tuan</td>
+                <td>12/01/20</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            <tr>
+                <!-- DIEN THONG TIN ORDER ID VA USER ID VAO HAI COT DAU TIEN. HIEN DANH SACH DANG CO 5 SAN PHAM -->
+                <td>13</td>
+                <td>Nhung Bui Ngoc</td>
+                <td>12/01/20</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewOrderDetail">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#order-delete"><abbr
+                            title="Delete forever"><i class="fa fa-trash"></i></abbr></button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#order-restore"><abbr
+                            title="Restore"><i class="fa fa-rotate-right"></i></abbr></button>
+                </td>
+            </tr>
+            
+        </table>
+        <div class="pagination-container">
+            <ul class="pagination">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+        </div>
+        <!-- pop up action for deleted order table -->
+        <!-- pop-up action view detail -->
+        <div class="modal fade" id="viewOrderDetail" tabindex="-1" role="dialog" aria-labelledby="orderDetail"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="orderDetail">ORDER DETAIL</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>ORDER ID</li>
+                            <li>PRODUCTS</li>
+                            <li>CUSTOMER</li>
+                            <li>DATE</li>
+                            <li>NOTE</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pop-up action delete -->
+        <div class="modal fade" id="order-delete" tabindex="-1" role="dialog" aria-labelledby="confirm-msg-delete"
+            aria-hidden="true">
+            <div class="alert-container">
+                <div class="modal-dialog" role="document">
+                    <div class="alert alert-danger" role="alert">
+                        <h3><strong>SYSTEM WARNING</strong></h3>
+                        <p>This order is going to be deleted. You will not be able to see it after delete. Are
+                            you sure?(Yes/No)</p>
+                    </div>
+                    <div id="button-alert">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">YES</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">NO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pop-up action restore -->
+        <div class="modal fade" id="order-restore" tabindex="-1" role="dialog" aria-labelledby="confirm-msg-restore"
+            aria-hidden="true">
+            <div class="alert-container">
+                <div class="modal-dialog" role="document">
+                    <div class="alert alert-warning" role="alert">
+                        <h3><strong>SYSTEM WARNING</strong></h3>
+                        </hr>
+                        <p>This order is going to be restored. Are you sure?(Yes/No)</p>
+                    </div>
+                    <div class="button-alert">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">YES</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">NO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="orders-delivered">
+        </div>
+    </section>
+    <section class="tabcontent" id="delivered-orders">
+        <h3>SUCCESSFULL ORDERS</h3>
+        <table class="delivered__table" id="delivered-orders">
+            <tr>
+                <th>ORDER ID</th>
+                <th>USER ID</th>
+                <th>DATE</th>
+                <th>VIEW DETAILS</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ha Thi Ngan</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ha Ngan</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Thi Ngan</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Ngan Ha</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Nguyen Bao Chung</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Nguyen Chung</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Nguyen Bao</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Bao Chung</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Nguyen Bao Minh</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Nguyen Minh</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Bao Minh</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Thanh Dat</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Dat Thanh</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Minh Nhat</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Nhat Minh</td>
+                <td>12/12/2021</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#viewOrderDetaildone">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                </td>
+            </tr>
+        </table>
+        <div class="pagination-container">
+            <ul class="pagination">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+        </div>
+        <!-- pop-up action view detail -->
+        <div class="modal fade" id="viewOrderDetaildone" tabindex="-1" role="dialog" aria-labelledby="orderDetail"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="orderDetail">ORDER DETAIL</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>ORDER ID</li>
+                            <li>PRODUCTS</li>
+                            <li>CUSTOMER</li>
+                            <li>ADDRESS</li>
+                            <li>NOTE</li>
+                            <li>RATE</li>
+                            <li>FEEDBACK</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section products -->
+    <section class="tabcontent" id="products-available">
+        <div class="products__heading-filter">
+            <span>Filter</span>
+            <select name="filter-cate" id="filter-cat">
+                <option value="#" selected>Category</option>
+                <option value="laptoppc">Laptop & PC</option>
+                <option value="mobiletablets">Mobile & Tablet</option>
+                <option value="displayaudio">Display & Audio</option>
+                <option value="camera">Camera</option>
+                <option value="accessories">Accessories</option>
+                <option value="others">Others</option>
+            </select>
+            <select name="filter-brand" id="filter-brand" class="filter-brand">
+                <option value="#" selected>Brand</option>
+                <option value="apple">Apple</option>
+                <option value="hp">HP</option>
+                <option value="dell">Dell</option>
+                <option value="samsung">Samsung</option>
+                <option value="lg">LG</option>
+                <option value="asus">Asus</option>
+            </select>
+            <select name="filter-price" id="filter-price" class="filter-price">
+                <option value="#" selected>Price</option>
+                <option value="1000">More than 1000$</option>
+                <option value="500">500$ - 1000$</option>
+                <option value="200">200$ - 500$</option>
+                <option value="200">Less than 200$</option>
+            </select>
+            <div class="add-button">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addProduct">
+                    ADD NEW<span id="addNewSpan"><i class="fa fa-pen"></i></span>
+                </button>
+            </div>
+        </div>
+        <h2 style="text-align: center;">AVAILABLE PRODUCTS</h2>
+        <table class="available__table" id="available__table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Brand</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Inventory</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="available_tbody">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editProduct"><i
+                                class="fa fa-pen"></i></button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#viewProduct"><i
+                                class="fa fa-eye"></i></button>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete"><i
+                                class="fa fa-trash"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="pagination-container">
+            <ul class="pagination">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+        </div>
+
+        <!-- Button add product -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="addProduct" tabindex="-1" role="dialog" aria-labelledby="addProductInfo"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="addProductInfo">FILL IN PRODUCT INFORMATION</h5>
+                    </div>
+                    <div class="modal-body">
+                        <!-- FORM DIEN THONG TIN SAN PHAM -->
+                        <form action="#" id="form-add-product">
+                            <label for="id">ID</label>
+                            <input type="text" name="product_id" id="product_id" required placeholder="Product ID">
+                            <label for="productName">Name</label>
+                            <input type="text" name="product_name" id="product_name" required placeholder="Product Name">                           
+                            <div class="select">
+                                <label id="labelForCat">Category</label>
+                                <select name="cat_id" id="cat_id">
+                                    <!-- <option value="#" selected>Category</option> -->
+                                    <option value="laptoppc" selected>Laptop & PC</option>
+                                    <option value="mobiletablets">Mobile & Tablet</option>
+                                    <option value="displayaudio">Display & Audio</option>
+                                    <option value="camera">Camera</option>
+                                    <option value="accessories">Accessories</option>
+                                    <option value="others">Others</option>
+                                </select>
+                                <label class="brandLabel" id="labelForBrand">Brand</label>
+                                <select name="brand_id" id="brand_id">
+                                    <!-- <option value="#" selected>Brand</option> -->
+                                    <option value="apple" selected>Apple</option>
+                                    <option value="hp">HP</option>
+                                    <option value="dell">Dell</option>
+                                    <option value="samsung">Samsung</option>
+                                    <option value="lg">LG</option>
+                                    <option value="asus">Asus</option>
+                                </select>
+                            </div>
+                            <label for="productPrice">Price</label>
+                            <input type="number" name="product_price" id="product_price" placeholder="Product Price">
+                            <label for="productInventory">Inventory</label>
+                            <input type="number" name="product_inventory" id="product_inventory"
+                                placeholder="Product Inventory">
+                        </form>
+    
+                            <label>Set Promotion</label>
+                            <input type="radio" class="radioBox" name="promotion" value="true">Yes
+                            <input type="radio" class="radioBox" name="promotion" value="false">No
+                        </form>
+                    </div>
+                    <div id="addProduct" class="modal-footer">
+                        <button class="btn btn-primary" id="addProductBtn" onclick="handleForm();">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- view chi tiet san pham -->
+        <div class="modal fade" id="viewProduct" tabindex="-1" role="dialog" aria-labelledby="viewProductInfo"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="viewProductInfo">PRODUCT INFORMATION</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>PRODUCT NAME</li>
+                            <li>IMAGE
+                                <img src="" alt="">
+                            </li>
+                            <li>CATEGORY</li>
+                            <li>BRAND</li>
+                            <li>INVENTORY</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"
+                            aria-label="Close">CLOSE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- edit san pham -->
+        <div class="modal fade" id="editProduct" tabindex="-1" role="dialog" aria-labelledby="productEdit"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ProductEdit">EDIT PRODUCT INFORMATION</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" id="form-edit-product">
+                            <label for="id">Product ID</label>
+                            <input type="text" name="product_id" id="product_id" required placeholder="Product ID">
+                            <label for="productName">Product Name</label>
+                            <input type="text" name="product_name" id="product_name" required placeholder="Product Name">                            
+                            <div class="select">
+                                <label>Category</label>
+                                <select name="cat_id" id="cat_id">
+                                    <!-- <option value="#" selected>Category</option> -->
+                                    <option value="laptoppc" selected>Laptop & PC</option>
+                                    <option value="mobiletablets">Mobile & Tablet</option>
+                                    <option value="displayaudio">Display & Audio</option>
+                                    <option value="camera">Camera</option>
+                                    <option value="accessories">Accessories</option>
+                                    <option value="others">Others</option>
+                                </select>
+                                <label id="brandLabel">Brand</label>
+                                <select name="brand_id" id="brand_id">
+                                    <!-- <option value="#" selected>Brand</option> -->
+                                    <option value="apple" selected>Apple</option>
+                                    <option value="hp">HP</option>
+                                    <option value="dell">Dell</option>
+                                    <option value="samsung">Samsung</option>
+                                    <option value="lg">LG</option>
+                                    <option value="asus">Asus</option>
+                                </select>
+                            </div>
+                            <label for="productPrice">Price</label>
+                            <input type="number" name="product_price" id="product_price" placeholder="Product Price">
+                            <label for="productInventory">Inventory</label>
+                            <input type="number" name="product_inventory" id="product_inventory"
+                                placeholder="Product Inventory">
+                        </form>
+                        <form action="#" class="promotion">
+                            <label>Set Promotion</label>
+                            <input type="radio" name="promotion" value="true">Yes
+                            <input type="radio" name="promotion" value="false">No
+                        </form>
+                    </div>
+                </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" data-dismiss="modal" onclick="SaveUpdate();"
+                            aria-label="Close">DONE</button>
+                    </div>
+            </div>
+        </div>
+
+        <!-- delete san pham -->
+       
+    </section>
+    <section class="tabcontent" id="products-Saleoff">
+        <div class="products-table" style="margin-top: 50px;">
+            <h3>SALE OFF PRODUCTS</h3>
+            <table class="saleOff__table">
+                <tr>
+                    <th>PRODUCT ID</th>
+                    <th>IMAGE</th>
+                    <th>NAME</th>
+                    <th>PROMOTION</th>
+                    <th>FROM</th>
+                    <th>TO</th>
+                    <th>ACTION</th>
+                </tr>
+                <tr>
+                    <td id="noDataRow" colspan="8">There has been no upcomming products updated yet</td>
+                </tr>
+            </table>
+            <div class="pagination-container">
+                <ul class="pagination">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+            </div>
+
+            <!-- popup table sale off -->
+            <!-- pop up edit sale off -->
+
+            <div class="modal fade" id="editSaleOff" tabindex="-1" role="dialog" aria-labelledby="saleOffEdit"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saleOffEdit">EDIT PRODUCT SALE OFF INFORMATION</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" id="form-edit-saleOff">
+                                <div class="product-saleOff-detail">
+                                    <h4>PRODUCT DETAIL</h4>
+                                    <ul>
+                                        <li>Product name</li>
+                                        <li><img src="" alt=""></li>
+                                        <li>Category</li>
+                                        <li>Brand</li>
+                                    </ul>
+                                </div>
+                                <div class="edit-saleOff-info">
+                                    <h4>EDIT PROMOTION</h4>
+                                    <label for="productDiscount">Discount</label>
+                                    <input type="number" name="productDiscount" id="productDiscount"
+                                        placeholder="Discount">
+                                    <div class="saleOff-periods">
+                                        <label for="from">From</label>
+                                        <input type="date" name="from" id="from"><br>
+                                        <label for="to">To</label>
+                                        <input type="date" name="to" id="to">
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="modal-footer" style="text-align: center;">
+                                <button type="submit" class="btn btn-primary" data-modal="Close" data-dismiss="modal"
+                                    style="text-align: center;">DONE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pop up delete sale off -->
+        <div class="modal fade" id="deleteSaleOff" tabindex="-1" role="dialog" aria-labelledby="msg-delete"
+            aria-hidden="true">
+            <div class="alert-container">
+                <div class="modal-dialog" role="document">
+                    <div class="alert alert-danger" role="alert">
+                        <h3><strong>SYSTEM WARNING</strong></h3>
+                        <p>Do you want to delete this product from <strong>SALE OFF</strong> category? (Yes/No)</p>
+                    </div>
+                    <div id="button-alert">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">YES</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">NO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tabcontent" id="products-upcomming">
+        <div class="upcomming-table" style="margin-top: 50px;">
+            <h3>UPCOMMING PRODUCTS</h3>
+            <table class="upcomming__table">
+                <tr>
+                    <th>PRODUCT ID</th>
+                    <th>NAME</th>
+                    <th>BRAND</th>
+                    <th>CATEGORY</th>
+                    <th>QUANTITY</th>
+                    <th>PRICE</th>
+                    <th>DATE</th>
+                    <th>ACTION</th>
+                </tr>
+                <tr>
+                    <td id="noDataRow2" colspan="8">There has been no upcomming products updated yet</td>
+                </tr>
+            </table>
+            <div class="pagination-container">
+                <ul class="pagination">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+            </div>
+
+            <!-- modal popup viewProductupcomming -->
+            <div class="modal fade" id="viewProductupcomming" tabindex="-1" role="dialog"
+                aria-labelledby="viewProductupcomming" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="viewProductupcomming">VIEW PRODUCT INFOMATION</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- FORM DIEN THONG TIN SAN PHAM -->
+                            <ul>
+                                <li>PRODUCT ID</li>
+                                <li>PRODUCT NAME</li>
+                                <li>BRAND</li>
+                                <li>CATEGORY</li>
+                                <li>PRICE</li>
+                                <li>QUANTITY</li>
+                                <li>DATE</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer" style="text-align: center;">
+                            <button type="submit" class="btn btn-primary" style="text-align: center;">CLOSE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal popup addProductupcomming -->
+            <div class="modal fade" id="addProductupcomming" tabindex="-1" role="dialog" aria-labelledby="msg-add"
+                aria-hidden="true">
+                <div class="alert-container">
+                    <div class="modal-dialog" role="document">
+                        <div class="alert alert-warning" role="alert">
+                            <h3><strong>COMFIRM</strong></h3>
+                            <p>Do you want to add this product to <strong>AVAILABLE</strong> category? (Yes/No)</p>
+                        </div>
+                        <div id="button-alert" style="text-align: center;">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">YES</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">NO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- section inbox -->
+    <section class="tabcontent" id="inbox">
+        <div class="inbox__header">
+            <h4>CHATBOX</h4>
+        </div>
+        <div class="inbox-area">
+            <div class="inbox-sidebar">
+                <div class="user-inbox">
+                    <img src="../../assets/images/pics/avt1.jpg" alt="avt" width="60px" height="60px">
+                    <div class="user">
+                        <h5><strong>Ngan Ha</strong></h5>
+                        <p>Hey, I have a problem with my...</p>
+                    </div>
+                </div>
+                <div class="user-inbox">
+                    <img src="../../assets/images/pics/avt2.jpg" alt="avt" width="60px" height="60px">
+                    <div class="user">
+                        <h5><strong>Yen Phi Bui</strong></h5>
+                        <p>Hello, can you help me with...</p>
+                    </div>
+                </div>
+                <div class="user-inbox">
+                    <img src="../../assets/images/pics/avt3.jpg" alt="avt" width="60px" height="60px">
+                    <div class="user">
+                        <h5><strong>Minh Nguyen</strong></h5>
+                        <p>Excuse me, where can I...</p>
+                    </div>
+                </div>
+                <div class="user-inbox">
+                    <img src="../../assets/images/pics/avt4.jpg" alt="avt" width="60px" height="60px">
+                    <div class="user">
+                        <h5><strong>Bao Chung</strong></h5>
+                        <p>(image)</p>
+                    </div>
+                </div>
+                <div class="user-inbox">
+                    <img src="../../assets/images/pics/avt5.jpg" alt="avt" width="60px" height="60px">
+                    <div class="user">
+                        <h5><strong>Dat Thanh</strong></h5>
+                        <p>Hi, I just bought a phone...</p>
+                    </div>
+                </div>
+                <div class="user-inbox">
+                    <img src="../../assets/images/pics/avt6.jpg" alt="avt" width="60px" height="60px">
+                    <div class="user">
+                        <h5><strong>Bui Oanh</strong></h5>
+                        <p>I can't activate Window 11 on...</p>
+                    </div>
+                </div>
+                <div class="user-inbox">
+                    <img src="../../assets/images/pics/avt7.jpg" alt="avt" width="60px" height="60px">
+                    <div class="user">
+                        <h5><strong>Bruce Waynes</strong></h5>
+                        <p>Pardon?</p>
+                    </div>
+                </div>
+                <div class="user-inbox">
+                    <img src="../../assets/images/pics/avt8.jpg" alt="avt" width="60px" height="60px">
+                    <div class="user">
+                        <h5><strong>Nguyen Thi Yen</strong></h5>
+                        <p>Alo?</p>
+                    </div>
+                </div>
+                <div class="user-inbox">
+                    <img src="../../assets/images/pics/hp.png" alt="avt" width="60px" height="60px">
+                    <div class="user">
+                        <h5><strong>Arab Modi</strong></h5>
+                        <p>Are you guys gonna up...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="inbox-container">
+                <div class="inboxInsider">
+                    <p style="margin-left: 90px;">Hello, I got a problem with my new Iphone 13 that<br> I bought from your Store. Can I connect to technical teams now?</p>
+                </div>
+                <div class="inboxInsider">
+                    <img src="../../assets/images/pics/avt1.jpg" alt="avt" width="60px" height="60px">
+                    <p>By the way, I lost my warranty certificate. Is that OK?</p>
+                </div>
+                <div class="inboxInsiderAdmin" style="margin-top: 10px;">
+                    <p>Hello, our customer support will contact you immediately.<br>Please wait for a moment!</p>
+                    <img src="../../assets/images/pics/avt8.jpg" alt="avt" width="60px" height="60px">
+                </div>
+                <div class="inboxInsiderAdmin">
+                    <input type="text" name="chatHere" id="chatHere">
+                    <img src="../../assets/images/pics/avt1.jpg" alt="avt" width="60px" height="60px">
+                </div>
+            </div>
+            <div class="inbox-note">
+                <textarea name="inboxNote" id="inboxNote" cols="65" rows="15" placeholder="Enter your note here"></textarea>
+                <input type="submit" value="Save Note">
+                <div class="allYourNote">
+                    <h4>Previous Notes</h4>
+                    <p>You have left no note yet</p>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <section class="tabcontent" id="comments">
+        <div class="tabComment">
+            <button class="tabCmt active" id="all-cmts-btn" onclick="openCmt(event, 'all-cmts')">ALL</button>
+            <button class="tabCmt" onclick="openCmt(event, 'approved-cmts')">APPROVED</button>
+            <button class="tabCmt" onclick="openCmt(event, 'pending-cmts')">PENDING</button>
+            <button class="tabCmt" onclick="openCmt(event, 'spam-cmts')">SPAM</button>
+            <button class="tabCmt" onclick="openCmt(event, 'trash-cmts')">TRASH</button>
+        </div>
+          
+        <div id="all-cmts" class="tabCmtContent">
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt1.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Ngan Ha <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 11:12a.m <strong>on</strong> December 1st </h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Apple Ipad Air 2021</h5>
+                        <img src="../../assets/images/products/apple/appleiPadair2021case-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>This is the best phone I have ever had. Customer service is also a plus. Five star</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt2.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Holmes <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 11:00 a.m <strong>on</strong>December 3rd</h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Dell Laptop Inspiron</h5>
+                        <img src="../../assets/images/products/apple/iPadprom12021rom512vna-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>Is this on stock? Why can't I add it into cart? Please have it checked</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt3.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Bao Minh <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 5:12 p.m <strong>on</strong> December 21st </h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Dell Envy 17 core i7</h5>
+                        <img src="../../assets/images/products/hp/hp_laptop_envy17i7-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>I have a problem with my recently-bought Iphone 13. Where can I bring it to for warranty? And how long will it take till I can get my phone back?</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt5.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Bao Chung <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 1:12a.m <strong>on</strong> December 11th </h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Dell Inspiron 13 i7</h5>
+                        <img src="../../assets/images/products/dell/dell_laptop_inspiron13i7-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>Thank you for your warm support!</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt4.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Thanh Dat <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 12a.m <strong>on</strong> December 15th </h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Samsung Galaxy A7</h5>
+                        <img src="../../assets/images/products/samsung/samsunggalaxya71-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>Is this ok to play PUBG?</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+        </div>
+<!-- approved -->
+        <div id="approved-cmts" class="tabCmtContent">
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt1.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Ngan Ha <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 11:12a.m <strong>on</strong> December 1st </h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Apple Ipad Air 2021</h5>
+                        <img src="../../assets/images/products/apple/appleiPadair2021case-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>This is the best phone I have ever had. Customer service is also a plus. Five star</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt5.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Bao Chung <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 1:12a.m <strong>on</strong> December 11th </h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Dell Laptop Inspiron</h5>
+                        <img src="../../assets/images/products/dell/dell_laptop_inspiron13i7-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>Thank you for your warm support!</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt4.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Thanh Dat <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 12a.m <strong>on</strong> December 15th </h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Samsung Galaxy A7</h5>
+                        <img src="../../assets/images/products/samsung/samsunggalaxya71-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>Is this ok to play PUBG?</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+        </div>
+      
+<!-- pending -->
+        <div id="pending-cmts" class="tabCmtContent">
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt2.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Holmes <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 11:00 a.m <strong>on</strong>December 3rd</h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Dell Laptop Inspiron</h5>
+                        <img src="../../assets/images/products/apple/iPadprom12021rom512vna-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>Is this on stock? Why can't I add it into cart? Please have it checked</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+            <div class="comment-box">
+                <div class="comment-user">
+                    <img src="../../assets/images/pics/avt3.jpg" alt="avt" width="60px" height="50px">
+                    <div>
+                        <h5>Bao Minh <small>said:</small></h5></br>
+                        <h6><strong>at</strong> 5:12 p.m <strong>on</strong> December 21st </h6>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <div class="comment-product">
+                        <h5>Dell Laptop Inspiron</h5>
+                        <img src="../../assets/images/products/hp/hp_laptop_envy17i7-1.png" alt="iphone" width="120px;"><br>
+                        <a href="#">VIEW ON WEBSITE</a>
+                    </div>
+                    <div class="comment-text">
+                        <p>I have a problem with my recently-bought Iphone 13. Where can I bring it to for warranty? And how long will it take till I can get my phone back?</p>
+                    </div>
+                </div>
+                <div class="comment-action">
+                    <button class="approvedBtn">APPROVED</button>
+                    <button class="spamBtn">SPAM</button>
+                    <button class="trashBtn">TRASH</button>
+                    <button class="replyBtn">REPLY</button>
+                </div>
+            </div>
+        </div>
+       
+        <div id="spam-cmts" class="tabCmtContent">
+            <h4>There has been no comments here yet</h4>
+        </div>
+
+        <div id="trash-cmts" class="tabCmtContent">
+            <h4>There has been no comments here yet</h4>
+        </div>
+    </section>
+
+    <section class="tabcontent" id="users">
+        <div class="team-member">
+            <h3 style="text-align: center;">ALL TEAM MEMBERS</h3>
+            <button data-toggle="modal" data-target="#addMember" id="addMember">INVITE+</button>
+            <table class="team-member-table">
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Fullname</th>
+                    <th>Role</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>nganaptech</td>
+                    <td>12345678</td>
+                    <td>Ha Thi Ngan</td>
+                    <td>Admin</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>chungaptech</td>
+                    <td>12345678</td>
+                    <td>Nguyen Bao Chung</td>
+                    <td>Admin</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>minhaptech</td>
+                    <td>2345676</td>
+                    <td>Nguyen Bao Minh</td>
+                    <td>Admin</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>dataptech</td>
+                    <td>12345678</td>
+                    <td>Nguyen Thanh Dat</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>nhataptech</td>
+                    <td>1323678</td>
+                    <td>Nguyen Minh Nhat</td>
+                    <td>Editor</td>
+                </tr>
+            </table>
+            <!-- modal popup add member -->
+            <div class="modal fade" id="addMember" tabindex="-1" role="dialog" aria-labelledby="addMember"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="addMember">FILL IN MEMBER INVITATION</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" id="form-add-member">
+                                <label for="id">Member ID</label>
+                                <input type="text" name="memberID" id="memberID" required placeholder="Member ID">
+                                <br>
+                                <label for="fullName">Fullname</label>
+                                <input type="text" name="fulltName" id="fulltName" required placeholder="FullName">
+                                <br>
+                                <br>
+                                <label style="padding-left: 90px;">Role</label>
+                                <br>
+                                <input type="checkbox" name="role" id="admin">Admin
+                                <br><input type="checkbox" name="role" id="moderator">Moderator
+                                <br> <input type="checkbox" name="role" id="editor">Editor
+                                <br><input type="checkbox" name="role" id="user">User
+                                <br><label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Email">
+                                <br><label for="message">Message</label>
+                                <textarea name="message" id="message" cols="60" rows="10"></textarea>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary" data-dismiss="modal"
+                                aria-label="Close">SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+<script src="../js/dashboard.js"></script>
+<!-- pagination starts -->
+<script src="../js/dashboard-api.js"></script>
+<script>
+    document.getElementById("homeTab").click();
+    document.getElementById("all-cmts-btn").click();
+</script>
+
+</html>

@@ -1,0 +1,1215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    background:  white;
+
+}
+
+root {
+    --color-3: rgb(51, 62, 72);
+    --color-4: rgb(254, 215, 0);
+    --color-5: rgb(19, 110, 194);
+    --color-6: rgb(255, 58, 45);
+    --color-6: rgb(223, 55, 55);
+}
+
+nav {
+    width: 253px;
+    position:absolute;
+    top:60px;
+    bottom: 0;
+    background:rgb(254, 215, 0, 0.7);
+    height: auto;
+    margin-top: 10px;
+    position: fixed;
+    
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+}
+
+
+.dropbtn {
+    background-color: rgb(51, 62, 72);
+    color: white;
+    /* padding: 16px; */
+    font-size: 20px;
+    border: none;
+    padding: 5px 10px;
+    right: 0px;
+  
+  }
+  
+  .setting {
+    position: relative;
+    display: inline-block;
+    /* text-align: right; */
+    z-index: 5;
+    margin-top: 5px;
+  }
+  
+  .dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+    right: 0;
+    text-align: center;
+   
+  }
+  
+  .dropdown-list a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    font-size: 16px;
+    
+  }
+  
+  .dropdown-list a:hover {
+      background-color: #ddd;
+      z-index: 5;
+    }
+  
+  .setting:hover .dropdown-list {
+      display: block;
+      z-index: 5;
+    }
+  
+    
+  nav ul li {
+      height: 50px;
+    }
+   nav ul li p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 90px;
+    height: 50px;
+    transition: .5s ease;
+    font-size: 16px;
+    color: black;
+}
+
+nav ul li:hover {
+    color: rgb(51, 62, 72);
+    list-style-type: none;
+    font-style: unset;
+}
+
+nav ul li ul p
+{
+    padding: 0px 50px 0px 30px;
+}
+
+nav ul li:hover{
+    background: rgb(254, 215, 0);
+    color: rgb(51, 62, 72);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul ul {
+    position: absolute;
+    left: 251px;
+    width: 183px;
+    display: none;
+    top: 0;
+    background-color:  rgb(254, 215, 0);
+    border-left: 1px solid rgb(254, 215, 0);
+    
+}
+ 
+nav ul ul li:hover {
+    background-color: rgb(51, 62, 72);
+}
+
+nav ul ul li:hover p {
+    color: white;
+}
+
+nav ul ul li.active {
+    width: 182px;
+
+    background-color:rgb(51, 62, 72);
+    color: white;
+}
+nav ul span {
+    position: absolute;
+    right: 20px;
+    font-size: 19px;
+}
+nav ul .dropdown {
+    position: relative;
+}
+
+nav ul .dropdown:hover ul {
+    display: initial;
+}
+
+nav ul li.active {
+    background-color: white;
+    width: 254px;
+}
+nav ul li ul li.active {
+    width: 182px;
+}
+div.nav-adminRole {
+    display: grid;
+    /* text-align: center; */
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: small;
+    width: 90%;
+    height: 75px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+
+img.adminRold {
+    padding-left: 15px;
+}
+
+.nav-adminRole div.info {
+    margin-right: 20px;
+    padding: 0px 5px;
+}
+
+li#homeTab span {
+    position: absolute; 
+    left: 31px; 
+    font-size: 24px;
+    padding-top: 7px;
+}
+
+li#inboxTab span {
+    position: absolute; 
+    left: 35px; 
+    font-size: 24px; 
+    padding-top: 7px;
+}
+
+li#productsTab {
+    position: absolute; 
+    left: 34px; 
+    font-size: 24px; 
+    padding-top: 7px;
+}
+div.clock {
+    margin-right: 300px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 7px;    
+    border-radius: 15px;
+}
+header {
+    display: flex;
+    padding: 10px;
+    height: 70px;
+    width: 100%;
+    /* position: fixed; */
+    position: fixed;
+    background-color:   rgb(254, 215, 0);
+    z-index: 2;
+}
+
+.header__adminRole {
+    width: 245px;
+    padding-left: 30px;
+    
+}
+
+
+.header__searchBox {
+    /* border-radius: 20px; */
+    height: 25px;
+}
+
+
+.search-icon i {
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    font-size: 24px;
+}
+
+header.header div.header__searchBox form input[type=text] {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    width: 800px;
+    background-color: white; 
+    height: 45px;
+    border-radius: 20px;
+    padding-left: 45px;
+}
+
+
+.header__searchBox span {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.header__notif span {
+    font-size: 22px;
+    margin: auto 10px;
+    line-height: 45px;
+    padding-top: 5px;
+}
+
+.header__notif span:hover {
+    cursor: pointer;
+    color:rgb(51, 62, 72, 0.6);
+}
+
+.header__notif span:first-child {
+    margin-left: 30px;
+}
+.header__notif span:last-child {
+    margin-right: 100px;
+}
+div.clock   {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 4px;
+}
+
+div.index {
+    width: 600px;
+    display: flex;
+    text-align: center;
+    padding-left: 300px;
+}
+section {
+    margin-left: 250px;
+    height: 100%;
+    padding-top: 60px;
+   
+}
+
+.setting span {
+    right: 30px;
+    position: absolute;
+    font-size: 25px;
+    margin: auto 10px;
+    line-height: 45px;
+    
+}
+section#home h3.home__heading {
+    text-align: left;
+    padding-left: 10px;
+}
+
+section#home h6.home__heading2 {
+    padding-left: 10px;
+}
+
+div.home__body {
+    margin-left: 25px;
+}
+
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 110px;
+    justify-content:space-between;
+    left: 400px;
+    top: 200px;
+    padding-right: 20px;
+}
+
+div.graph h4 {
+    text-align:  center;
+    font-weight: bolder;
+}
+
+div.index {
+    margin-top: 20px;
+}
+div.index div {
+    width: 10px; 
+    height: 10px; 
+    background-color: green; 
+    border-radius:50%; 
+    margin-right: 100px;
+}
+div.index div:first-child {
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius:50%;
+    margin-right: 100px;
+}
+
+div.index div p {
+    margin-left: 20px;
+}
+
+div.graph-container div.graph h5 {
+    text-align: center;
+}
+
+
+.card {
+    display: flex;
+    background-color:rgb(51, 62, 72);
+    padding: 10px 20px;
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 5px; 
+    color:white;
+}
+
+.card-content {
+    padding-top: 10px;
+}
+
+
+
+.card-graph span {
+    font-size: 45px;
+    position: relative;
+    left: 27px;
+}
+
+
+#home h3.home__heading,h6.home__heading2 {
+    margin-left: 47px;
+}
+
+.home-graph  {
+    display: flex;
+    width: 99%;
+    
+}
+
+.graph-container {
+    background-color: rgba(0,0,0,0.1);
+    margin: 20px 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+.container {
+    background-color: rgba(0,0,0,0.1);
+    margin: 20px 30px;
+    padding: 20px;
+}
+
+
+.home-others  {
+    display: flex;
+    width: 99%;
+}
+
+.container .calendar {
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+}
+
+.container div.topSales h4 {
+    text-align: center;
+}
+
+table.topSales__table {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+table.topSales__table tr th {
+    text-align: center;
+}
+table.topSales__table tr {
+    height: 40px;
+}
+
+section table {
+    margin-top: 30px;
+}
+table.all-orders__table, table.deleted-orders__table, table.delivered__table, .saleOff__table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+}
+button#trashBtn {
+    height: 33px;
+    width: 33px;
+}
+div.products__heading-filter span {
+    padding-top: 8px;
+}
+div#button-alert {
+    text-align: center;
+}
+span#addNewSpan {
+    padding-left: 3px; 
+    font-size: 14px;
+}
+#deleted-orders table tr td button {
+    height: 40px;
+}
+table.delivered__table tr {
+    height: 45px;
+    border-bottom: 1px solid rgb(51, 62, 72);
+}
+div#addProduct, button#addProductBtn {
+    text-align: center;
+}
+.all-orders__table thead, .deleted-orders__table tr th, .delivered__table tr th, .saleOff__table tr th{
+    background-color: rgb(51, 62, 72);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+table.upcomming__table {
+    background-color: rgb(51, 62, 72);
+    color: white;
+}
+label#brandLabel, label.brandLabel {
+    width: 60px;
+    padding-left: 10px;
+}
+.all-orders__table th, .all-orders__table td {
+    padding: 12px 15px;
+}
+.all-orders__table thead tr {
+    text-transform: uppercase;
+}
+.all-orders__table tbody tr, .saleOff__table tr {
+    border-bottom: 1px solid gray;
+    height: 50px;
+    background-color: white;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.upcomming-table table tr {
+    height: 50px;
+    font-size: 16px;
+}
+.tabComment {
+    overflow: hidden;
+    border: 1px solid rgb(51, 62, 72);
+
+  }
+  
+  table#available__table thead tr {
+      text-transform: uppercase;
+      font-size: 16px;
+  }
+  /* Style the buttons that are used to open the tab content */
+  .tabComment button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tabComment button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tabComment button.active {
+    background-color: rgb(51, 62, 72);
+    color: white;
+  }
+ 
+  /* Style the tab content */
+  .tabCmtContent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+
+  .comment-product h5 {
+      font-weight: bolder;
+  }
+
+  .comment-text p {
+      vertical-align: middle;
+      padding-left: 15px;
+      padding-top: 50px;
+      font-style: italic;
+  }
+
+div.comment-box div.comment-user img {
+    padding-right: 10px;
+}
+
+.all-orders__table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+.pagination-container {
+    text-align: center;
+}
+
+.tabcontent h3 {
+    text-align: center;
+    font-weight: bold;
+}
+.action {
+    position: absolute;
+    right: 100px;
+}
+
+#products-available {
+    margin-left: 320px;
+}
+.deleted-orders__table tr {
+    border-bottom: 1px solid grey;
+    height: 50px;
+}
+
+#products-available table {
+    text-align: center;
+    width: 95%;
+    border-left: 1px solid rgb(51, 62, 72);
+    border-right: 1px solid rgb(51, 62, 72);
+}
+
+#products-available table tr th {
+    text-align: center;
+}
+
+#available__table thead tr{
+    border: 2px solid rgb(51, 62, 72);
+    height: 45 px;
+    background-color: rgb(51, 62, 72);
+    color: white;
+}
+
+#available__table tr {
+    height: 50px;
+    border-bottom: 1px solid grey;
+}
+
+#available__table tr td button {
+    height: 40px;
+}
+table.all-orders__table tbody td span {
+    padding: 8px;
+    background-color: rgb(254, 215, 0);
+    color:rgb(51, 62, 72);
+    border-radius: 10px;
+}
+
+table.all-orders__table tbody td span:hover {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+select#status {
+    text-align: center;
+    border: 2px solid rgb(51, 62, 72);
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.orders-footer {
+    margin-top: 20px;
+}
+table {
+    border: 1px solid rgb(51, 62, 72);
+}
+div.action {
+    display: flex;
+}
+
+.orders-footer .action button {
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(243, 72, 72);
+    font-size: 16px;
+    padding: 9px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+div.orders__heading {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+div.orders__heading .orders-status {
+    background-color:rgb(51, 62, 72);
+    width: 235px;
+    border-radius: 1%;
+    color: white;
+    /* margin-top: 20px; */
+    height: 100px;
+    align-items: center;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+div.orders__heading .orders-status h5 {
+    font-size: larger;
+    text-align: center;
+}
+
+#all-orders h3 {
+    margin-top: 20px;
+}
+
+div.modal-body ul {
+    font-size: 16px;
+    font-weight: bolder;
+    /* text-decoration: none; */
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.alert-container{
+    /* background-color: white; */
+    /* padding: 0px 0px 20px 0px; */
+    width: 600px;
+    margin: 100px auto;
+    height: 200px;
+    align-items: center;
+}
+
+
+.products__heading-filter {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 25px;
+
+}
+.products__heading-filter span {
+    font-weight: bolder;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.products__heading-filter select {
+    width: 200px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+form#form-add-product {
+    font-size: 16px;
+}
+
+form#form-add-product label {
+    text-align: left;
+}
+form#form-add-product label {
+    display: inline-block;
+    width: 100px;
+    align-items: center;
+    padding: 15px 5px;
+    background-color: rgb(254, 215, 0);
+    border-radius: 15px;
+    padding-left: 15px;
+    
+}
+h5#addProductInfo {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(19, 110, 194);
+    margin-top: 20px;
+}
+form#form-add-product input {
+    padding-left: 15px;
+}
+form#form-add-product input, select {
+    height: 50px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(51, 62, 72);
+}
+
+table#deleted-orders tr td button, table#delivered-orders tr td button {
+    height: 40px;
+}
+
+.edit-saleOff-info label {
+    display: inline-block;
+    width: 150px;
+    font-size: larger;
+    padding-left: 15px;
+}
+
+#form-add-product .select select {
+    padding-left: 15px;
+}
+
+.edit-saleOff-info input[type=number], input[type=date] 
+{
+    width: 50%;
+}
+
+#form-edit-saleOff h4 {
+    padding: 5px;
+    background-color: rgb(51, 62, 72);
+    color: white;
+}
+.upcomming-table {
+    margin: auto;
+}
+table.upcomming__table {
+    width: 90%;
+    margin: auto;
+}
+
+table.upcomming__table tr, th {
+    height: 45px;
+    border-bottom: 1px solid rgb(51, 62, 72);
+    text-align: center;
+}
+
+section#inbox {
+    display: flex;
+}
+
+section#users .team-member table {
+    width: 90%;
+    margin: auto;
+}
+
+section#users .team-member table tr {
+    height: 35px;
+    text-align: center;
+}
+
+section#users .team-member table tr th {
+    background-color: rgb(51, 62, 72);
+    color: white;
+}
+
+
+section#users .team-member button {
+    border: none;
+    padding: 7px;
+    background-color: rgb(61, 106, 191);
+    margin-left: 89.4%;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#form-add-member label {
+    display: inline-block;
+    width: 90px;
+}
+
+#form-add-member input[type=checkbox] {
+    margin-left: 90px;
+}
+
+
+#inbox .inbox-sidebar {
+    width: 15%;
+    min-width: 250px;
+    /* margin: auto; */
+    border-right: 2px solid rgb(51, 62, 72);
+}
+
+#inbox .user-inbox:first-child {
+    background-color: #ccc;
+}
+
+#inbox .user-inbox {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 5px;
+ }
+
+#inbox .user-inbox img {
+    margin-right: 10px;
+}
+section#comments, section#home, section#users, section#orders, section#products {
+    padding-top: 80px;
+}
+#inbox .inbox__header h4 {
+    background-color: rgb(51, 62, 72);
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    
+}
+
+#inbox .user-inbox:hover {
+    background-color: rgb(51, 62, 72, 0.1);
+    cursor: pointer;
+}
+
+#inbox .user-inbox:focus {
+    background-color: rgb(51, 62, 72, 0.3);
+}
+
+div.inbox-container {
+    width: 60%;
+    border-right: 2px solid rgb(51, 62, 72);
+}
+
+#comments{
+    width: 90%;
+    margin-left: 280px;
+}
+.comments-header button {
+    border: none;
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(63, 84, 224);
+    color: white;
+    font-weight: bolder;
+}
+
+.comment-box {
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.comment-user {
+    display: flex;
+}
+
+.comment-user h5 {
+    display: inline;
+}
+
+.comment-action button {
+    border: none;
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(63, 84, 224);
+    color: white;
+    font-weight: bolder;
+}
+
+.comment-product {
+    margin-left: 55px;
+    padding-left: 5px;
+    border-left: 2px solid rgb(51, 62, 72);
+}
+
+.comment-box {
+    padding: 10px;
+    border: 1px solid rgb(51, 62, 72);
+}
+
+.comment-content {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-decoration: wavy;
+}
+
+.comment-text {
+    margin-top: 20px;
+}
+
+.comment-action button:hover {
+    color: black;
+}
+
+section.tabcontent#comments {
+    width: 90%;
+    margin: auto;
+    padding-left: 250px;
+}
+
+div.inbox-area {
+    display: flex;
+}
+
+#inbox {
+    height: 600px;
+}
+
+.inbox-note {
+    margin:  0px auto;
+}
+
+div.allYourNote {
+    text-align: center;
+}
+
+div.allYourNote h4 {
+    padding: 10px;
+    background-color: rgb(191, 61, 61);
+    color:rgb(51, 62, 72);
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.inbox-note {
+    text-align: center;
+}
+
+.inbox-note input[type=submit] {
+    padding: 10px;
+    border: none;
+    background-color: rgb(61, 106, 191);
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+}
+
+.allYourNote {
+    text-align: center;
+    font-style: italic;
+}
+
+.inbox-container img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+div.inboxInsider {
+    width: 50%;
+    display: flex;
+}
+
+div.inboxInsiderAdmin {
+    float: right;
+    display: flex;
+}
+div.inboxInsiderAdmin p {
+    background-color:  rgb(254, 215, 0, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+}
+div.inboxInsider p {
+    background-color:  #ccc;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.inbox-form-input {
+    display: flex;
+    float: right;
+}
+
+
+.inboxInsiderAdmin #chatHere {
+   border-radius: 20px;
+   height: 60px;
+   width: 600px;
+   vertical-align: text-top;
+}
+
+ul {list-style-type: none;}
+
+div.calendar{
+    width: 100%;
+    font-size: 16px;
+}
+/* Month header */
+.month {
+  padding: 25px 25px;
+  width: 100%;
+  background: rgb(51, 62, 72);
+  text-align: center;
+}
+.month ul li span {
+    font-size: 18px;
+}
+li.next-month {
+    color: rgb(211, 211, 211);
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 20px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: rgb(51, 62, 72);
+  color: white !important
+}
+
+div.team-member {
+    font-size: 16px;
+}
+
+div.team-member table tr {
+    height: 45px;
+    border-bottom: 1px solid rgb(51, 62, 72);
+}
+
+#subtab1.active .dropdown1 {
+    background-color: white;
+}
+
+td#noDataRow,td#noDataRow2 {
+    font-style: italic; 
+    text-align: center; 
+    font-size: 16px;
+}
+
+div.allYourNote {
+    margin: 0 20px;
+    height: 400px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+button.approvedBtn {
+    background-color: rgb(3, 151, 10);;
+}
+
+button.spamBtn {
+    background-color:rgb(228, 181, 51);
+}
+
+button.trashBtn {
+    background-color: rgb(255, 58, 45);
+}
+
+button.replyBtn {
+    background-color:rgb(19, 110, 194);
+}
+
+div#spam-cmts h4 {
+    text-align: center; 
+    margin-top: 50px;
+    font-style: italic; 
+    color: rgb(51, 62, 72);
+}
+
+div#trash-cmts {
+    text-align: center; 
+    margin-top: 50px; 
+    font-style: italic; 
+    color: rgb(51, 62, 72);
+}
+
+tr td#noDataRow2 {
+    background-color: white;
+    color:rgb(51, 62, 72);
+}
+
+div.inboxInsiderAdmin {
+    margin-top: 500px; 
+    margin-bottom: 10px;
+}
+
+div.team-member button#addMember {
+    margin-left: 1534px;
+}
+
+/* extra */
+.nav-adminRole img {
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.nav-adminRole h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.nav-adminRole span {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}

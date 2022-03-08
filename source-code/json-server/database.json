@@ -1,0 +1,3276 @@
+{
+  "user_details": [
+    {
+      "id": 0,
+      "user_id": "user001",
+      "user_name": "Bảo Chung",
+      "user_email": "chungaptech@gmail.com",
+      "user_password": "chungaptech",
+      "user_role": "admin",
+      "user_phonenumber": "0987213548",
+      "user_address": "Vincom Nguyen Chi Thanh, Dong Da, Ha Noi"
+    },
+    {
+      "id": 0,
+      "user_id": "user002",
+      "user_name": "Thành Đạt",
+      "user_email": "dataptech@gmail.com",
+      "user_password": "dataptech",
+      "user_role": "customer",
+      "user_phonenumber": "0988344561",
+      "user_address": "Ngo 16 Hoang Cau, Dong Da, Ha Noi"
+    },
+    {
+      "id": 0,
+      "user_id": "user003",
+      "user_name": "Bảo Minh",
+      "user_email": "minhaptech@gmail.com",
+      "user_password": "minhaptech",
+      "user_role": "customer",
+      "user_phonenumber": "0941543778",
+      "user_address": "91 Chua Lang, Dong Da, Ha Noi"
+    },
+    {
+      "id": 0,
+      "user_id": "user004",
+      "user_name": "Minh Nhật",
+      "user_email": "nhataptech@gmail.com",
+      "user_password": "nhataptech",
+      "user_role": "customer",
+      "user_phonenumber": "0366258789",
+      "user_address": "Detech Tower, Ton That Thuyet, My Dinh, Ha Noi"
+    },
+    {
+      "id": 0,
+      "user_id": "user005",
+      "user_name": "Ngân Hà",
+      "user_email": "nganaptech@gmail.com",
+      "user_password": "nganaptech",
+      "user_role": "admin",
+      "user_phonenumber": "0321998566",
+      "user_address": "Detech building, Nguyen Phong Sac, Dong Da, Ha Noi"
+    },
+    {
+      "id": 0,
+      "user_id": "user006",
+      "user_name": "Bùi Oanh",
+      "user_email": "oanhaptech@gmail.com",
+      "user_password": "oanhaptech",
+      "user_role": "admin",
+      "user_phonenumber": "0941237789",
+      "user_address": "187 Lo Duc, Hai Ba Trung, Ha Noi"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "cat_id": "laptoppc",
+      "cat_name": "Laptop & PC",
+      "cat_list": [
+        "Thin & Light Laptops",
+        "2-in-1 Laptops",
+        "Gaming Laptops",
+        "High-performance PC",
+        "Gaming PCs"
+      ]
+    },
+    {
+      "id": 0,
+      "cat_id": "mobilestablets",
+      "cat_name": "Mobiles & Tablets",
+      "cat_list": [
+        "New iPhones",
+        "Gaming Mobiles",
+        "Business Mobiles",
+        "New iPads",
+        "Gaming Tablets",
+        "Business Tablets"
+      ]
+    },
+    {
+      "id": 0,
+      "cat_id": "displayaudio",
+      "cat_name": "Display & Audio",
+      "cat_list": [
+        "Gaming Monitors",
+        "Business Monitors",
+        "OLED Television",
+        "Portable Speakers",
+        "Gaming Headphones"
+      ]
+    },
+    {
+      "id": 0,
+      "cat_id": "camera",
+      "cat_name": "Camera",
+      "cat_list": [
+        "Hi-tech Cameras",
+        "Professional Cameras",
+        "Personal Cameras",
+        "Cameras For Travelling"
+      ]
+    },
+    {
+      "id": 0,
+      "cat_id": "accessories",
+      "cat_name": "Accessories",
+      "cat_list": [
+        "Apple Pencil",
+        "Samsung S Pen",
+        "Digital Painting Pen",
+        "Leather Case",
+        "Fashionable Case",
+        "Plastic Case"
+      ]
+    },
+    {
+      "id": 0,
+      "cat_id": "others",
+      "cat_name": "Others",
+      "cat_list": [
+        "Hi-tech Masks",
+        "Wifi Routers",
+        "Modern Printers"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "id": 0,
+      "brand_id": "apple",
+      "brand_name": "Apple"
+    },
+    {
+      "id": 0,
+      "brand_id": "samsung",
+      "brand_name": "Samsung"
+    },
+    {
+      "id": 0,
+      "brand_id": "lg",
+      "brand_name": "LG"
+    },
+    {
+      "id": 0,
+      "brand_id": "dell",
+      "brand_name": "Dell"
+    },
+    {
+      "id": 0,
+      "brand_id": "asus",
+      "brand_name": "Asus"
+    },
+    {
+      "id": 0,
+      "brand_id": "hp",
+      "brand_name": "HP"
+    }
+  ],
+  "product_specifications": [
+    {
+      "id": 0,
+      "product_id": "macbookair13m1ram8rom256",
+      "cat_id": "laptoppc",
+      "brand_id": "apple",
+      "product_status": "onsaleoff",
+      "product_name": "Macbook Air 13\" M1 (8Gb-256Gb)",
+      "product_price": "1,199.00",
+      "product_saleprice": "1,099.00",
+      "product_inventory": "USA",
+      "product_display": "13.3 2K 2560x1600 pixels",
+      "product_ram": "8Gb",
+      "product_rom": "256Gb",
+      "product_battery": "Lipo 54Wh",
+      "product_quantity": 312,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "macbookair13m1ram8rom512",
+      "cat_id": "laptoppc",
+      "brand_id": "apple",
+      "product_status": "upcoming",
+      "product_name": "Macbook Air 13\" M1 (8Gb-512Gb)",
+      "product_price": "1,399.00",
+      "product_saleprice": "1,299.00",
+      "product_inventory": "USA",
+      "product_display": "13.3 2K 2560x1600 pixels",
+      "product_ram": "8Gb",
+      "product_rom": "512Gb",
+      "product_battery": "Lipo 54Wh",
+      "product_quantity": 354,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "macbookpro13m1ram8rom256",
+      "cat_id": "laptoppc",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Macbook Pro 13\" M1 Ram 8Gb Rom 256Gb",
+      "product_price": "1,399.00",
+      "product_saleprice": "1,299.00",
+      "product_inventory": "USA",
+      "product_display": "13.3 2K 2560x1600 pixels",
+      "product_ram": "8Gb",
+      "product_rom": "256Gb",
+      "product_battery": "58.2-watt-hour lithium-polymer",
+      "product_quantity": 326,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "macbookpro13m1ram8rom512",
+      "cat_id": "laptoppc",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Macbook Pro 13\" M1 Ram 8Gb Rom 512Gb",
+      "product_price": "1,599.00",
+      "product_saleprice": "1,499.00",
+      "product_inventory": "USA",
+      "product_display": "13.3 2K 2560x1600 pixels",
+      "product_ram": "8Gb",
+      "product_rom": "512Gb",
+      "product_battery": "58.2-watt-hour lithium-polymer",
+      "product_quantity": 273,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "iPhone13minirom128vna",
+      "cat_id": "mobilestablets",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPhone 13 Mini 128Gb VN/A",
+      "product_price": "699.00",
+      "product_saleprice": "599.00",
+      "product_inventory": "USA",
+      "product_display": "OLED 5.4 inches",
+      "product_ram": "4Gb",
+      "product_rom": "128Gb",
+      "product_battery": "2.406mAh",
+      "product_quantity": 277,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "iPhone13rom128vna",
+      "cat_id": "mobilestablets",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPhone 13 128Gb VN/A",
+      "product_price": "799.00",
+      "product_saleprice": "699.00",
+      "product_inventory": "USA",
+      "product_display": "OLED 6.1 inches",
+      "product_ram": "4Gb",
+      "product_rom": "128Gb",
+      "product_battery": "3.200mAh",
+      "product_quantity": 299,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "iPhone13prorom128vna",
+      "cat_id": "mobilestablets",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPhone 13 Pro 128Gb VN/A",
+      "product_price": "999.00",
+      "product_saleprice": "899.00",
+      "product_inventory": "USA",
+      "product_display": "OLED 6.1 inches",
+      "product_ram": "4Gb",
+      "product_rom": "128Gb",
+      "product_battery": "3.095mAh",
+      "product_quantity": 142,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "iPhone13promaxrom128vna",
+      "cat_id": "mobilestablets",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPhone 13 Pro Max 128Gb VN/A",
+      "product_price": "1,199.00",
+      "product_saleprice": "1,099.00",
+      "product_inventory": "USA",
+      "product_display": "OLED 6.7 inches",
+      "product_ram": "6Gb",
+      "product_rom": "128Gb",
+      "product_battery": "4.325mAh",
+      "product_quantity": 228,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "iPad1022021rom256vna",
+      "cat_id": "mobilestablets",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPad 10.2\" 2021 256Gb VN/A",
+      "product_price": "699.00",
+      "product_saleprice": "599.00",
+      "product_inventory": "USA",
+      "product_display": "Liquid Retina 10.2 inches",
+      "product_ram": "4Gb",
+      "product_rom": "256Gb",
+      "product_battery": "8.600mAh",
+      "product_quantity": 186,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "iPadair2020rom256vna",
+      "cat_id": "mobilestablets",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPad Air 2020 256Gb VN/A",
+      "product_price": "799.00",
+      "product_saleprice": "699.00",
+      "product_inventory": "USA",
+      "product_display": "IPS LCD 10.9 inches",
+      "product_ram": "4Gb",
+      "product_rom": "256Gb",
+      "product_battery": "7.600mAh",
+      "product_quantity": 185,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "iPadprom12021rom256vna",
+      "cat_id": "mobilestablets",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPad Pro M1 2021 256Gb VN/A",
+      "product_price": "1,099.00",
+      "product_saleprice": "999.00",
+      "product_inventory": "USA",
+      "product_display": "Mini LED 120Hz 12.9 inches",
+      "product_ram": "8Gb",
+      "product_rom": "256Gb",
+      "product_battery": "40.88Wh",
+      "product_quantity": 182,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "iPadprom12021rom512vna",
+      "cat_id": "mobilestablets",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPad Pro M1 2021 512Gb VN/A",
+      "product_price": "1,199.00",
+      "product_saleprice": "1,099.00",
+      "product_inventory": "USA",
+      "product_display": "Mini LED 120Hz 12.9 inches",
+      "product_ram": "8Gb",
+      "product_rom": "512Gb",
+      "product_battery": "40.88Wh",
+      "product_quantity": 304,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "airpods2vna",
+      "cat_id": "displayaudio",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple Airpods 2 2021 VN/A",
+      "product_price": "299.00",
+      "product_saleprice": "249.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up to 5 hours",
+      "product_quantity": 185,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "airpodsprovna",
+      "cat_id": "displayaudio",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple Airpods Pro 2021 VN/A",
+      "product_price": "349.00",
+      "product_saleprice": "299.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up to 6 hours",
+      "product_quantity": 304,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "applepencil1vna",
+      "cat_id": "accessories",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple Pencil 1 VN/A - White",
+      "product_price": "199.00",
+      "product_saleprice": "149.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up to 24 hours",
+      "product_quantity": 186,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "applepencil2vna",
+      "cat_id": "accessories",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple Pencil 2 VN/A - White",
+      "product_price": "249.00",
+      "product_saleprice": "199.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up to 36 hours",
+      "product_quantity": 111,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "appleiPadair2020case",
+      "cat_id": "accessories",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPad Air 2020 Case",
+      "product_price": "59.00",
+      "product_saleprice": "49.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 186,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "appleiPadprom12021case",
+      "cat_id": "accessories",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple iPad Pro M1 2021 Case",
+      "product_price": "79.00",
+      "product_saleprice": "69.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 111,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lightningcable20wtypec",
+      "cat_id": "accessories",
+      "brand_id": "apple",
+      "product_status": "available",
+      "product_name": "Apple Lightning Cable 20W Type-C",
+      "product_price": "39.00",
+      "product_saleprice": "34.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 111,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxytaba7light",
+      "cat_id": "mobilestablets",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Galaxy Tab A7 Light",
+      "product_price": "299.00",
+      "product_saleprice": "249.00",
+      "product_inventory": "Korea",
+      "product_display": "TFT LCD 8.7 inches",
+      "product_ram": "3Gb",
+      "product_rom": "32Gb",
+      "product_battery": "5.100mAh",
+      "product_quantity": 186,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxytabs6light",
+      "cat_id": "mobilestablets",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Galaxy Tab S6 Light",
+      "product_price": "449.00",
+      "product_saleprice": "399.00",
+      "product_inventory": "Korea",
+      "product_display": "TFT LCD 10.4 inches",
+      "product_ram": "4Gb",
+      "product_rom": "64Gb",
+      "product_battery": "7.040mAh",
+      "product_quantity": 153,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxya71",
+      "cat_id": "mobilestablets",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Galaxy A71 Deep Blue",
+      "product_price": "399.00",
+      "product_saleprice": "349.00",
+      "product_inventory": "Korea",
+      "product_display": "Super AMOLED 6.7 inches",
+      "product_ram": "8Gb",
+      "product_rom": "128Gb",
+      "product_battery": "4.500mAh",
+      "product_quantity": 177,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxys21plus5g",
+      "cat_id": "mobilestablets",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Galaxy S21 Plus 5G",
+      "product_price": "749.00",
+      "product_saleprice": "649.00",
+      "product_inventory": "Korea",
+      "product_display": "Dynamic AMOLED 6.7 inches",
+      "product_ram": "8Gb",
+      "product_rom": "128Gb",
+      "product_battery": "Li-Po 4.800mAh Quick Charge",
+      "product_quantity": 153,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxyzfold25g",
+      "cat_id": "mobilestablets",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Galaxy Z Fold 2 5G",
+      "product_price": "1,849.00",
+      "product_saleprice": "1,699.00",
+      "product_inventory": "Korea",
+      "product_display": "7.6 inches & 6.23 inches",
+      "product_ram": "12Gb",
+      "product_rom": "256Gb",
+      "product_battery": "Li-Po 4.500mAh Quick Charge",
+      "product_quantity": 177,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxynote20ultra5g",
+      "cat_id": "mobilestablets",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Galaxy Note 20 Ultra 5G",
+      "product_price": "1,349.00",
+      "product_saleprice": "1,049.00",
+      "product_inventory": "Korea",
+      "product_display": "DYnamic AMOLED 6.9 inches",
+      "product_ram": "12Gb",
+      "product_rom": "256Gb",
+      "product_battery": "Li-Ion 4.500mAh Quick Charge",
+      "product_quantity": 111,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "samsungmonitor24ls24r350fhe",
+      "cat_id": "displayaudio",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Monitor 24\" LS24R250FHE",
+      "product_price": "664.00",
+      "product_saleprice": "644.00",
+      "product_inventory": "Korea",
+      "product_display": "24\" 16:9 60Hz 2k",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 95,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsungmonitor27ls27r350fhe",
+      "cat_id": "displayaudio",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Monitor 27\" LS27R250FHE",
+      "product_price": "814.00",
+      "product_saleprice": "794.00",
+      "product_inventory": "Korea",
+      "product_display": "27\" 16:9 60Hz 4k",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 171,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "samsungmonitor32ls32r350fhe",
+      "cat_id": "displayaudio",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Monitor 32\" LS32R250FHE",
+      "product_price": "964.00",
+      "product_saleprice": "944.00",
+      "product_inventory": "Korea",
+      "product_display": "32\" 16:9 60Hz 4k",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 95,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsungsmarttv43crystaluhd",
+      "cat_id": "displayaudio",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Smart TV 43\" Crystal UHD",
+      "product_price": "1,089.00",
+      "product_saleprice": "1,049.00",
+      "product_inventory": "Korea",
+      "product_display": "43\" 16:9 Crystal 4K With Motion Xcelerator",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 111,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsungsmarttv60crystaluhd",
+      "cat_id": "displayaudio",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Smart TV 60\" Crystal UHD",
+      "product_price": "1,239.00",
+      "product_saleprice": "1,199.00",
+      "product_inventory": "Korea",
+      "product_display": "60\" 16:9 Crystal 4K With Motion Xcelerator",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 153,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "samsungsmarttv65crystaluhd",
+      "cat_id": "displayaudio",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Smart TV 65\" Crystal UHD",
+      "product_price": "1,389.00",
+      "product_saleprice": "1,349.00",
+      "product_inventory": "Korea",
+      "product_display": "65\" 16:9 Crystal 4K With Motion Xcelerator",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 95,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsungsmarttv75crystaluhd",
+      "cat_id": "displayaudio",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Smart TV 43\" Crystal UHD",
+      "product_price": "1,589.00",
+      "product_saleprice": "1,549.00",
+      "product_inventory": "Korea",
+      "product_display": "75\" 16:9 Crystal 4K With Motion Xcelerator",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 111,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxybudspro",
+      "cat_id": "displayaudio",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Galaxy Buds Pro",
+      "product_price": "1,999.00",
+      "product_saleprice": "1,149.00",
+      "product_inventory": "Korea",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up To 7 Hours",
+      "product_quantity": 153,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxybudslive",
+      "cat_id": "displayaudio",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Galaxy Buds Live",
+      "product_price": "1,299.00",
+      "product_saleprice": "749.00",
+      "product_inventory": "Korea",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up To 5 Hours",
+      "product_quantity": 97,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsungspenpro",
+      "cat_id": "accessories",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung S Pen Pro - Dark Cover",
+      "product_price": "1,299.00",
+      "product_saleprice": "999.00",
+      "product_inventory": "Korea",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up To 36 Hours",
+      "product_quantity": 97,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsungwirelessquickcharge",
+      "cat_id": "accessories",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Wireless Quick Charger",
+      "product_price": "679.00",
+      "product_saleprice": "659.00",
+      "product_inventory": "Korea",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 153,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxybudscase",
+      "cat_id": "accessories",
+      "brand_id": "samsung",
+      "product_status": "available",
+      "product_name": "Samsung Galaxy Buds Protection Case",
+      "product_price": "329.00",
+      "product_saleprice": "319.00",
+      "product_inventory": "Korea",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 111,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202114i5",
+      "cat_id": "laptoppc",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Gram 2021 14\" Core i5",
+      "product_price": "1,849.00",
+      "product_saleprice": "1,749.00",
+      "product_inventory": "Korea",
+      "product_display": "14 inches 2560 x 1600 pixels (2K)",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD PCle NVM",
+      "product_battery": "80WHrs",
+      "product_quantity": 102,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202116i5",
+      "cat_id": "laptoppc",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Gram 2021 16\" Core i5",
+      "product_price": "1,949.00",
+      "product_saleprice": "1,849.00",
+      "product_inventory": "Korea",
+      "product_display": "16 inches 2560 x 1600 pixels (2K)",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD PCle NVM",
+      "product_battery": "80WHrs",
+      "product_quantity": 153,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202117i5",
+      "cat_id": "laptoppc",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Gram 2021 17\" Core i5",
+      "product_price": "2,049.00",
+      "product_saleprice": "1,949.00",
+      "product_inventory": "Korea",
+      "product_display": "16 inches 2560 x 1600 pixels (2K)",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD PCle NVM",
+      "product_battery": "80WHrs",
+      "product_quantity": 102,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202114i7",
+      "cat_id": "laptoppc",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Gram 2021 14\" Core i7",
+      "product_price": "1,949.00",
+      "product_saleprice": "1,849.00",
+      "product_inventory": "Korea",
+      "product_display": "14 inches 2560 x 1600 pixels (2K)",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD PCle NVM",
+      "product_battery": "80WHrs",
+      "product_quantity": 153,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202116i7",
+      "cat_id": "laptoppc",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Gram 2021 16\" Core i7",
+      "product_price": "2,049.00",
+      "product_saleprice": "1,949.00",
+      "product_inventory": "Korea",
+      "product_display": "16 inches 2560 x 1600 pixels (2K)",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD PCle NVM",
+      "product_battery": "80WHrs",
+      "product_quantity": 102,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202117i7",
+      "cat_id": "laptoppc",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Gram 2021 17\" Core i7",
+      "product_price": "2,149.00",
+      "product_saleprice": "2,049.00",
+      "product_inventory": "Korea",
+      "product_display": "16 inches 2560 x 1600 pixels (2K)",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD PCle NVM",
+      "product_battery": "80WHrs",
+      "product_quantity": 73,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lgmonitor24ultragear",
+      "cat_id": "displayaudio",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Ultra Gear Monitor 24\"",
+      "product_price": "589.00",
+      "product_saleprice": "569.00",
+      "product_inventory": "Korea",
+      "product_display": "24\" Nano IPS 4k 144Hz 1ms DisplayHDR",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 153,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lgmonitor27ultragear",
+      "cat_id": "displayaudio",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Ultra Gear Monitor 27\"",
+      "product_price": "689.00",
+      "product_saleprice": "669.00",
+      "product_inventory": "Korea",
+      "product_display": "27\" Nano IPS 4k 144Hz 1ms DisplayHDR",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 73,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "lgmonitor32ultragear",
+      "cat_id": "displayaudio",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Ultra Gear Monitor 32\"",
+      "product_price": "789.00",
+      "product_saleprice": "769.00",
+      "product_inventory": "Korea",
+      "product_display": "32\" Nano IPS 4k 144Hz 1ms DisplayHDR",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 153,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lgbluetoothspeakerxboom360",
+      "cat_id": "displayaudio",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Bluetooth Speaker XBoom 360 RP4",
+      "product_price": "429.00",
+      "product_saleprice": "409.00",
+      "product_inventory": "Korea",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up To 28 Hours",
+      "product_quantity": 76,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lgbluetoothspeakerxboomgo",
+      "cat_id": "displayaudio",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Bluetooth Speaker XBoom Go PL7",
+      "product_price": "129.00",
+      "product_saleprice": "109.00",
+      "product_inventory": "Korea",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up To 12 Hours",
+      "product_quantity": 73,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "lgpuremaskpuricare2",
+      "cat_id": "displayaudio",
+      "brand_id": "lg",
+      "product_status": "available",
+      "product_name": "LG Pure Mask Puricare 2",
+      "product_price": "89.00",
+      "product_saleprice": "84.00",
+      "product_inventory": "Korea",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 51,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_laptop_inspiron15i3",
+      "cat_id": "laptoppc",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Inspiron 15.6\" FHD Intel Core i3",
+      "product_price": "714.00",
+      "product_saleprice": "694.00",
+      "product_inventory": "USA",
+      "product_display": "IPS 15.6 inches, FHD 1920 x 1080 pixels",
+      "product_ram": "8Gb DDR4",
+      "product_rom": "256Gb SSD, 1Tb HDD",
+      "product_battery": "Up To 6 Hours",
+      "product_quantity": 76,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_laptop_inspiron15i5",
+      "cat_id": "laptoppc",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Inspiron 15.6\" FHD Intel Core i5",
+      "product_price": "914.00",
+      "product_saleprice": "894.00",
+      "product_inventory": "USA",
+      "product_display": "IPS 15.6 inches, FHD 1920 x 1080 pixels",
+      "product_ram": "8Gb DDR4",
+      "product_rom": "256Gb SSD, 1Tb HDD",
+      "product_battery": "Up To 7 Hours",
+      "product_quantity": 73,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_laptop_inspiron13i7",
+      "cat_id": "laptoppc",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Inspiron 13.3\" FHD Intel Core i7",
+      "product_price": "749.00",
+      "product_saleprice": "729.00",
+      "product_inventory": "USA",
+      "product_display": "IPS 13.3 inches, FHD 1920 x 1080 pixels",
+      "product_ram": "8Gb DDR4",
+      "product_rom": "256Gb SSD, 1Tb HDD",
+      "product_battery": "Up To 6 Hours",
+      "product_quantity": 73,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_laptop_lattitute15i5",
+      "cat_id": "laptoppc",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Latitude 15.6\", Intel Core i5",
+      "product_price": "729.00",
+      "product_saleprice": "704.00",
+      "product_inventory": "USA",
+      "product_display": "IPS 15.6 inches, FHD 1920 x 1080 pixels",
+      "product_ram": "6Gb DDR4",
+      "product_rom": "128Gb SSD, 512Gb HDD",
+      "product_battery": "Up To 6 Hours",
+      "product_quantity": 76,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_PC_inspiron3880i5",
+      "cat_id": "laptoppc",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Inspiron PC - Intel Core i5",
+      "product_price": "549.00",
+      "product_saleprice": "529.00",
+      "product_inventory": "USA",
+      "product_display": "No Monitor",
+      "product_ram": "4Gb DDR4",
+      "product_rom": "512Gb HDD",
+      "product_battery": "",
+      "product_quantity": 76,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_PC_inspiron3000i3",
+      "cat_id": "laptoppc",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Inspiron PC, Intel Quad-Core i3",
+      "product_price": "449.00",
+      "product_saleprice": "429.00",
+      "product_inventory": "USA",
+      "product_display": "No Monitor",
+      "product_ram": "4Gb DDR4",
+      "product_rom": "512Gb HDD",
+      "product_battery": "",
+      "product_quantity": 76,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_PC_Optiplex3020i5",
+      "cat_id": "laptoppc",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "DELL Optiplex Desktop PC - Intel Core i5",
+      "product_price": "469.00",
+      "product_saleprice": "449.00",
+      "product_inventory": "USA",
+      "product_display": "No Monitor",
+      "product_ram": "6Gb DDR4",
+      "product_rom": "1Tb HDD",
+      "product_battery": "",
+      "product_quantity": 51,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_PC_Optiplex5000i7",
+      "cat_id": "laptoppc",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "DELL Optiplex Desktop PC - Intel Core i7",
+      "product_price": "569",
+      "product_saleprice": "549",
+      "product_inventory": "USA",
+      "product_display": "No Monitor",
+      "product_ram": "6Gb DDR4",
+      "product_rom": "1Tb HDD",
+      "product_battery": "",
+      "product_quantity": 51,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ultrasharp274K",
+      "cat_id": "displayaudio",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell 27 Inch UltraSharp 4K UHD Monitor",
+      "product_price": "769.00",
+      "product_saleprice": "739.00",
+      "product_inventory": "USA",
+      "product_display": "27 Inches 3840 x 2160 pixels (4K)",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 59,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ultrasharp34",
+      "cat_id": "displayaudio",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Ultrasharp 34\" IPS USB-C Monitor",
+      "product_price": "694.00",
+      "product_saleprice": "674.00",
+      "product_inventory": "USA",
+      "product_display": "IPS 34 Inches Curved 3840 x 2160 pixels (4K)",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 59,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ultrasharp24",
+      "cat_id": "displayaudio",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell UltraSharp 24-Inch Screen Led-Lit Monitor",
+      "product_price": "544.00",
+      "product_saleprice": "524.00",
+      "product_inventory": "USA",
+      "product_display": "Led-Lit 24 Inches Curved 3840 x 2160 pixels (4K)",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 59,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ultrasharp49",
+      "cat_id": "displayaudio",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell UltraSharp 49 inch Dual Curved Monitor",
+      "product_price": "2,244.00",
+      "product_saleprice": "2,199.00",
+      "product_inventory": "USA",
+      "product_display": "Led-Lit 49 Inches Curved 3840 x 2160 pixels (4K)",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 59,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_soundbar",
+      "cat_id": "displayaudio",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Stereo SoundBar",
+      "product_price": "25.00",
+      "product_saleprice": "21.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 59,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_zylus_speaker",
+      "cat_id": "displayaudio",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Zylus Computer Speakers Subwoofer",
+      "product_price": "29.00",
+      "product_saleprice": "24.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 33,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_mouse1",
+      "cat_id": "accessories",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell 120W Wireless Computer Mouse",
+      "product_price": "19.00",
+      "product_saleprice": "17.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 33,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_mouse2",
+      "cat_id": "accessories",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Optical Mouse MS116",
+      "product_price": "21.00",
+      "product_saleprice": "18.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 33,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_keyboard1",
+      "cat_id": "accessories",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Wired Keyboard - Black KB216",
+      "product_price": "24.00",
+      "product_saleprice": "22.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 33,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_keyboard2",
+      "cat_id": "accessories",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Business Multimedia Keyboard",
+      "product_price": "24.00",
+      "product_saleprice": "22.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 138,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_keyboard3",
+      "cat_id": "accessories",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell OEMBacklit Black Keyboard Precision",
+      "product_price": "24.00",
+      "product_saleprice": "22.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 138,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ACadapter65W",
+      "cat_id": "accessories",
+      "brand_id": "dell",
+      "product_status": "available",
+      "product_name": "Dell Laptop Charger 65W Watt USB-C",
+      "product_price": "33.00",
+      "product_saleprice": "29.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 64,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogphone5",
+      "cat_id": "mobilestablets",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "Asus ROG Phone 5 - Gaming Edition",
+      "product_price": "974.00",
+      "product_saleprice": "924.00",
+      "product_inventory": "Taiwan",
+      "product_display": "AMOLED 6.78 inches",
+      "product_ram": "16Gb",
+      "product_rom": "256Gb",
+      "product_battery": "5.200mAh",
+      "product_quantity": 64,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogphone5S",
+      "cat_id": "mobilestablets",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "Asus ROG Phone 5S - Gaming Edition",
+      "product_price": "1,024.00",
+      "product_saleprice": "954.00",
+      "product_inventory": "Taiwan",
+      "product_display": "AMOLED 6.78 inches",
+      "product_ram": "16Gb",
+      "product_rom": "256Gb",
+      "product_battery": "6.000mAh",
+      "product_quantity": 64,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_zenphoneflip",
+      "cat_id": "mobilestablets",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "Asus Zenfone Z Flip3 5G - Dark Edition",
+      "product_price": "1,119.00",
+      "product_saleprice": "1,049.00",
+      "product_inventory": "Taiwan",
+      "product_display": "Dynamic AMOLED 6.7 inches & 1.9 inches",
+      "product_ram": "8Gb",
+      "product_rom": "128Gb",
+      "product_battery": "3.300mAh",
+      "product_quantity": 64,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_zenphone7",
+      "cat_id": "mobilestablets",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "Asus ZenFone 7 - Pink Version",
+      "product_price": "889.00",
+      "product_saleprice": "859.00",
+      "product_inventory": "Taiwan",
+      "product_display": "Super AMOLED 6.67 inches, Full HD+",
+      "product_ram": "8Gb",
+      "product_rom": "128Gb",
+      "product_battery": "5.000mAh",
+      "product_quantity": 57,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_zenphone7pro",
+      "cat_id": "mobilestablets",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "Asus ZenFone 7 Pro - Fashion Edition",
+      "product_price": "889.00",
+      "product_saleprice": "859.00",
+      "product_inventory": "Taiwan",
+      "product_display": "Super AMOLED 6.67 inches, Full HD+",
+      "product_ram": "8Gb",
+      "product_rom": "256Gb",
+      "product_battery": "5.000mAh",
+      "product_quantity": 57,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asuszenbook_flip13i7",
+      "cat_id": "laptoppc",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS ZenBook Flip 13.3\" FHD core i7",
+      "product_price": "1,149.00",
+      "product_saleprice": "1,099.00",
+      "product_inventory": "Taiwan",
+      "product_display": "IPS 13.3\" FHD (1920 x 1080 pixels)",
+      "product_ram": "8Gb",
+      "product_rom": "512Gb SSD",
+      "product_battery": "67WHr Lithium-Polymer",
+      "product_quantity": 57,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asuszenbook_flip13i5",
+      "cat_id": "laptoppc",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS ZenBook Flip 13.3\" FHD core i5",
+      "product_price": "1,049.00",
+      "product_saleprice": "999.00",
+      "product_inventory": "Taiwan",
+      "product_display": "IPS 13.3\" FHD (1920 x 1080 pixels)",
+      "product_ram": "8Gb",
+      "product_rom": "512Gb SSD",
+      "product_battery": "67WHr Lithium-Polymer",
+      "product_quantity": 57,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asuszenbook_flip14i7",
+      "cat_id": "laptoppc",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS ZenBook Flip 14\" core i7",
+      "product_price": "1,249.00",
+      "product_saleprice": "1,199.00",
+      "product_inventory": "Taiwan",
+      "product_display": "IPS 14\" FHD (1920 x 1080 pixels)",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD",
+      "product_battery": "71WHr Lithium-Polymer",
+      "product_quantity": 138,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asusvivobook_flip14i3",
+      "cat_id": "laptoppc",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS ZenBook Flip 14\" core i3",
+      "product_price": "1,249.00",
+      "product_saleprice": "1,199.00",
+      "product_inventory": "Taiwan",
+      "product_display": "IPS 14\" FHD (1920 x 1080 pixels)",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD",
+      "product_battery": "71WHr Lithium-Polymer",
+      "product_quantity": 166,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asusvivobook17",
+      "cat_id": "laptoppc",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS VivoBook S17 17.3\" FHD Display",
+      "product_price": "1,349.00",
+      "product_saleprice": "1,249.00",
+      "product_inventory": "Taiwan",
+      "product_display": "IPS 17\" FHD (1920 x 1080 pixels)",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD",
+      "product_battery": "76WHr Lithium-Polymer",
+      "product_quantity": 166,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asusPCexpert8G",
+      "cat_id": "laptoppc",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS ExpertCenter Desktop PC Ram 8Gb",
+      "product_price": "976.00",
+      "product_saleprice": "936.00",
+      "product_inventory": "Taiwan",
+      "product_display": "No Monitor",
+      "product_ram": "8Gb",
+      "product_rom": "512Gb SSD",
+      "product_battery": "",
+      "product_quantity": 166,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asusPCexpert16G",
+      "cat_id": "laptoppc",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS ExpertCenter Desktop PC Ram 16Gb",
+      "product_price": "976.00",
+      "product_saleprice": "936.00",
+      "product_inventory": "Taiwan",
+      "product_display": "No Monitor",
+      "product_ram": "16Gb",
+      "product_rom": "512Gb SSD",
+      "product_battery": "",
+      "product_quantity": 164,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_vp279he27",
+      "cat_id": "displayaudio",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS 27\" Full HD 1080p Monitor",
+      "product_price": "462.00",
+      "product_saleprice": "442.00",
+      "product_inventory": "Taiwan",
+      "product_display": "27\" FHD 1920 x 1080 pixels",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 168,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_va249he24",
+      "cat_id": "displayaudio",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS 24\" Full HD 1080p Monitor",
+      "product_price": "412.00",
+      "product_saleprice": "392.00",
+      "product_inventory": "Taiwan",
+      "product_display": "24\" FHD 1920 x 1080 pixels",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 138,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_vg248qg24",
+      "cat_id": "displayaudio",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS 24\" G-Sync Gaming Monitor",
+      "product_price": "499.00",
+      "product_saleprice": "479.00",
+      "product_inventory": "Taiwan",
+      "product_display": "24\" FHD 1920 x 1080 pixels",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 26,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_vp278gh27",
+      "cat_id": "displayaudio",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS 27\" G-Sync Gaming Monitor",
+      "product_price": "549.00",
+      "product_saleprice": "529.00",
+      "product_inventory": "Taiwan",
+      "product_display": "27\" FHD 1920 x 1080 pixels",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 138,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_speaker_lyravoice",
+      "cat_id": "displayaudio",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS Lyra Voice Wireless",
+      "product_price": "336.00",
+      "product_saleprice": "321.00",
+      "product_inventory": "Taiwan",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "Up To 26 Hours",
+      "product_quantity": 26,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogtheta_headphone",
+      "cat_id": "displayaudio",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS Gaming Headset ROG Theta 7.1",
+      "product_price": "242.00",
+      "product_saleprice": "23.002",
+      "product_inventory": "Taiwan",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 138,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogfalchion_gkb",
+      "cat_id": "accessories",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS ROG Falchion Gaming Keyboard",
+      "product_price": "117.00",
+      "product_saleprice": "107.00",
+      "product_inventory": "Taiwan",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 27,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogstrix_gkb",
+      "cat_id": "accessories",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS Gaming Keyboard - ROG Strix Scope",
+      "product_price": "127.00",
+      "product_saleprice": "117.00",
+      "product_inventory": "Taiwan",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 33,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_membrane_gkb",
+      "cat_id": "accessories",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS Membrane Gaming Keyboard",
+      "product_price": "137.00",
+      "product_saleprice": "127.00",
+      "product_inventory": "Taiwan",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 41,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_mouse",
+      "cat_id": "accessories",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS ROG RGB Gaming Mouse",
+      "product_price": "117.00",
+      "product_saleprice": "107.00",
+      "product_inventory": "Taiwan",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 110,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_charger",
+      "cat_id": "accessories",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "AC Asus Laptop Charger 45W 33W",
+      "product_price": "88.00",
+      "product_saleprice": "83.00",
+      "product_inventory": "Taiwan",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 41,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_wifirouterRtax3000",
+      "cat_id": "others",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS WiFi 6 Router AX3000",
+      "product_price": "46.00",
+      "product_saleprice": "44.00",
+      "product_inventory": "Taiwan",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 110,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "asus_wifirouterRtAc68U",
+      "cat_id": "others",
+      "brand_id": "asus",
+      "product_status": "available",
+      "product_name": "ASUS WiFi Gaming Router AC68U",
+      "product_price": "56.00",
+      "product_saleprice": "52.00",
+      "product_inventory": "Taiwan",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 41,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_envy13i7",
+      "cat_id": "laptoppc",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Envy 13 Laptop Core i7",
+      "product_price": "967.00",
+      "product_saleprice": "937.00",
+      "product_inventory": "USA",
+      "product_display": "IPS Truelife LED 13.3\" FHD",
+      "product_ram": "8Gb DDR4",
+      "product_rom": "512Gb SSD",
+      "product_battery": "51Wr",
+      "product_quantity": 110,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_envy17i7",
+      "cat_id": "laptoppc",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Envy 17 Laptop Core i7",
+      "product_price": "1,067.00",
+      "product_saleprice": "1,037.00",
+      "product_inventory": "USA",
+      "product_display": "IPS Truelife LED 17\" FHD",
+      "product_ram": "16Gb DDR4",
+      "product_rom": "512Gb SSD",
+      "product_battery": "51Wr",
+      "product_quantity": 41,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_pavilion15i7",
+      "cat_id": "laptoppc",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Pavilion Laptop, Intel Core i7 11th",
+      "product_price": "1,132.00",
+      "product_saleprice": "1,062.00",
+      "product_inventory": "USA",
+      "product_display": "IPS Truelife LED 15.6\" 60 Hz FHD",
+      "product_ram": "16Gb DDR4",
+      "product_rom": "512Gb SSD",
+      "product_battery": "61Wr",
+      "product_quantity": 13,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_pavilion15i5",
+      "cat_id": "laptoppc",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Pavilion Laptop, Intel Core i5 11th",
+      "product_price": "1,032.00",
+      "product_saleprice": "932.00",
+      "product_inventory": "USA",
+      "product_display": "IPS Truelife LED 15.6\" 60 Hz FHD",
+      "product_ram": "16Gb DDR4",
+      "product_rom": "512Gb SSD",
+      "product_battery": "56Wr",
+      "product_quantity": 13,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_pavilion14i5",
+      "cat_id": "laptoppc",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Pavilion Touchscreen (i5 11th)",
+      "product_price": "1,332.00",
+      "product_saleprice": "1,232.00",
+      "product_inventory": "USA",
+      "product_display": "IPS Touchscreen 15.6\" 60 Hz FHD",
+      "product_ram": "16Gb DDR4",
+      "product_rom": "512Gb SSD",
+      "product_battery": "61Wr",
+      "product_quantity": 13,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_probooki15i5",
+      "cat_id": "laptoppc",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Probook G8 IPS FHD 1080p",
+      "product_price": "1,047.00",
+      "product_saleprice": "997.00",
+      "product_inventory": "USA",
+      "product_display": "IPS Touchscreen 15.6\" 60 Hz FHD",
+      "product_ram": "8Gb DDR4",
+      "product_rom": "256Gb OCle NVMe SSD",
+      "product_battery": "45Wh",
+      "product_quantity": 37,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_probook14i5",
+      "cat_id": "laptoppc",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Probook G8 Notebook core i5",
+      "product_price": "997.00",
+      "product_saleprice": "967.00",
+      "product_inventory": "USA",
+      "product_display": "IPS Anti-glare 13.3\" FHD 1920 x 1080 pixels",
+      "product_ram": "8Gb DDR4",
+      "product_rom": "256Gb OCle NVMe SSD",
+      "product_battery": "45Wh",
+      "product_quantity": 73,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_probook15Ryzen5",
+      "cat_id": "laptoppc",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Probook G8 Notebook - Ryzen 5",
+      "product_price": "1,027.00",
+      "product_saleprice": "977.00",
+      "product_inventory": "USA",
+      "product_display": "IPS Anti-glare 13.3\" FHD 1920 x 1080 pixels",
+      "product_ram": "16Gb DDR4",
+      "product_rom": "256Gb OCle NVMe SSD",
+      "product_battery": "45Wh",
+      "product_quantity": 73,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_monitor24mhFHD23",
+      "cat_id": "displayaudio",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP FHD Monitor 23.8-Inch IPS Display",
+      "product_price": "359.00",
+      "product_saleprice": "344.00",
+      "product_inventory": "USA",
+      "product_display": "23.8\" FHD 1920 x 1080 pixels",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 73,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_monitorm27haFHD27",
+      "cat_id": "displayaudio",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP FHD Monitor - 27 inch Full HD Monitor",
+      "product_price": "399.00",
+      "product_saleprice": "384.00",
+      "product_inventory": "USA",
+      "product_display": "27\" FHD 1920 x 1080 pixels",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 37,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_monitorM24fwa23",
+      "cat_id": "displayaudio",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP 23.8-inch FHD IPS LED Backlit Monitor",
+      "product_price": "327.00",
+      "product_saleprice": "309.00",
+      "product_inventory": "USA",
+      "product_display": "IPS LED Backlit 23.8\" FHD 1920 x 1080 pixels",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 126,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_speaker_mini",
+      "cat_id": "displayaudio",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Blue Roar Mini Speaker",
+      "product_price": "112.00",
+      "product_saleprice": "107.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 126,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_headphone_gaming",
+      "cat_id": "displayaudio",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP USB PC Gaming Headset",
+      "product_price": "112.00",
+      "product_saleprice": "102.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 126,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_dockaudiomodule",
+      "cat_id": "displayaudio",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP TB Dock Audio Module",
+      "product_price": "76.00",
+      "product_saleprice": "71.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 52,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_kbgaming",
+      "cat_id": "displayaudio",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Pavilion Gaming Wired Keyboard",
+      "product_price": "82.00",
+      "product_saleprice": "77.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 37,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_printer_envy6255",
+      "cat_id": "others",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP ENVY Photo Wireless Printer",
+      "product_price": "145.00",
+      "product_saleprice": "129.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 126,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_printer_envypro6475",
+      "cat_id": "others",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP ENVY Pro Wireless Printer",
+      "product_price": "185.00",
+      "product_saleprice": "169.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 52,
+      "isDealOfTheDay": "true"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_printer_officejet9015e",
+      "cat_id": "others",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP Pro Wireless Color Printer",
+      "product_price": "216.00",
+      "product_saleprice": "199.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 37,
+      "isDealOfTheDay": "false"
+    },
+    {
+      "id": 0,
+      "product_id": "hp_printer_officejetPro",
+      "cat_id": "others",
+      "brand_id": "hp",
+      "product_status": "available",
+      "product_name": "HP All-in-One Wireless Printer",
+      "product_price": "256.00",
+      "product_saleprice": "239.00",
+      "product_inventory": "USA",
+      "product_display": "",
+      "product_ram": "",
+      "product_rom": "",
+      "product_battery": "",
+      "product_quantity": 52,
+      "isDealOfTheDay": "false"
+    }
+  ],
+  "product_descriptions": [
+    {
+      "id": 0,
+      "product_id": "macbookair13m1ram8rom256",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Intel Iris graphic 6100",
+        "Flash SSD Storage",
+        "Up to 12 hours of usage",
+        "Force Touch trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "macbookair13m1ram8rom512",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Intel Iris graphic 6100",
+        "Flash SSD Storage",
+        "Up to 12 hours of usage",
+        "Force Touch trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "macbookpro13m1ram8rom256",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Intel Iris graphic 6100",
+        "Flash SSD Storage",
+        "Up to 12 hours of usage",
+        "Force Touch trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "macbookpro13m1ram8rom512",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Intel Iris graphic 6100",
+        "Flash SSD Storage",
+        "Up to 12 hours of usage",
+        "Force Touch trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "iPhone13minirom128vna",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Intel Iris graphic 6100",
+        "Flash SSD Storage",
+        "Up to 12 hours of usage",
+        "Force Touch trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "iPhone13rom128vna",
+      "product_descriptions": [
+        "High Performance Chip Processores A15 Bionic",
+        "Super Retina Display",
+        "Double Camera 12MP",
+        "Quick Charge 20W, 50% battery in 30 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "iPhone13prorom128vna",
+      "product_descriptions": [
+        "High Performance Chip Processores A15 Bionic",
+        "Super Retina Display",
+        "Double Camera 12MP",
+        "Quick Charge 20W, 50% battery in 30 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "iPhone13promaxrom128vna",
+      "product_descriptions": [
+        "High Performance Chip Processores A15 Bionic",
+        "Super Retina Display",
+        "Double Camera 12MP",
+        "Quick Charge 20W, 50% battery in 30 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "iPad1022021rom256vna",
+      "product_descriptions": [
+        "High Performance Chip Processores A15 Bionic",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 30W, 80% battery in 60 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "iPadair2020rom256vna",
+      "product_descriptions": [
+        "High Performance Chip Processores A15 Bionic",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 30W, 80% battery in 60 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "iPadprom12021rom256vna",
+      "product_descriptions": [
+        "High Performance Chip Processores A15 Bionic",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 30W, 80% battery in 60 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "iPadprom12021rom512vna",
+      "product_descriptions": [
+        "High Performance Chip Processores A15 Bionic",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 30W, 80% battery in 60 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "airpods2vna",
+      "product_descriptions": [
+        "Modern Design With Minimalism Style",
+        "Quick & Easy Connection",
+        "Quick Charge, full battery in 90 minutes",
+        "Up to 25 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "airpodsprovna",
+      "product_descriptions": [
+        "Modern Design With Minimalism Style",
+        "Quick & Easy Connection",
+        "Quick Charge, full battery in 90 minutes",
+        "Up to 25 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "applepencil1vna",
+      "product_descriptions": [
+        "Modern Design With Minimalism Style",
+        "Quick & Easy Connection",
+        "Quick Charge, full battery in 90 minutes",
+        "Up to 40 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "applepencil2vna",
+      "product_descriptions": [
+        "Modern Design With Minimalism Style",
+        "Quick & Easy Connection",
+        "Quick Charge, full battery in 90 minutes",
+        "Up to 40 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "appleiPadair2020case",
+      "product_descriptions": [
+        "Colorful & Dynamic Design Language",
+        "Made With High Quality Material",
+        "Easy In & Out",
+        "6 Months Of Guarantee"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "appleiPadprom12021case",
+      "product_descriptions": [
+        "Colorful & Dynamic Design Language",
+        "Made With High Quality Material",
+        "Easy In & Out",
+        "6 Months Of Guarantee"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lightningcable20wtypec",
+      "product_descriptions": [
+        "Colorful & Dynamic Design Language",
+        "Made With High Quality Material",
+        "Easy In & Out",
+        "6 Months Of Guarantee"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxytaba7light",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 60W, 70% battery in 45 minutes",
+        "Up to 8 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxytabs6light",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 60W, 70% battery in 45 minutes",
+        "Up to 8 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxya71",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 60W, 70% battery in 45 minutes",
+        "Up to 8 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxys21plus5g",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 60W, 70% battery in 45 minutes",
+        "Up to 8 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxyzfold25g",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 60W, 70% battery in 45 minutes",
+        "Up to 8 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxynote20ultra5g",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 60W, 70% battery in 45 minutes",
+        "Up to 8 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsungmonitor24ls24r350fhe",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Made With High Quality Material",
+        "Suitable With Every PC",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsungmonitor27ls27r350fhe",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Made With High Quality Material",
+        "Suitable With Every PC",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsungmonitor32ls32r350fhe",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Made With High Quality Material",
+        "Suitable With Every PC",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsungsmarttv43crystaluhd",
+      "product_descriptions": [
+        "Large Display, More Entertainment",
+        "Made With High Quality Material",
+        "Suitable With Every Room",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsungsmarttv60crystaluhd",
+      "product_descriptions": [
+        "Large Display, More Entertainment",
+        "Made With High Quality Material",
+        "Suitable With Every Room",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsungsmarttv65crystaluhd",
+      "product_descriptions": [
+        "Large Display, More Entertainment",
+        "Made With High Quality Material",
+        "Suitable With Every Room",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsungsmarttv75crystaluhd",
+      "product_descriptions": [
+        "Large Display, More Entertainment",
+        "Made With High Quality Material",
+        "Suitable With Every Room",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxybudspro",
+      "product_descriptions": [
+        "Modern Design With Dark Cover",
+        "Quick & Easy Connection",
+        "Quick Charge, full battery in 60 minutes",
+        "Up to 23 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxybudslive",
+      "product_descriptions": [
+        "Modern Design With Dark Cover",
+        "Quick & Easy Connection",
+        "Quick Charge, full battery in 60 minutes",
+        "Up to 23 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsungspenpro",
+      "product_descriptions": [
+        "Modern Design With Minimalism Style",
+        "Quick & Easy Connection",
+        "Quick Charge, full battery in 75 minutes",
+        "Up to 46 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsungwirelessquickcharge",
+      "product_descriptions": [
+        "Suitable With Every Mobiles & Tablets",
+        "Quick & Easy Usage",
+        "Modern Design",
+        "Wireless Charger"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "samsunggalaxybudscase",
+      "product_descriptions": [
+        "Colorful & Dynamic Design Language",
+        "Made With High Quality Material",
+        "Easy In & Out",
+        "6 Months Of Guarantee"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202114i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Raphic Card Included",
+        "Flash SSD Storage",
+        "Up to 7 hours of usage",
+        "More Suitable With Large Trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202116i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Raphic Card Included",
+        "Flash SSD Storage",
+        "Up to 7 hours of usage",
+        "More Suitable With Large Trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202117i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Raphic Card Included",
+        "Flash SSD Storage",
+        "Up to 7 hours of usage",
+        "More Suitable With Large Trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202114i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Raphic Card Included",
+        "Flash SSD Storage",
+        "Up to 7 hours of usage",
+        "More Suitable With Large Trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202116i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Raphic Card Included",
+        "Flash SSD Storage",
+        "Up to 7 hours of usage",
+        "More Suitable With Large Trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lglaptopgram202117i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Raphic Card Included",
+        "Flash SSD Storage",
+        "Up to 7 hours of usage",
+        "More Suitable With Large Trackpad"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lgmonitor24ultragear",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lgmonitor27ultragear",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lgmonitor32ultragear",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lgbluetoothspeakerxboom360",
+      "product_descriptions": [
+        "Provide High Quality Sounds",
+        "Made With Well-done Materials",
+        "Easy TO Bring Out",
+        "Able To Connect Multi-devices"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lgbluetoothspeakerxboomgo",
+      "product_descriptions": [
+        "Provide High Quality Sounds",
+        "Made With Well-done Materials",
+        "Easy TO Bring Out",
+        "Able To Connect Multi-devices"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "lgpuremaskpuricare2",
+      "product_descriptions": [
+        "Made With Hi-tech & Quality Materials",
+        "80% Of Preventing Virus",
+        "Easy To Switch Core Filter",
+        "Suitable For Evey Age"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_laptop_inspiron15i3",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_laptop_inspiron15i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_laptop_inspiron13i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_laptop_lattitute15i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_PC_inspiron3880i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_PC_inspiron3000i3",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_PC_Optiplex3020i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_PC_Optiplex5000i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ultrasharp274K",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ultrasharp34",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ultrasharp24",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ultrasharp49",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_soundbar",
+      "product_descriptions": [
+        "Easy To Bring Out",
+        "Enjoy Loud & High Quality Sounds Everywhere",
+        "Suitable Connection With Multi-devices",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_zylus_speaker",
+      "product_descriptions": [
+        "Easy To Bring Out",
+        "Enjoy Loud & High Quality Sounds Everywhere",
+        "Suitable Connection With Multi-devices",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_mouse1",
+      "product_descriptions": [
+        "Suitable Connection",
+        "Made With High Quality Material",
+        "Comfortable With Evey Hand Size",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_mouse2",
+      "product_descriptions": [
+        "Suitable Connection",
+        "Made With High Quality Material",
+        "Comfortable With Evey Hand Size",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_keyboard1",
+      "product_descriptions": [
+        "Suitable Connection",
+        "Made With High Quality Material",
+        "Comfortable With Evey Hand Size",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_keyboard2",
+      "product_descriptions": [
+        "Suitable Connection",
+        "Made With High Quality Material",
+        "Comfortable With Evey Hand Size",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_keyboard3",
+      "product_descriptions": [
+        "Suitable Connection",
+        "Made With High Quality Material",
+        "Comfortable With Evey Hand Size",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "dell_ACadapter65W",
+      "product_descriptions": [
+        "Energy-saving With International Certificate",
+        "Quick Charge With Safety",
+        "Comfortable With Many Devices",
+        "Easy To Bring Along"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogphone5",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 45W, 80% battery in 45 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogphone5S",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 45W, 80% battery in 45 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_zenphoneflip",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 45W, 80% battery in 45 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_zenphone7",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 45W, 80% battery in 45 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_zenphone7pro",
+      "product_descriptions": [
+        "High Performance With Modern Chip Processor",
+        "Super Retina Display",
+        "High Resolution Cameras",
+        "Quick Charge 45W, 80% battery in 45 minutes",
+        "Up to 7 hours of usage"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asuszenbook_flip13i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asuszenbook_flip13i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asuszenbook_flip14i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asusvivobook_flip14i3",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asusvivobook17",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asusPCexpert8G",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asusPCexpert16G",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_vp279he27",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_va249he24",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_vg248qg24",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_vp278gh27",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_speaker_lyravoice",
+      "product_descriptions": [
+        "Easy To Bring Out",
+        "Enjoy Loud & High Quality Sounds Everywhere",
+        "Suitable Connection With Multi-devices",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogtheta_headphone",
+      "product_descriptions": [
+        "Easy To Bring Out",
+        "Enjoy Loud & High Quality Sounds Everywhere",
+        "Suitable Connection With Multi-devices",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogfalchion_gkb",
+      "product_descriptions": [
+        "Suitable Connection",
+        "Made With High Quality Material",
+        "Comfortable With Evey Hand Size",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_rogstrix_gkb",
+      "product_descriptions": [
+        "Suitable Connection",
+        "Made With High Quality Material",
+        "Comfortable With Evey Hand Size",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_membrane_gkb",
+      "product_descriptions": [
+        "Suitable Connection",
+        "Made With High Quality Material",
+        "Comfortable With Evey Hand Size",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_mouse",
+      "product_descriptions": [
+        "Suitable Connection",
+        "Made With High Quality Material",
+        "Comfortable With Evey Hand Size",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_charger",
+      "product_descriptions": [
+        "Energy-saving With International Certificate",
+        "Quick Charge With Safety",
+        "Comfortable With Many Devices",
+        "Easy To Bring Along"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_wifirouterRtax3000",
+      "product_descriptions": [
+        "High Quality Connection",
+        "Suitable For Up To 20 Devices",
+        "Made With High Quality Material",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "asus_wifirouterRtAc68U",
+      "product_descriptions": [
+        "High Quality Connection",
+        "Suitable For Up To 20 Devices",
+        "Made With High Quality Material",
+        "Energy-saving With International Certificate"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_envy13i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_envy17i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_pavilion15i7",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_pavilion15i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_pavilion14i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_probooki15i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_probook14i5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_laptop_probook15Ryzen5",
+      "product_descriptions": [
+        "High Performance Chip Processores",
+        "Modern Graphic Card Included",
+        "Flash SSD Storage",
+        "Up to 5.5 hours of usage",
+        "Modern Design With Well-made Cover"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_monitor24mhFHD23",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_monitorm27haFHD27",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_monitorM24fwa23",
+      "product_descriptions": [
+        "Easy To Set-up",
+        "Energy-saving With International Certificate",
+        "Suitable With Every PC",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_speaker_mini",
+      "product_descriptions": [
+        "Easy To Bring Out",
+        "Enjoy Loud & High Quality Sounds Everywhere",
+        "Suitable Connection With Multi-devices",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_headphone_gaming",
+      "product_descriptions": [
+        "Easy To Bring Out",
+        "Enjoy Loud & High Quality Sounds Everywhere",
+        "Suitable Connection With Multi-devices",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_dockaudiomodule",
+      "product_descriptions": [
+        "Energy-saving With International Certificate",
+        "Quick Charge With Safety",
+        "Comfortable With Many Devices",
+        "Easy To Bring Along"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_kbgaming",
+      "product_descriptions": [
+        "Easy To Bring Out",
+        "Enjoy Loud & High Quality Sounds Everywhere",
+        "Suitable Connection With Multi-devices",
+        "Made With High Quality Material"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_printer_envy6255",
+      "product_descriptions": [
+        "Easy To Connect",
+        "High Speed Printing",
+        "3 Modes Of Printing",
+        "Able To Connect With Multi-devices"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_printer_envypro6475",
+      "product_descriptions": [
+        "Easy To Connect",
+        "High Speed Printing",
+        "3 Modes Of Printing",
+        "Able To Connect With Multi-devices"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_printer_officejet9015e",
+      "product_descriptions": [
+        "Easy To Connect",
+        "High Speed Printing",
+        "3 Modes Of Printing",
+        "Able To Connect With Multi-devices"
+      ]
+    },
+    {
+      "id": 0,
+      "product_id": "hp_printer_officejetPro",
+      "product_descriptions": [
+        "Easy To Connect",
+        "High Speed Printing",
+        "3 Modes Of Printing",
+        "Able To Connect With Multi-devices"
+      ]
+    }
+  ]
+}
