@@ -188,7 +188,7 @@ setTimeout(() => {
             }
         })
     });
-}, 1000)
+}, 2000)
 
 // render products on laptop & pc
 Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
