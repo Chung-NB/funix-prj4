@@ -27,6 +27,7 @@ body {
 /* header css */
 header {
     width: 100%;
+    /* position: relative; */
 }
 
 /* .introduction css */
@@ -310,8 +311,7 @@ header .nav__mobile {
     display: none;
 }
 
-/* section */
-/* section breadcrumbs */
+/* section breadcrumb */
 section .section__breadcrumbs {
     width: 100%;
     height: 85px;
@@ -332,7 +332,7 @@ section .section__breadcrumbs > div p {
     line-height: 35px;
 }
 
-section .section__breadcrumbs > div .category-breadcrumb {
+section .section__breadcrumbs > div .cat {
     padding: 0 15px;
     background-color: var(--color-2);
     border-radius: 5px;
@@ -342,173 +342,718 @@ section .section__breadcrumbs > div .cat:hover {
     cursor: pointer;
 }
 
-/* section section__product */
-section .section__product {
+/* section master */
+section .section__master {
     width: 1430px;
+    /* height: 500px; */
     margin: 0 auto;
-    height: 300px;
     display: flex;
-    justify-content: center;
 }
 
-/* sectino section__product product */
-section .section__product .product {
-    width: 33.3%;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* section section__master--1 */
+section .section__master .section__master--1 {
+    width: 365px;
 }
 
-section .section__product .product img {
-    width: 170px;
-    height: 170px;
-    margin-bottom: 10px;
+/* nav .all */
+.hideAllCategory {
+    opacity: 0;
+    height: 0;
 }
 
-section .section__product .product .name {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--color-5);
-    margin-bottom: 10px;
+.blockAllCategory {
+    opacity: 1;
+    height: 260px;
 }
 
-section .section__product .product .saleprice {
-    font-size: 1.5rem;
-    color: Var(--color-6);
-    margin-bottom: 10px;
-}
-
-section .section__product .product .fa-star {
-    color: Var(--color-4);
-    margin-left: -3px;
-}
-
-section .section__product .product .fa-star:first-child {
-    margin: 0;
-}
-
-/* section section__product product--2 */
-section .section__product .product {
-    width: 33.3%;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-section .section__product .product--2 {
-    border-left: 2px solid var(--color-2);
-    border-right: 2px solid var(--color-2);
-}
-
-section .section__product .product p {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 1rem;
-    color: var(--color-3);
-}
-
-section .section__product .product .inputValue {
-    width: 230px;
-    height: 40px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-    outline: none;
-    border: 2px solid var(--color-3);
-    border-radius: 10px;
-}
-
-section .section__product .product .showAddProduct {
+section .section__master .section__master--1 .section--1__nav {
     width: 100%;
-    height: 180px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 10px;
-    border: 2px solid var(--color-2);
-    border-radius: 10px;
+    padding: 15px;
+    padding-top: 0;
     background-color: var(--color-1);
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: center;
+    border: 2px solid rgba(51, 62, 72, 0.2);
+    border-radius: 10px;
 }
 
-section .section__product .product .showAddProduct > div {
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-section .section__product .product .showAddProduct > div:hover {
+section .section__master .section__master--1 .section--1__nav:hover {
     cursor: pointer;
 }
 
-section .section__product .product .showAddProduct > div p {
+section .section__master .section__master--1 .section--1__nav .all li {
+    list-style-type: none;
+}
+
+section .section__master .section__master--1 .section--1__nav .all > li > p {
+    line-height: 50px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(51, 62, 72, 0.2);
+    margin-bottom: 15px;
+}
+
+section .section__master .section__master--1 .section--1__nav .all > li .fa-chevron-down,
+section .section__master .section__master--1 .section--1__nav .all > li .fa-chevron-up {
+    color: var(--color-3);
+    margin-left: 10px;
+}
+
+section .section__master .section__master--1 .section--1__nav .all > li > ul {
+    transition: opacity 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+
+section .section__master .section__master--1 .section--1__nav .all > li > ul li {
+    line-height: 40px;
+    border-bottom: 1px solid rgba(51, 62, 72, 0.2);
+}
+
+section .section__master .section__master--1 .section--1__nav .all > li > ul a {
+    color: var(--color-3);
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 40px;
+}
+
+section .section__master .section__master--1 .section--1__nav .all > li > ul a:hover {
+    text-decoration: underline;
+}
+
+/* nav .categoryList */
+section .section__master .section__master--1 .section--1__nav .categoryListTitle {
+    font-size: 1rem;
+    color: var(--color-3);
+    line-height: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(51, 62, 72, 0.2);
+}
+
+section .section__master .section__master--1 .section--1__nav .categoryList > li {
+    list-style-type: none;
+}
+
+section .section__master .section__master--1 .section--1__nav .categoryList > li a {
+    color: var(--color-3);
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 40px;
+}
+
+section .section__master .section__master--1 .section--1__nav .categoryList > li a:hover {
+    text-decoration: underline;
+}
+
+/* section side banner */
+section .section__master .section__master--1 .section--1__banner {
+    width: 100%;
+    height: 315px;
+    margin-top: 30px;
+    background-image: url(../../assets/images/products/banner/product-detail-side-banner.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+section .section__master .section__master--1 .banner-2 {
+    background-image: url(../../assets/images/products/banner/footer-widget-img-01.jpg);
+}
+
+/* section section__master--2 */
+section .section__master .section__master--2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+}
+
+section .section__master .section__master--2 .master-1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+section .section__master .section__master--2 .master-1 .section--2__saleoff {
+    font-size: 1rem;
+    color: var(--color-1);
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: var(--color-6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section .section__master .section__master--2 .section--2__img {
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+    margin-right: 100px;
+    background-size: cover;
+}
+
+/* section section__master--2 master-1 information title */
+section .section__master .section__master--2 .section--2__information {
+    color: var(--color-3);
+    width: 550px;
+}
+
+section .section__master .section__master--2 .section--2__information .information--title {
+    border-bottom: 1px solid rgba(51, 62, 72, 0.1);
+}
+
+section .section__master .section__master--2 .section--2__information .information--brandName {
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+section .section__master .section__master--2 .section--2__information .information--productName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--color-5);
+}
+
+section .section__master .section__master--2 .section--2__information .information--productVote {
+    margin-bottom: 20px;
+}
+
+section .section__master .section__master--2 .section--2__information .fa-star {
+    display: inline-block;
+    color: var(--color-4);
+    margin-left: -4px;
+}
+
+section .section__master .section__master--2 .section--2__information .vote-text {
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+section .section__master .section__master--2 .section--2__information .information--productQuantity {
+    margin-bottom: 25px;
+}
+
+section .section__master .section__master--2 .section--2__information span {
+    color: var(--color-5);
+    font-weight: bold;
+}
+
+/* section  section__master--2 master-1 information compare */
+section .section__master .section__master--2 .information--compare {
+    display: flex;
+    margin: 25px 0;
+}
+
+section .section__master .section__master--2 .information--compare a {
+    text-decoration: none;
+    color: Var(--color-3);
+}
+
+section .section__master .section__master--2 .information--compare a:first-child {
+    margin-right: 15px;
+}
+
+section .section__master .section__master--2 .information--compare a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* section  section__master--2 master-1 information descriptions */
+section .section__master .section__master--2 .information--descriptions {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+section .section__master .section__master--2 .information--descriptions li {
+    line-height: 23px;
+}
+
+section .section__master .section__master--2 .information--download {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--color-3);
+    padding: 8px 10px;
+    background-color: var(--color-2);
+    border-radius: 6px;
+}
+
+section .section__master .section__master--2 .information--download:hover {
+    background-color: var(--color-5);
+    color: var(--color-2);
+}
+
+section .section__master .section__master--2 .information--download:active {
+    background-color: var(--color-6);
+    color: var(--color-2);
+}
+
+/* section  section__master--2 master-1 information prices */
+section .section__master .section__master--2 .information--price {
+    display: flex;
+    margin-top: 50px;
+}
+
+section .section__master .section__master--2 .information--price .product__salePrice {
+    font-size: 2rem;
+    color: var(--color-6);
+    margin-right: 10px;
+}
+
+section .section__master .section__master--2 .information--price .product__price {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+/* section  section__master--2 master-1 information add to cart */
+section .section__master .section__master--2 .information--addToCart {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+section .section__master .section__master--2 .information--addToCart .cart__number {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    position: relative;
+}
+
+section .section__master .section__master--2 .information--addToCart .cart__number input {
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    outline: none;
+    padding-left: 20px;
+    border: 1px solid rgba(51, 62, 72, 0.3);
+    border-radius: 25px;
+}
+
+section .section__master .section__master--2 .information--addToCart .cart__number .button {
+    height: 40px;
+    margin-right: 10px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+section .section__master .section__master--2 .information--addToCart .cart__number .button .cart--button {
+    height: 16px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+    color: var(--color-03);
+    border: 1px solid var(--color-2);
+}
+
+section .section__master .section__master--2 .information--addToCart .cart__number .button .cart__button--up {
+    margin-bottom: 2px;
+}
+
+section .section__master .section__master--2 .information--addToCart .cart__number .button .cart--button:hover {
+    background-color: var(--color-3);
+    color: var(--color-1);
+    cursor: pointer;
+}
+
+section .section__master .section__master--2 .cart__button--add {
+    width: 200px;
+    height: 55px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+}
+
+section .section__master .section__master--2 .cart__button--add .fa-cart-plus {
+    margin-right: 10px;
+}
+
+section .section__master .section__master--2 .cart__button--add:hover {
+    background-color: var(--color-3);
+}
+
+/* section  section__master--2 master-1 reviews */
+section .section__master .section__master--2 .master-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 1110px;
+}
+
+section .section__master .section__master--2 .title p:hover {
+    cursor: pointer;
+}
+
+section .section__master .section__master--2 .master-2 .title {
+    width: 100%;
+    height: 50px;
+    color: var(--color-3);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+section .section__master .section__master--2 .master-2 .title > p {
+    font-size: 1.5rem;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+section .section__master .section__master--2 .master-2 .title > p:first-child {
+    margin-right: 50px;
+    border-bottom: 3px solid var(--color-4);
+}
+
+section .section__master .section__master--2 .master-2 .content {
+    width: 100%;
+    padding: 30px;   
+    border: 2px solid rgba(51, 62, 72, 0.2);
+    border-radius: 15px;
+}
+
+section .section__master .section__master--2 .master-2 .content .specs > p {
+    font-size: 1.5rem;
+    color: var(--color-3);
+    line-height: 50px;
+}
+
+section .section__master .section__master--2 .master-2 .content .specs ul li {
+    list-style-type: none;
+    border-bottom: 1px solid rgba(51, 62, 72, 0.2);
+    line-height: 45px;
+    padding-left: 30px;
+}
+
+section .section__master .section__master--2 .master-2 .content .specs ul li > span {
     display: inline-block;
     width: 250px;
 }
 
-section .section__product .product .showAddProduct > div img {
-    height: 45px;
-    width: 45px;
+/* section  section__master--2 master-2 comments */
+section .section__master .section__master--2 .master-2 .comments {
+    flex-direction: column;
+    color: var(--color-3);
 }
 
-section .section__product .product .showAddProduct > div span {
-    display: none;
+section .section__master .section__master--2 .master-2 .comments .comment-1 {
+    width: 100%;
+    display: flex;
 }
 
-/* section section__title */
-section .section__title {
-    width: 1430px;
-    height: 40px;
+section .section__master .section__master--2 .master-2 .comments .rating {
+    width: 45%;
+}
+
+section .section__master .section__master--2 .master-2 .comments .rating > p {
+    font-size: 1.5rem;
+}
+
+section .section__master .section__master--2 .master-2 .comments .rating > p:nth-child(2) {
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .rating span {
+    font-size: 1rem;
+}
+
+section .section__master .section__master--2 .master-2 .comments .rating .star {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .rating .star .fa-star {
+    margin-left: -2px;
+    color: var(--color-4);
+}
+
+section .section__master .section__master--2 .master-2 .comments .rating .star .fa-star:first-child {
+    margin: 0;
+}
+
+section .section__master .section__master--2 .master-2 .comments .rating .star .percent-full {
+    width: 200px;
+    height: 10px;
+    background-color: var(--color-4);
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .rating .star .percent-none {
+    width: 200px;
+    height: 10px;
+    border: 1px solid var(--color-2);
     background-color: var(--color-2);
-    margin: 0 auto;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
 }
 
-section .section__title p {
-    font-size: 1.2rem;
+section .section__master .section__master--2 .master-2 .comments .rating .form {
+    display: flex;
+}
+
+section .section__master .section__master--2 .master-2 .comments .form > p {
+    font-size: 1.5rem;
+    color: var(--color-3);
+    margin-bottom: 30px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .form > div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .form > div p:first-child {
+    display: inline-block;
+    width: 150px;
+    font-size: 1rem;
+    color: var(--color-3);
+    font-weight: bold;
+}
+
+section .section__master .section__master--2 .master-2 .comments .form > div .fa-star {
+    color: var(--color-4)
+}
+
+section .section__master .section__master--2 .master-2 .comments .form > div textarea {
+    height: 60px;
+    width: 350px;
+    outline: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    resize: none;
+    border: 1px solid rgba(51, 62, 72, 0.2);
+    border-radius: 35px;
+
+}
+
+section .section__master .section__master--2 .master-2 .comments .form > div input[type="text"] {
+    height: 40px;
+    width: 350px;
+    outline: none;
+    padding-left: 20px;
+    border: 1px solid rgba(51, 62, 72, 0.2);
+    border-radius: 25px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .form .saveName {
+    height: 30px;
+    width: 500px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+section .section__master .section__master--2 .master-2 .comments .form .saveName p {
+    line-height: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .form .saveName input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .form button {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px 30px;
+    color: var(--color-3);
+    background-color: var(--color-2);
+    border: 1px solid var(--color-2);
+    border-radius: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+section .section__master .section__master--2 .master-2 .comments .form button:hover {
+    cursor: pointer;
+    color: var(--color-1);
+    background-color: var(--color-3);
+    border: 1px solid var(--color-3);
+}
+
+/* section section__master--2 master-2 comment-2 */
+section .section__master .section__master--2 .master-2 .comments .comment-2 {
+    margin-top: 50px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .comment-2 .review {
+    border-bottom: 1px solid rgba(51, 62, 72, 0.2);
+    margin-bottom: 30px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .comment-2 .fa-star {
+    color: var(--color-4);
+    margin-left: -4px;
+    margin-bottom: 15px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .comment-2 .fa-star:first-child {
+    margin-left: 0;
+}
+
+section .section__master .section__master--2 .master-2 .comments .comment-2 p:nth-child(2) {
+    font-size: 1rem;
+    color: var(--color-3);
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+section .section__master .section__master--2 .master-2 .comments .comment-2 p:nth-child(3) {
+    font-size: 1rem;
     font-weight: bold;
     color: var(--color-3);
-    line-height: 40px;
-    padding-left: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
-/* section section__specs */
-section .section__specs {
-    width: 1430px;
-    margin: 0 auto;
+section .section__master .section__master--2 .master-2 .comments .comment-2 span {
+    font-size: 0.9rem;
+    color: rgba(51, 62, 72, 0.6);
+}
+
+/* related products */
+/* section .section__master--2 .master-3 {
+    display: none;
+    width: 1110px;
+    margin-top: 50px;
+    color: var(--color-3);
+}
+
+section .section__master--2 .master-3 .catch-block {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section__master--2 .master-3 .catch-block .catch-spinner {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section .section__master--2 .master-3 .title {
+    width: 100%;
+    height: 60px;
+    color: var(--color-3);
+    border-bottom: 2px solid rgba(51, 62, 72, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+section .section__master--2 .master-3 .title .title-highlight {
+    height: 3px;
+    width: 200px;
+    background-color: var(--color-4);
+    position: absolute;
+    top: 57px;
+    left: 0;
+}
+
+section .section__master--2 .master-3 .title p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section .section__master--2 .master-3 .item {
+    padding: 0 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+section .section__master--2 .master-3 .item:hover {
+    cursor: pointer;
+}
+
+section .section__master--2 .master-3 .item > p:nth-child(1) {
+    font-size: 0.9rem;
+    color: var(--color-3);
+    padding-left: 15px;
+}
+
+section .section__master--2 .master-3 .item > p:nth-child(2) {
+    font-size: 1rem;
+    line-height: 19px;
+    font-weight: bold;
+    color: var(--color-5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+section .section__master--2 .master-3 .item > img {
+    padding: 0 35px 10px;
+    border-right: 2px solid rgba(51, 62, 72, 0.1);
+}
+
+section .section__master--2 .master-3 .item > p:nth-child(4) {
+    font-size: 1.5rem;
+    color: var(--color-6);
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+section .section__master--2 .master-3 .item > p:nth-child(5) {
+    font-size: 1rem;
+    color: var(--color-3);
+    padding-left: 15px;
+    text-decoration: line-through;
+}
+
+section .section__master--2 .master-3 .item .fa-cart-plus {
+    width: 40px;
+    height: 40px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border-radius: 50%;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
-    /* background-color: dodgerblue; */
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 253px;
 }
 
-section .section__specs > div {
-    width: 33.3%;
-    padding: 15px 30px;
+section .section__master--2 .master-3 .item .fa-cart-plus:hover {
+    cursor: pointer;
+    background-color: var(--color-4);
 }
 
-section .section__specs > div:nth-child(2) {
-    border-right: 2px solid var(--color-2);
-    border-left: 2px solid var(--color-2);
-}
-
-section .section__specs > div p {
+section .section__master--2 .master-3 .item .wishlist-compare {
+    width: 100%;
     font-size: 1rem;
-    color: var(--color-5);
-    line-height: 40px;
+    color: var(--color-3);
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgba(51, 62, 72, 0.1);
 }
 
-section .section__specs > div span {
-    font-weight: bold;
-    display: inline-block;
-    width: 170px;
-    color: var(--color-3);
-}
+section .section__master--2 .master-3 .item .wishlist-compare .icon:hover {
+    opacity: 0.8;
+} */
 
 /* footer */
 footer {
@@ -877,7 +1422,23 @@ footer .footer__mobile--2 {
     display: none;
 }
 
-/* mobile responsive */
+/* hide and show specs, review */
+section .section__master--2 .specsShow {
+    display: block;
+}
+
+section .section__master--2 .specsHide {
+    display: none;
+}
+
+section .section__master--2 .commentsShow {
+    display: flex;
+}
+
+section .section__master--2 .commentsHide {
+    display: none;
+}
+
 @media all and (max-width: 739px) {
     html {
         font-size: 16px;
@@ -886,7 +1447,8 @@ footer .footer__mobile--2 {
     .block {
         display: block;
     }
-
+    
+    flex-direction: column;
     .flex {
         display: flex;
     }
@@ -959,12 +1521,10 @@ footer .footer__mobile--2 {
     }
 
     .search-hidden {
-        display: none;
         opacity: 0;
     }
 
     .search-appear {
-        display: block;
         opacity: 1;
     }
 
@@ -1071,106 +1631,170 @@ footer .footer__mobile--2 {
     header .nav__desktop .desktop__subnav {
        display: none;
     }
-
-    /* section */
-    /* section breadcrumbs */
-    section .section__breadcrumbs {
-        padding: 25px 15px;
-    }
-
+    
+   /* section breadcrumb */
     section .section__breadcrumbs > div {
         width: 100%;
+        height: 35px;
+        justify-content: center;
+        align-items: center;
     }
 
-    /* section section__product */
-    section .section__product {
+    section .section__breadcrumbs .product-breadcrumb,
+    section .section__breadcrumbs > div p:nth-child(6) {
+        display: none;
+    }
+
+    section .section__breadcrumbs > div p {
+        margin-right: 10px;
+        line-height: 35px;
+    }
+
+    section .section__breadcrumbs > div .cat,
+    section .section__breadcrumbs > div p:nth-child(1) {
+        padding: 0 10px;
+        background-color: var(--color-2);
+        border-radius: 5px;
+    }
+
+    /* section master */
+    section .section__master {
         width: 100%;
-        padding: 0 15px;
-        display: flex;
-        justify-content: flex-start;
+    }
+
+    /* section master 1 */
+    section .section__master .section__master--1 {
+        display: none;
+    }
+
+    /* section master 2 */
+    section .section__master .section__master--2 {
+        width: 100%;
+        /* height: 990px; */
         flex-direction: column;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
+        margin: 0;
+        padding: 0;
+        padding: 0 20px;
     }
-    
-    section .section__product .product {
+
+    section .section__master .section__master--2 .master-1 {
         width: 100%;
-        padding: 15px;
-        scroll-snap-align: center;
-        scroll-snap-stop: always;
+        /* height: 990px; */
+        display: flex;
+        flex-direction: column;
     }
 
-    section .section__product .product:nth-child(2) {
-        border: none;
-    }
-
-    section .section__product .product img {
-        width: 120px;
-        height: 120px;
-        margin-bottom: 10px;
-    }
-
-    section .section__product .product .name {
-        font-size: 0.9rem;
-        font-weight: bold;
-        color: var(--color-5);
-        margin-bottom: 10px;
-    }
-
-    section .section__product .product .saleprice {
-        font-size: 1.2rem;
-    }
-
-    section .section__product .product .fa-star {
-        font-size: 0.9rem;
-    }
-
-    /* section section__product product--2, product--3 */
-    section .section__product .product p {
-        font-size: 0.9rem;
-    }
-
-    section .section__product .product .inputValue {
-        width: 100%;
-        height: 40px;
-        padding-left: 10px;
-        margin-bottom: 10px;
-        outline: none;
-        border: 2px solid var(--color-3);
-        border-radius: 10px;
-    }
-
-    section .section__product .product .showAddProduct > div p {
-        display: inline-block;
-        width: 230px;
-        line-height: 22px;
-    }
-
-    /* section section__title */
-    section .section__title {
-        width: 100%;
-    }
-
-    /* section section__specs */
-    section .section__specs {
-        width: 100%;
-        justify-content: flex-start;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        font-size: 0.9rem;
-    }
-
-    section .section__specs .specs {
+    section .section__master .section__master--2 .section--2__img {
         width: 300px;
-        padding: 15px 30px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+        background-size: cover;
     }
 
-    section .section__specs > div p {
-        font-size: 0.9rem;
-        line-height: 30px;
+    /* section master 2 */
+    section .section__master .section__master--2 .section--2__information {
+        width: 100%;
     }
 
-    /* footer partners */
+    /* section master 2 information title */
+    section .section__master .section__master--2 .section--2__information .information--title {
+        width: 100%;
+    }
+
+    section .section__master .section__master--2 .section--2__information .information--brandName {
+        font-size: 1rem;
+    }
+
+    section .section__master .section__master--2 .section--2__information .information--productName {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: var(--color-5);
+    }
+
+    /* section master__master--2 master-2 (specs & reviews) */    
+    section .section__master .section__master--2 .master-2 {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    section .section__master .section__master--2 .master-2 .title {
+        width: 100%;
+        height: 50px;
+        padding: 0 20px;
+    }
+
+    section .section__master .section__master--2 .master-2 .title > p {
+        padding: 0;
+    }
+
+    section .section__master .section__master--2 .master-2 .content .specs ul li {
+        padding-left: 5px;
+        padding-bottom: 10px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    section .section__master .section__master--2 .master-2 .content .specs ul li > span {
+        display: block;
+        font-weight: bold;
+    }
+
+    /* section master-2 comments */
+    section .section__master .section__master--2 .master-2 .comments .comment-1 {
+        flex-direction: column;
+    }
+
+    section .section__master .section__master--2 .master-2 .comments .rating {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    section .section__master .section__master--2 .master-2 .comments .rating .star .percent-full,
+    section .section__master .section__master--2 .master-2 .comments .rating .star .percent-none {
+        width: 110px;
+    }
+
+    section .section__master .section__master--2 .master-2 .comments .form > div {
+        flex-direction: column;
+    }
+
+    section .section__master .section__master--2 .master-2 .comments .form > div p:first-child {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section .section__master .section__master--2 .master-2 .comments .form > div textarea,
+    section .section__master .section__master--2 .master-2 .comments .form > div input[type="text"] {
+        width: 100%;
+    }
+
+    section .section__master .section__master--2 .master-2 .comments .form .saveName {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 100%;
+    }
+
+    section .section__master .section__master--2 .master-2 .comments .form .saveName > p {
+        line-height: 22px;
+        display: block;
+        width: 90%;
+    }
+
+    section .section__master .section__master--2 .master-2 .comments .form .saveName input {
+        width: 60px;
+        height: 60px;
+    }
+
+    section .section__master .section__master--2 .master-2 .comments .comment-2 p:nth-child(2),
+    section .section__master .section__master--2 .master-2 .comments .comment-2 p:nth-child(3) {
+        line-height: 25px;
+    }
+
+    /* section partners */
     footer .section__partners {
         width: 100%;
         height: 300px;

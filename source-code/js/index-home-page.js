@@ -297,7 +297,7 @@ setTimeout(() => {
             }
         })
     });
-}, 1000)
+}, 2000)
 
 // render products on mobiles & tablets
 Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
@@ -405,7 +405,7 @@ setTimeout(() => {
             }
         })
     });
-}, 1000)
+}, 2000)
 
 // render products on display & audio
 Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
@@ -513,7 +513,7 @@ setTimeout(() => {
             }
         })
     });
-}, 1000)
+}, 2000)
 
 // render products on accessories
 Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
@@ -621,7 +621,7 @@ setTimeout(() => {
             }
         })
     });
-}, 1000)
+}, 2000)
 
 // render products on others
 Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
@@ -726,7 +726,7 @@ setTimeout(() => {
             }
         })
     });
-}, 1000)
+}, 2000)
 
 // verify signup email
 let emailSignUpButton = document.querySelector('section .section__signupForm .submit button');
