@@ -1,5 +1,4 @@
 /* CSS trang chủ */
-
 /* mobile responsive */
 @media all and (max-width: 739px) {
     html {
@@ -696,9 +695,4 @@
         font-size: 1.1rem;
         font-weight: bold;
     }
-}
-
-/* tablet responsive */
-@media all and (min-width: 740px) and (max-width: 1024px) {
-
 }

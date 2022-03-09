@@ -16,6 +16,10 @@ $(document).ready(function() {
                 items:2.5,
                 nav:false
             },
+            740:{
+                items: 4.5,
+                nav:false
+            },
             1024:{
                 items:8,
                 nav:true
@@ -180,7 +184,11 @@ setTimeout(() => {
                     nav:false,
                     dots: true
                 },
-                1024:{
+                740:{
+                    items: 3.5,
+                    nav:false
+                },
+                1025:{
                     items:6.5,
                     nav:false,
                     dots: true
@@ -289,7 +297,11 @@ setTimeout(() => {
                     nav:false,
                     dots: true
                 },
-                1024:{
+                740:{
+                    items: 3.5,
+                    nav:false
+                },
+                1025:{
                     items:6.5,
                     nav:false,
                     dots: true
@@ -397,7 +409,11 @@ setTimeout(() => {
                     nav:false,
                     dots: true
                 },
-                1024:{
+                740:{
+                    items: 3.5,
+                    nav:false
+                },
+                1025:{
                     items:6.5,
                     nav:false,
                     dots: true
@@ -492,7 +508,7 @@ function getDisplayaudioProductsList(displayaudioValueInit, categories, brands, 
     })
 }
 
-// mobiles & tablets carousel
+// display & audio carousel
 setTimeout(() => {
     $(document).ready(function() {
         $('.section__displayaudio--block .owl-carousel').owlCarousel({
@@ -505,7 +521,11 @@ setTimeout(() => {
                     nav:false,
                     dots: true
                 },
-                1024:{
+                740:{
+                    items: 3.5,
+                    nav:false
+                },
+                1025:{
                     items:6.5,
                     nav:false,
                     dots: true
@@ -600,7 +620,7 @@ function getAccessoriesProductsList(accessoriesValueInit, categories, brands, pr
     })
 }
 
-// mobiles & tablets carousel
+// accessories carousel
 setTimeout(() => {
     $(document).ready(function() {
         $('.section__accessories--block .owl-carousel').owlCarousel({
@@ -613,7 +633,11 @@ setTimeout(() => {
                     nav:false,
                     dots: true
                 },
-                1024:{
+                740:{
+                    items: 3.5,
+                    nav:false
+                },
+                1025:{
                     items:6.5,
                     nav:false,
                     dots: true
@@ -718,7 +742,7 @@ setTimeout(() => {
                     nav:false,
                     dots: true
                 },
-                1024:{
+                1025:{
                     items:6.5,
                     nav:false,
                     dots: true
