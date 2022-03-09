@@ -107,7 +107,7 @@ Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
             return `
                 <div class="item product__carousel">
                         <p class="cat">${value.category_name} - ${value.brand_name}</p>
-                        <a href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
+                        <a href="./source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
                             target="_blank" class="name">
                                 ${value.product_name}
                         </a>
@@ -212,7 +212,7 @@ Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
             return `
                 <div class="item product__carousel">
                     <p class="cat">${value.category_name} - ${value.brand_name}</p>
-                    <a href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
+                    <a href="./source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
                         target="_blank" class="name">
                             ${value.product_name}
                     </a>
@@ -320,7 +320,7 @@ Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
             return `
                 <div class="item product__carousel">
                     <p class="cat">${value.category_name} - ${value.brand_name}</p>
-                    <a href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
+                    <a href="./source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
                         target="_blank" class="name">
                             ${value.product_name}
                     </a>
@@ -428,7 +428,7 @@ Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
             return `
                 <div class="item product__carousel">
                     <p class="cat">${value.category_name} - ${value.brand_name}</p>
-                    <a href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
+                    <a href="./source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
                         target="_blank" class="name">
                             ${value.product_name}
                     </a>
@@ -536,7 +536,7 @@ Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
             return `
                 <div class="item product__carousel">
                     <p class="cat">${value.category_name} - ${value.brand_name}</p>
-                    <a href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
+                    <a href="./source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
                         target="_blank" class="name">
                             ${value.product_name}
                     </a>
@@ -645,7 +645,7 @@ Promise.all([categoriesApi, brandsApi, productsSpecsApi, productsImagesApi])
             return `
                 <div class="item product__carousel">
                     <p class="cat">${value.category_name} - ${value.brand_name}</p>
-                    <a href="http://127.0.0.1:5500/source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
+                    <a href="./source-code/html/product-detail.html?c=&b=&p=${value.product_id}" 
                         target="_blank" class="name">
                             ${value.product_name}
                     </a>
