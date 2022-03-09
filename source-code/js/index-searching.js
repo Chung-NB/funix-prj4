@@ -82,13 +82,13 @@ allCategoryButton.addEventListener('click', (e) => {
 })
 
 // call api
-let categoriesApi = fetch('http://localhost:3000/categories')
+let categoriesApi = fetch('https://622811389fd6174ca81a26c5.mockapi.io/categories')
     .then(response => response.json());
-let brandsApi = fetch('http://localhost:3000/brands')
+let brandsApi = fetch('https://622811389fd6174ca81a26c5.mockapi.io/brands')
     .then(response => response.json());
-let productsSpecsApi = fetch('http://localhost:3000/product_specifications')
+let productsSpecsApi = fetch('https://622811389fd6174ca81a26c5.mockapi.io/product_specifications')
     .then(response => response.json());
-let productsDescriptionsApi = fetch('http://localhost:3000/product_descriptions')
+let productsDescriptionsApi = fetch('https://622811389fd6174ca81a26c5.mockapi.io/product_descriptions')
     .then(response => response.json());
 
 // render searching keyword on breadcrumbs

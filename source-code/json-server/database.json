@@ -1,7 +1,7 @@
 {
   "user_details": [
     {
-      "id": 0,
+      "id": "0",
       "user_id": "user001",
       "user_name": "Bảo Chung",
       "user_email": "chungfunix@gmail.com",
@@ -11,7 +11,7 @@
       "user_address": "Vincom Nguyen Chi Thanh, Dong Da, Ha Noi"
     },
     {
-      "id": 0,
+      "id": "0",
       "user_id": "user002",
       "user_name": "Thành Đạt",
       "user_email": "datfunix@gmail.com",
@@ -21,7 +21,7 @@
       "user_address": "Ngo 16 Hoang Cau, Dong Da, Ha Noi"
     },
     {
-      "id": 0,
+      "id": "0",
       "user_id": "user003",
       "user_name": "Bảo Minh",
       "user_email": "minhfunix@gmail.com",
@@ -31,7 +31,7 @@
       "user_address": "91 Chua Lang, Dong Da, Ha Noi"
     },
     {
-      "id": 0,
+      "id": "0",
       "user_id": "user004",
       "user_name": "Minh Nhật",
       "user_email": "nhatfunix@gmail.com",
@@ -41,7 +41,7 @@
       "user_address": "Detech Tower, Ton That Thuyet, My Dinh, Ha Noi"
     },
     {
-      "id": 0,
+      "id": "0",
       "user_id": "user005",
       "user_name": "Ngân Hà",
       "user_email": "nganfunix@gmail.com",
@@ -51,7 +51,7 @@
       "user_address": "Detech building, Nguyen Phong Sac, Dong Da, Ha Noi"
     },
     {
-      "id": 0,
+      "id": "0",
       "user_id": "user006",
       "user_name": "Bảo Khánh",
       "user_email": "khanhfunix@gmail.com",
@@ -63,7 +63,7 @@
   ],
   "categories": [
     {
-      "id": 0,
+      "id": "0",
       "cat_id": "laptoppc",
       "cat_name": "Laptop & PC",
       "cat_list": [
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "cat_id": "mobilestablets",
       "cat_name": "Mobiles & Tablets",
       "cat_list": [
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "cat_id": "displayaudio",
       "cat_name": "Display & Audio",
       "cat_list": [
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "cat_id": "camera",
       "cat_name": "Camera",
       "cat_list": [
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "cat_id": "accessories",
       "cat_name": "Accessories",
       "cat_list": [
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "cat_id": "others",
       "cat_name": "Others",
       "cat_list": [
@@ -136,39 +136,39 @@
   ],
   "brands": [
     {
-      "id": 0,
+      "id": "0",
       "brand_id": "apple",
       "brand_name": "Apple"
     },
     {
-      "id": 0,
+      "id": "0",
       "brand_id": "samsung",
       "brand_name": "Samsung"
     },
     {
-      "id": 0,
+      "id": "0",
       "brand_id": "lg",
       "brand_name": "LG"
     },
     {
-      "id": 0,
+      "id": "0",
       "brand_id": "dell",
       "brand_name": "Dell"
     },
     {
-      "id": 0,
+      "id": "0",
       "brand_id": "asus",
       "brand_name": "Asus"
     },
     {
-      "id": 0,
+      "id": "0",
       "brand_id": "hp",
       "brand_name": "HP"
     }
   ],
   "product_specifications": [
     {
-      "id": 0,
+      "id": "0",
       "product_id": "macbookair13m1ram8rom256",
       "cat_id": "laptoppc",
       "brand_id": "apple",
@@ -185,7 +185,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "macbookair13m1ram8rom512",
       "cat_id": "laptoppc",
       "brand_id": "apple",
@@ -202,7 +202,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "macbookpro13m1ram8rom256",
       "cat_id": "laptoppc",
       "brand_id": "apple",
@@ -219,7 +219,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "macbookpro13m1ram8rom512",
       "cat_id": "laptoppc",
       "brand_id": "apple",
@@ -236,7 +236,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPhone13minirom128vna",
       "cat_id": "mobilestablets",
       "brand_id": "apple",
@@ -253,7 +253,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPhone13rom128vna",
       "cat_id": "mobilestablets",
       "brand_id": "apple",
@@ -270,7 +270,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPhone13prorom128vna",
       "cat_id": "mobilestablets",
       "brand_id": "apple",
@@ -287,7 +287,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPhone13promaxrom128vna",
       "cat_id": "mobilestablets",
       "brand_id": "apple",
@@ -304,7 +304,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPad1022021rom256vna",
       "cat_id": "mobilestablets",
       "brand_id": "apple",
@@ -321,7 +321,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPadair2020rom256vna",
       "cat_id": "mobilestablets",
       "brand_id": "apple",
@@ -338,7 +338,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPadprom12021rom256vna",
       "cat_id": "mobilestablets",
       "brand_id": "apple",
@@ -355,7 +355,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPadprom12021rom512vna",
       "cat_id": "mobilestablets",
       "brand_id": "apple",
@@ -372,7 +372,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "airpods2vna",
       "cat_id": "displayaudio",
       "brand_id": "apple",
@@ -389,7 +389,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "airpodsprovna",
       "cat_id": "displayaudio",
       "brand_id": "apple",
@@ -406,7 +406,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "applepencil1vna",
       "cat_id": "accessories",
       "brand_id": "apple",
@@ -423,7 +423,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "applepencil2vna",
       "cat_id": "accessories",
       "brand_id": "apple",
@@ -440,7 +440,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "appleiPadair2020case",
       "cat_id": "accessories",
       "brand_id": "apple",
@@ -457,7 +457,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "appleiPadprom12021case",
       "cat_id": "accessories",
       "brand_id": "apple",
@@ -474,7 +474,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lightningcable20wtypec",
       "cat_id": "accessories",
       "brand_id": "apple",
@@ -491,7 +491,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxytaba7light",
       "cat_id": "mobilestablets",
       "brand_id": "samsung",
@@ -508,7 +508,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxytabs6light",
       "cat_id": "mobilestablets",
       "brand_id": "samsung",
@@ -525,7 +525,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxya71",
       "cat_id": "mobilestablets",
       "brand_id": "samsung",
@@ -542,7 +542,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxys21plus5g",
       "cat_id": "mobilestablets",
       "brand_id": "samsung",
@@ -559,7 +559,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxyzfold25g",
       "cat_id": "mobilestablets",
       "brand_id": "samsung",
@@ -576,7 +576,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxynote20ultra5g",
       "cat_id": "mobilestablets",
       "brand_id": "samsung",
@@ -593,7 +593,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungmonitor24ls24r350fhe",
       "cat_id": "displayaudio",
       "brand_id": "samsung",
@@ -610,7 +610,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungmonitor27ls27r350fhe",
       "cat_id": "displayaudio",
       "brand_id": "samsung",
@@ -627,7 +627,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungmonitor32ls32r350fhe",
       "cat_id": "displayaudio",
       "brand_id": "samsung",
@@ -644,7 +644,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungsmarttv43crystaluhd",
       "cat_id": "displayaudio",
       "brand_id": "samsung",
@@ -661,7 +661,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungsmarttv60crystaluhd",
       "cat_id": "displayaudio",
       "brand_id": "samsung",
@@ -678,7 +678,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungsmarttv65crystaluhd",
       "cat_id": "displayaudio",
       "brand_id": "samsung",
@@ -695,7 +695,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungsmarttv75crystaluhd",
       "cat_id": "displayaudio",
       "brand_id": "samsung",
@@ -712,7 +712,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxybudspro",
       "cat_id": "displayaudio",
       "brand_id": "samsung",
@@ -729,7 +729,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxybudslive",
       "cat_id": "displayaudio",
       "brand_id": "samsung",
@@ -746,7 +746,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungspenpro",
       "cat_id": "accessories",
       "brand_id": "samsung",
@@ -763,7 +763,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungwirelessquickcharge",
       "cat_id": "accessories",
       "brand_id": "samsung",
@@ -780,7 +780,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxybudscase",
       "cat_id": "accessories",
       "brand_id": "samsung",
@@ -797,7 +797,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202114i5",
       "cat_id": "laptoppc",
       "brand_id": "lg",
@@ -814,7 +814,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202116i5",
       "cat_id": "laptoppc",
       "brand_id": "lg",
@@ -831,7 +831,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202117i5",
       "cat_id": "laptoppc",
       "brand_id": "lg",
@@ -848,7 +848,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202114i7",
       "cat_id": "laptoppc",
       "brand_id": "lg",
@@ -865,7 +865,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202116i7",
       "cat_id": "laptoppc",
       "brand_id": "lg",
@@ -882,7 +882,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202117i7",
       "cat_id": "laptoppc",
       "brand_id": "lg",
@@ -899,7 +899,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgmonitor24ultragear",
       "cat_id": "displayaudio",
       "brand_id": "lg",
@@ -916,7 +916,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgmonitor27ultragear",
       "cat_id": "displayaudio",
       "brand_id": "lg",
@@ -933,7 +933,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgmonitor32ultragear",
       "cat_id": "displayaudio",
       "brand_id": "lg",
@@ -950,7 +950,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgbluetoothspeakerxboom360",
       "cat_id": "displayaudio",
       "brand_id": "lg",
@@ -967,7 +967,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgbluetoothspeakerxboomgo",
       "cat_id": "displayaudio",
       "brand_id": "lg",
@@ -984,7 +984,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgpuremaskpuricare2",
       "cat_id": "displayaudio",
       "brand_id": "lg",
@@ -1001,7 +1001,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_laptop_inspiron15i3",
       "cat_id": "laptoppc",
       "brand_id": "dell",
@@ -1018,7 +1018,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_laptop_inspiron15i5",
       "cat_id": "laptoppc",
       "brand_id": "dell",
@@ -1035,7 +1035,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_laptop_inspiron13i7",
       "cat_id": "laptoppc",
       "brand_id": "dell",
@@ -1052,7 +1052,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_laptop_lattitute15i5",
       "cat_id": "laptoppc",
       "brand_id": "dell",
@@ -1069,7 +1069,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_PC_inspiron3880i5",
       "cat_id": "laptoppc",
       "brand_id": "dell",
@@ -1086,7 +1086,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_PC_inspiron3000i3",
       "cat_id": "laptoppc",
       "brand_id": "dell",
@@ -1103,7 +1103,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_PC_Optiplex3020i5",
       "cat_id": "laptoppc",
       "brand_id": "dell",
@@ -1120,7 +1120,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_PC_Optiplex5000i7",
       "cat_id": "laptoppc",
       "brand_id": "dell",
@@ -1137,7 +1137,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ultrasharp274K",
       "cat_id": "displayaudio",
       "brand_id": "dell",
@@ -1154,7 +1154,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ultrasharp34",
       "cat_id": "displayaudio",
       "brand_id": "dell",
@@ -1171,7 +1171,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ultrasharp24",
       "cat_id": "displayaudio",
       "brand_id": "dell",
@@ -1188,7 +1188,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ultrasharp49",
       "cat_id": "displayaudio",
       "brand_id": "dell",
@@ -1205,7 +1205,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_soundbar",
       "cat_id": "displayaudio",
       "brand_id": "dell",
@@ -1222,7 +1222,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_zylus_speaker",
       "cat_id": "displayaudio",
       "brand_id": "dell",
@@ -1239,7 +1239,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_mouse1",
       "cat_id": "accessories",
       "brand_id": "dell",
@@ -1256,7 +1256,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_mouse2",
       "cat_id": "accessories",
       "brand_id": "dell",
@@ -1273,7 +1273,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_keyboard1",
       "cat_id": "accessories",
       "brand_id": "dell",
@@ -1290,7 +1290,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_keyboard2",
       "cat_id": "accessories",
       "brand_id": "dell",
@@ -1307,7 +1307,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_keyboard3",
       "cat_id": "accessories",
       "brand_id": "dell",
@@ -1324,7 +1324,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ACadapter65W",
       "cat_id": "accessories",
       "brand_id": "dell",
@@ -1341,7 +1341,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogphone5",
       "cat_id": "mobilestablets",
       "brand_id": "asus",
@@ -1358,7 +1358,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogphone5S",
       "cat_id": "mobilestablets",
       "brand_id": "asus",
@@ -1375,7 +1375,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_zenphoneflip",
       "cat_id": "mobilestablets",
       "brand_id": "asus",
@@ -1392,7 +1392,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_zenphone7",
       "cat_id": "mobilestablets",
       "brand_id": "asus",
@@ -1409,7 +1409,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_zenphone7pro",
       "cat_id": "mobilestablets",
       "brand_id": "asus",
@@ -1426,7 +1426,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asuszenbook_flip13i7",
       "cat_id": "laptoppc",
       "brand_id": "asus",
@@ -1443,7 +1443,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asuszenbook_flip13i5",
       "cat_id": "laptoppc",
       "brand_id": "asus",
@@ -1460,7 +1460,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asuszenbook_flip14i7",
       "cat_id": "laptoppc",
       "brand_id": "asus",
@@ -1477,7 +1477,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asusvivobook_flip14i3",
       "cat_id": "laptoppc",
       "brand_id": "asus",
@@ -1494,7 +1494,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asusvivobook17",
       "cat_id": "laptoppc",
       "brand_id": "asus",
@@ -1511,7 +1511,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asusPCexpert8G",
       "cat_id": "laptoppc",
       "brand_id": "asus",
@@ -1528,7 +1528,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asusPCexpert16G",
       "cat_id": "laptoppc",
       "brand_id": "asus",
@@ -1545,7 +1545,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_vp279he27",
       "cat_id": "displayaudio",
       "brand_id": "asus",
@@ -1562,7 +1562,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_va249he24",
       "cat_id": "displayaudio",
       "brand_id": "asus",
@@ -1579,7 +1579,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_vg248qg24",
       "cat_id": "displayaudio",
       "brand_id": "asus",
@@ -1596,7 +1596,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_vp278gh27",
       "cat_id": "displayaudio",
       "brand_id": "asus",
@@ -1613,7 +1613,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_speaker_lyravoice",
       "cat_id": "displayaudio",
       "brand_id": "asus",
@@ -1630,7 +1630,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogtheta_headphone",
       "cat_id": "displayaudio",
       "brand_id": "asus",
@@ -1647,7 +1647,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogfalchion_gkb",
       "cat_id": "accessories",
       "brand_id": "asus",
@@ -1664,7 +1664,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogstrix_gkb",
       "cat_id": "accessories",
       "brand_id": "asus",
@@ -1681,7 +1681,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_membrane_gkb",
       "cat_id": "accessories",
       "brand_id": "asus",
@@ -1698,7 +1698,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_mouse",
       "cat_id": "accessories",
       "brand_id": "asus",
@@ -1715,7 +1715,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_charger",
       "cat_id": "accessories",
       "brand_id": "asus",
@@ -1732,7 +1732,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_wifirouterRtax3000",
       "cat_id": "others",
       "brand_id": "asus",
@@ -1749,7 +1749,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_wifirouterRtAc68U",
       "cat_id": "others",
       "brand_id": "asus",
@@ -1766,7 +1766,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_envy13i7",
       "cat_id": "laptoppc",
       "brand_id": "hp",
@@ -1783,7 +1783,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_envy17i7",
       "cat_id": "laptoppc",
       "brand_id": "hp",
@@ -1800,7 +1800,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_pavilion15i7",
       "cat_id": "laptoppc",
       "brand_id": "hp",
@@ -1817,7 +1817,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_pavilion15i5",
       "cat_id": "laptoppc",
       "brand_id": "hp",
@@ -1834,7 +1834,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_pavilion14i5",
       "cat_id": "laptoppc",
       "brand_id": "hp",
@@ -1851,7 +1851,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_probooki15i5",
       "cat_id": "laptoppc",
       "brand_id": "hp",
@@ -1868,7 +1868,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_probook14i5",
       "cat_id": "laptoppc",
       "brand_id": "hp",
@@ -1885,7 +1885,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_probook15Ryzen5",
       "cat_id": "laptoppc",
       "brand_id": "hp",
@@ -1902,7 +1902,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_monitor24mhFHD23",
       "cat_id": "displayaudio",
       "brand_id": "hp",
@@ -1919,7 +1919,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_monitorm27haFHD27",
       "cat_id": "displayaudio",
       "brand_id": "hp",
@@ -1936,7 +1936,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_monitorM24fwa23",
       "cat_id": "displayaudio",
       "brand_id": "hp",
@@ -1953,7 +1953,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_speaker_mini",
       "cat_id": "displayaudio",
       "brand_id": "hp",
@@ -1970,7 +1970,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_headphone_gaming",
       "cat_id": "displayaudio",
       "brand_id": "hp",
@@ -1987,7 +1987,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_dockaudiomodule",
       "cat_id": "displayaudio",
       "brand_id": "hp",
@@ -2004,7 +2004,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_kbgaming",
       "cat_id": "displayaudio",
       "brand_id": "hp",
@@ -2021,7 +2021,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_printer_envy6255",
       "cat_id": "others",
       "brand_id": "hp",
@@ -2038,7 +2038,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_printer_envypro6475",
       "cat_id": "others",
       "brand_id": "hp",
@@ -2055,7 +2055,7 @@
       "isDealOfTheDay": "true"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_printer_officejet9015e",
       "cat_id": "others",
       "brand_id": "hp",
@@ -2072,7 +2072,7 @@
       "isDealOfTheDay": "false"
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_printer_officejetPro",
       "cat_id": "others",
       "brand_id": "hp",
@@ -2091,7 +2091,7 @@
   ],
   "product_descriptions": [
     {
-      "id": 0,
+      "id": "0",
       "product_id": "macbookair13m1ram8rom256",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2102,7 +2102,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "macbookair13m1ram8rom512",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2113,7 +2113,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "macbookpro13m1ram8rom256",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2124,7 +2124,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "macbookpro13m1ram8rom512",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2135,7 +2135,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPhone13minirom128vna",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2146,7 +2146,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPhone13rom128vna",
       "product_descriptions": [
         "High Performance Chip Processores A15 Bionic",
@@ -2157,7 +2157,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPhone13prorom128vna",
       "product_descriptions": [
         "High Performance Chip Processores A15 Bionic",
@@ -2168,7 +2168,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPhone13promaxrom128vna",
       "product_descriptions": [
         "High Performance Chip Processores A15 Bionic",
@@ -2179,7 +2179,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPad1022021rom256vna",
       "product_descriptions": [
         "High Performance Chip Processores A15 Bionic",
@@ -2190,7 +2190,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPadair2020rom256vna",
       "product_descriptions": [
         "High Performance Chip Processores A15 Bionic",
@@ -2201,7 +2201,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPadprom12021rom256vna",
       "product_descriptions": [
         "High Performance Chip Processores A15 Bionic",
@@ -2212,7 +2212,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "iPadprom12021rom512vna",
       "product_descriptions": [
         "High Performance Chip Processores A15 Bionic",
@@ -2223,7 +2223,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "airpods2vna",
       "product_descriptions": [
         "Modern Design With Minimalism Style",
@@ -2233,7 +2233,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "airpodsprovna",
       "product_descriptions": [
         "Modern Design With Minimalism Style",
@@ -2243,7 +2243,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "applepencil1vna",
       "product_descriptions": [
         "Modern Design With Minimalism Style",
@@ -2253,7 +2253,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "applepencil2vna",
       "product_descriptions": [
         "Modern Design With Minimalism Style",
@@ -2263,7 +2263,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "appleiPadair2020case",
       "product_descriptions": [
         "Colorful & Dynamic Design Language",
@@ -2273,7 +2273,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "appleiPadprom12021case",
       "product_descriptions": [
         "Colorful & Dynamic Design Language",
@@ -2283,7 +2283,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lightningcable20wtypec",
       "product_descriptions": [
         "Colorful & Dynamic Design Language",
@@ -2293,7 +2293,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxytaba7light",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2304,7 +2304,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxytabs6light",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2315,7 +2315,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxya71",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2326,7 +2326,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxys21plus5g",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2337,7 +2337,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxyzfold25g",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2348,7 +2348,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxynote20ultra5g",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2359,7 +2359,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungmonitor24ls24r350fhe",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2369,7 +2369,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungmonitor27ls27r350fhe",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2379,7 +2379,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungmonitor32ls32r350fhe",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2389,7 +2389,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungsmarttv43crystaluhd",
       "product_descriptions": [
         "Large Display, More Entertainment",
@@ -2399,7 +2399,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungsmarttv60crystaluhd",
       "product_descriptions": [
         "Large Display, More Entertainment",
@@ -2409,7 +2409,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungsmarttv65crystaluhd",
       "product_descriptions": [
         "Large Display, More Entertainment",
@@ -2419,7 +2419,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungsmarttv75crystaluhd",
       "product_descriptions": [
         "Large Display, More Entertainment",
@@ -2429,7 +2429,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxybudspro",
       "product_descriptions": [
         "Modern Design With Dark Cover",
@@ -2439,7 +2439,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxybudslive",
       "product_descriptions": [
         "Modern Design With Dark Cover",
@@ -2449,7 +2449,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungspenpro",
       "product_descriptions": [
         "Modern Design With Minimalism Style",
@@ -2459,7 +2459,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsungwirelessquickcharge",
       "product_descriptions": [
         "Suitable With Every Mobiles & Tablets",
@@ -2469,7 +2469,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "samsunggalaxybudscase",
       "product_descriptions": [
         "Colorful & Dynamic Design Language",
@@ -2479,7 +2479,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202114i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2490,7 +2490,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202116i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2501,7 +2501,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202117i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2512,7 +2512,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202114i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2523,7 +2523,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202116i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2534,7 +2534,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lglaptopgram202117i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2545,7 +2545,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgmonitor24ultragear",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2555,7 +2555,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgmonitor27ultragear",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2565,7 +2565,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgmonitor32ultragear",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2575,7 +2575,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgbluetoothspeakerxboom360",
       "product_descriptions": [
         "Provide High Quality Sounds",
@@ -2585,7 +2585,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgbluetoothspeakerxboomgo",
       "product_descriptions": [
         "Provide High Quality Sounds",
@@ -2595,7 +2595,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "lgpuremaskpuricare2",
       "product_descriptions": [
         "Made With Hi-tech & Quality Materials",
@@ -2605,7 +2605,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_laptop_inspiron15i3",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2616,7 +2616,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_laptop_inspiron15i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2627,7 +2627,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_laptop_inspiron13i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2638,7 +2638,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_laptop_lattitute15i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2649,7 +2649,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_PC_inspiron3880i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2660,7 +2660,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_PC_inspiron3000i3",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2671,7 +2671,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_PC_Optiplex3020i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2682,7 +2682,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_PC_Optiplex5000i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2693,7 +2693,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ultrasharp274K",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2703,7 +2703,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ultrasharp34",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2713,7 +2713,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ultrasharp24",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2723,7 +2723,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ultrasharp49",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2733,7 +2733,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_soundbar",
       "product_descriptions": [
         "Easy To Bring Out",
@@ -2743,7 +2743,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_zylus_speaker",
       "product_descriptions": [
         "Easy To Bring Out",
@@ -2753,7 +2753,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_mouse1",
       "product_descriptions": [
         "Suitable Connection",
@@ -2763,7 +2763,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_mouse2",
       "product_descriptions": [
         "Suitable Connection",
@@ -2773,7 +2773,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_keyboard1",
       "product_descriptions": [
         "Suitable Connection",
@@ -2783,7 +2783,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_keyboard2",
       "product_descriptions": [
         "Suitable Connection",
@@ -2793,7 +2793,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_keyboard3",
       "product_descriptions": [
         "Suitable Connection",
@@ -2803,7 +2803,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "dell_ACadapter65W",
       "product_descriptions": [
         "Energy-saving With International Certificate",
@@ -2813,7 +2813,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogphone5",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2824,7 +2824,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogphone5S",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2835,7 +2835,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_zenphoneflip",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2846,7 +2846,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_zenphone7",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2857,7 +2857,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_zenphone7pro",
       "product_descriptions": [
         "High Performance With Modern Chip Processor",
@@ -2868,7 +2868,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asuszenbook_flip13i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2879,7 +2879,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asuszenbook_flip13i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2890,7 +2890,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asuszenbook_flip14i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2901,7 +2901,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asusvivobook_flip14i3",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2912,7 +2912,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asusvivobook17",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2923,7 +2923,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asusPCexpert8G",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2934,7 +2934,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asusPCexpert16G",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -2945,7 +2945,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_vp279he27",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2955,7 +2955,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_va249he24",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2965,7 +2965,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_vg248qg24",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2975,7 +2975,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_vp278gh27",
       "product_descriptions": [
         "Easy To Set-up",
@@ -2985,7 +2985,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_speaker_lyravoice",
       "product_descriptions": [
         "Easy To Bring Out",
@@ -2995,7 +2995,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogtheta_headphone",
       "product_descriptions": [
         "Easy To Bring Out",
@@ -3005,7 +3005,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogfalchion_gkb",
       "product_descriptions": [
         "Suitable Connection",
@@ -3015,7 +3015,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_rogstrix_gkb",
       "product_descriptions": [
         "Suitable Connection",
@@ -3025,7 +3025,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_membrane_gkb",
       "product_descriptions": [
         "Suitable Connection",
@@ -3035,7 +3035,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_mouse",
       "product_descriptions": [
         "Suitable Connection",
@@ -3045,7 +3045,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_charger",
       "product_descriptions": [
         "Energy-saving With International Certificate",
@@ -3055,7 +3055,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_wifirouterRtax3000",
       "product_descriptions": [
         "High Quality Connection",
@@ -3065,7 +3065,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "asus_wifirouterRtAc68U",
       "product_descriptions": [
         "High Quality Connection",
@@ -3075,7 +3075,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_envy13i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -3086,7 +3086,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_envy17i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -3097,7 +3097,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_pavilion15i7",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -3108,7 +3108,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_pavilion15i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -3119,7 +3119,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_pavilion14i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -3130,7 +3130,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_probooki15i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -3141,7 +3141,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_probook14i5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -3152,7 +3152,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_laptop_probook15Ryzen5",
       "product_descriptions": [
         "High Performance Chip Processores",
@@ -3163,7 +3163,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_monitor24mhFHD23",
       "product_descriptions": [
         "Easy To Set-up",
@@ -3173,7 +3173,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_monitorm27haFHD27",
       "product_descriptions": [
         "Easy To Set-up",
@@ -3183,7 +3183,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_monitorM24fwa23",
       "product_descriptions": [
         "Easy To Set-up",
@@ -3193,7 +3193,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_speaker_mini",
       "product_descriptions": [
         "Easy To Bring Out",
@@ -3203,7 +3203,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_headphone_gaming",
       "product_descriptions": [
         "Easy To Bring Out",
@@ -3213,7 +3213,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_dockaudiomodule",
       "product_descriptions": [
         "Energy-saving With International Certificate",
@@ -3223,7 +3223,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_kbgaming",
       "product_descriptions": [
         "Easy To Bring Out",
@@ -3233,7 +3233,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_printer_envy6255",
       "product_descriptions": [
         "Easy To Connect",
@@ -3243,7 +3243,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_printer_envypro6475",
       "product_descriptions": [
         "Easy To Connect",
@@ -3253,7 +3253,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_printer_officejet9015e",
       "product_descriptions": [
         "Easy To Connect",
@@ -3263,7 +3263,7 @@
       ]
     },
     {
-      "id": 0,
+      "id": "0",
       "product_id": "hp_printer_officejetPro",
       "product_descriptions": [
         "Easy To Connect",
