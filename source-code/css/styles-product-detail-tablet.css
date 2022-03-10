@@ -255,7 +255,7 @@
 
     /* section master 2 */
     section .section__master .section__master--2 .section--2__information {
-        width: 60%;
+        width: 50%;
     }
 
     /* section master 2 information title */
@@ -389,7 +389,6 @@
     }
 
     footer {
-        /* height: 200px; */
         margin: 0;
         padding: 0;
     }
